@@ -1,0 +1,241 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "src/codegen/index.sol",
+    "id": 76271,
+    "exportedSymbols": {
+      "Cities": [
+        78911
+      ],
+      "CitiesData": [
+        76345
+      ],
+      "CitiesTableId": [
+        76327
+      ],
+      "Counter": [
+        79625
+      ],
+      "CounterTableId": [
+        79082
+      ],
+      "Map": [
+        81483
+      ],
+      "MapTableId": [
+        79682
+      ],
+      "Soldiers": [
+        83457
+      ],
+      "SoldiersData": [
+        81615
+      ],
+      "SoldiersTableId": [
+        81597
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:346:147",
+    "nodes": [
+      {
+        "id": 76256,
+        "nodeType": "PragmaDirective",
+        "src": "32:25:147",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".21"
+        ]
+      },
+      {
+        "id": 76259,
+        "nodeType": "ImportDirective",
+        "src": "108:63:147",
+        "nodes": [],
+        "absolutePath": "src/codegen/tables/Counter.sol",
+        "file": "./tables/Counter.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 76271,
+        "sourceUnit": 79626,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 76257,
+              "name": "Counter",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 79625,
+              "src": "117:7:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76258,
+              "name": "CounterTableId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 79082,
+              "src": "126:14:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 76262,
+        "nodeType": "ImportDirective",
+        "src": "172:51:147",
+        "nodes": [],
+        "absolutePath": "src/codegen/tables/Map.sol",
+        "file": "./tables/Map.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 76271,
+        "sourceUnit": 81541,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 76260,
+              "name": "Map",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 81483,
+              "src": "181:3:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76261,
+              "name": "MapTableId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 79682,
+              "src": "186:10:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 76266,
+        "nodeType": "ImportDirective",
+        "src": "224:72:147",
+        "nodes": [],
+        "absolutePath": "src/codegen/tables/Cities.sol",
+        "file": "./tables/Cities.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 76271,
+        "sourceUnit": 79026,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 76263,
+              "name": "Cities",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 78911,
+              "src": "233:6:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76264,
+              "name": "CitiesData",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 76345,
+              "src": "241:10:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76265,
+              "name": "CitiesTableId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 76327,
+              "src": "253:13:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 76270,
+        "nodeType": "ImportDirective",
+        "src": "297:80:147",
+        "nodes": [],
+        "absolutePath": "src/codegen/tables/Soldiers.sol",
+        "file": "./tables/Soldiers.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 76271,
+        "sourceUnit": 83458,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 76267,
+              "name": "Soldiers",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 83457,
+              "src": "306:8:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76268,
+              "name": "SoldiersData",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 81615,
+              "src": "316:12:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76269,
+              "name": "SoldiersTableId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 81597,
+              "src": "330:15:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 147
+}
