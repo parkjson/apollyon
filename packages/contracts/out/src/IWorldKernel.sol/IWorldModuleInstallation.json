@@ -32,7 +32,7 @@
   "methodIdentifiers": {
     "installRootModule(address,bytes)": "af068c9e"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract IModule\",\"name\":\"module\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"args\",\"type\":\"bytes\"}],\"name\":\"installRootModule\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"This interface defines the contract responsible for managing root modules installation.\",\"kind\":\"dev\",\"methods\":{\"installRootModule(address,bytes)\":{\"details\":\"Requires the caller to own the root namespace. The module is delegatecalled and installed in the root namespace.\",\"params\":{\"args\":\"The arguments provided for the module installation.\",\"module\":\"The module to be installed.\"}}},\"title\":\"World Module Installation Interface\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"installRootModule(address,bytes)\":{\"notice\":\"Install the given root module in the World.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol\":\"IWorldModuleInstallation\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3000},\"remappings\":[\":@latticexyz/=node_modules/@latticexyz/\",\":ds-test/=node_modules/ds-test/src/\",\":forge-std/=node_modules/forge-std/src/\"]},\"sources\":{\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IERC165.sol\":{\"keccak256\":\"0x7997ebbdee6a2493f28e7032c7a8b906ade40f807d95734e2653c8f1b023ff47\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c8ca41bb2619bf27e5bf886d1322f0e2dffd096c49f7ae6e716541dd1e1ddce5\",\"dweb:/ipfs/Qmb8zATUWWTtiWaSLjbAe6PGnJPes9ANvEyk7pYoWR3P3Y\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol\":{\"keccak256\":\"0x4535542ceb57e77096f24b943285bc158c48ef5291999f9c1e27f5682f8a9581\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec670524d19c50c659e385bc4dcb4757b065e1b5fe14160244537a7cd7a4b883\",\"dweb:/ipfs/QmT7NSWFSQ6MxYefe665srKMT2GTWomrPRZAHLjrFhQzV6\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldErrors.sol\":{\"keccak256\":\"0xc3e7975e5785574543229eac51e3441f4185863d7f5346c0ae08a27b4541f8a7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://62cc0dc109e6e5475bb07fb95643a31c74337c23521db0557a36dad6117a1e83\",\"dweb:/ipfs/Qmb8jbE1XQTUdreKFr4Jw3xmjctaLuReRZjPxZKQ2uW9p4\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol\":{\"keccak256\":\"0x9dc133cb55dc23fd6fcbbef8078bb4ea9bf67d698400cf89fc62b905b60cf5eb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7c1a57df7052218483eafe72d873660f39a73e2e06c1b14ad8a579d85b94bc6c\",\"dweb:/ipfs/Qme7dnjvADGZyM2L7nZ51nSjsjXXF9isTVCpWaUCd1cEGs\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol\":{\"keccak256\":\"0xb7bfae2890004001221b3902d185c14cfea0e606d16914f6b7f81cf112aa9417\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://acfd0d09166fc1bf16a8a5c80fbae1bd42426b2fcbab3c492bc836ea5c0375fb\",\"dweb:/ipfs/QmTzZWHVBkx8hipFVpgEwAbZpr4c6hfr7yf7R71JojT3NK\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol\":{\"keccak256\":\"0x07faffa7dc4a2adc4f9bfe93d5a59a7dd89241d360996537608e38f61c2d0588\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b96d4ce331b257a24de2f18503a11b986ed32d218810db9d5e3e7eddc17c2218\",\"dweb:/ipfs/Qme7Cw4RN1eaFWt2j3hk6ZMB7GWUfMY5oyZKYfMvAVxdBc\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol\":{\"keccak256\":\"0xe31ee781596541f60ed71ef327c9d26ffc899e7fb3f4991c67406518bfc00746\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f7b864fea8c77833a322b16c4673f110d5065d0cafcedecd07895699cf4258c2\",\"dweb:/ipfs/QmRkzXVjMLwQFWxjEjgfdXVPAp6SU4zfxPo4NJcmz8HwH9\"]},\"node_modules/@latticexyz/store/src/Bytes.sol\":{\"keccak256\":\"0xab31edce915377852bb5f29f7f2ccfc50cac087d64d2a8aae669715ad862d558\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3187e86e43be1fbdd59df45c695294f1114aa1ac48e6445c0cb26089434be5c4\",\"dweb:/ipfs/Qmck7shMVrcKMVkgN2pC1byPY7hb3V9fTxnUcGgxAUeXYk\"]},\"node_modules/@latticexyz/store/src/ResourceId.sol\":{\"keccak256\":\"0x40983c580b8958e55db4520095934a535e98544ffe8228327e598973eb6647ed\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://839d658fa2bb2b1f09a08149d2bf0c26a26c301ad2dda8154fc99458085a695d\",\"dweb:/ipfs/Qmd5jHHYrgqraPqF8bjzT4xyjsoPk8K7pkxXLLfz6MRT6d\"]},\"node_modules/@latticexyz/store/src/storeResourceTypes.sol\":{\"keccak256\":\"0xada1867ba72930fc5cf5562dd4e36de849dbac9c833b7969cb1b046a808fabf2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e4b5fdcaa54f567a3f8561c2c3fbc0d68c8dad892a4a8e5418bbce8efc53d84\",\"dweb:/ipfs/QmTWbYJX1yrCqrEwUKB9rGpHdRvLNU8GCkBbxnLjGD4d2t\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract IModule\",\"name\":\"module\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"args\",\"type\":\"bytes\"}],\"name\":\"installRootModule\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"This interface defines the contract responsible for managing root modules installation.\",\"kind\":\"dev\",\"methods\":{\"installRootModule(address,bytes)\":{\"details\":\"Requires the caller to own the root namespace. The module is delegatecalled and installed in the root namespace.\",\"params\":{\"args\":\"The arguments provided for the module installation.\",\"module\":\"The module to be installed.\"}}},\"title\":\"World Module Installation Interface\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"installRootModule(address,bytes)\":{\"notice\":\"Install the given root module in the World.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol\":\"IWorldModuleInstallation\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3000},\"remappings\":[\":@latticexyz/=node_modules/@latticexyz/\",\":ds-test/=node_modules/ds-test/src/\",\":forge-std/=node_modules/forge-std/src/\"]},\"sources\":{\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IERC165.sol\":{\"keccak256\":\"0x7997ebbdee6a2493f28e7032c7a8b906ade40f807d95734e2653c8f1b023ff47\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c8ca41bb2619bf27e5bf886d1322f0e2dffd096c49f7ae6e716541dd1e1ddce5\",\"dweb:/ipfs/Qmb8zATUWWTtiWaSLjbAe6PGnJPes9ANvEyk7pYoWR3P3Y\"]},\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol\":{\"keccak256\":\"0x4535542ceb57e77096f24b943285bc158c48ef5291999f9c1e27f5682f8a9581\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec670524d19c50c659e385bc4dcb4757b065e1b5fe14160244537a7cd7a4b883\",\"dweb:/ipfs/QmT7NSWFSQ6MxYefe665srKMT2GTWomrPRZAHLjrFhQzV6\"]},\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldErrors.sol\":{\"keccak256\":\"0xc3e7975e5785574543229eac51e3441f4185863d7f5346c0ae08a27b4541f8a7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://62cc0dc109e6e5475bb07fb95643a31c74337c23521db0557a36dad6117a1e83\",\"dweb:/ipfs/Qmb8jbE1XQTUdreKFr4Jw3xmjctaLuReRZjPxZKQ2uW9p4\"]},\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol\":{\"keccak256\":\"0x9dc133cb55dc23fd6fcbbef8078bb4ea9bf67d698400cf89fc62b905b60cf5eb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7c1a57df7052218483eafe72d873660f39a73e2e06c1b14ad8a579d85b94bc6c\",\"dweb:/ipfs/Qme7dnjvADGZyM2L7nZ51nSjsjXXF9isTVCpWaUCd1cEGs\"]},\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol\":{\"keccak256\":\"0xb7bfae2890004001221b3902d185c14cfea0e606d16914f6b7f81cf112aa9417\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://acfd0d09166fc1bf16a8a5c80fbae1bd42426b2fcbab3c492bc836ea5c0375fb\",\"dweb:/ipfs/QmTzZWHVBkx8hipFVpgEwAbZpr4c6hfr7yf7R71JojT3NK\"]},\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol\":{\"keccak256\":\"0x07faffa7dc4a2adc4f9bfe93d5a59a7dd89241d360996537608e38f61c2d0588\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b96d4ce331b257a24de2f18503a11b986ed32d218810db9d5e3e7eddc17c2218\",\"dweb:/ipfs/Qme7Cw4RN1eaFWt2j3hk6ZMB7GWUfMY5oyZKYfMvAVxdBc\"]},\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol\":{\"keccak256\":\"0xe31ee781596541f60ed71ef327c9d26ffc899e7fb3f4991c67406518bfc00746\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f7b864fea8c77833a322b16c4673f110d5065d0cafcedecd07895699cf4258c2\",\"dweb:/ipfs/QmRkzXVjMLwQFWxjEjgfdXVPAp6SU4zfxPo4NJcmz8HwH9\"]},\"node_modules/@latticexyz/store/src/Bytes.sol\":{\"keccak256\":\"0xab31edce915377852bb5f29f7f2ccfc50cac087d64d2a8aae669715ad862d558\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3187e86e43be1fbdd59df45c695294f1114aa1ac48e6445c0cb26089434be5c4\",\"dweb:/ipfs/Qmck7shMVrcKMVkgN2pC1byPY7hb3V9fTxnUcGgxAUeXYk\"]},\"node_modules/@latticexyz/store/src/ResourceId.sol\":{\"keccak256\":\"0x40983c580b8958e55db4520095934a535e98544ffe8228327e598973eb6647ed\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://839d658fa2bb2b1f09a08149d2bf0c26a26c301ad2dda8154fc99458085a695d\",\"dweb:/ipfs/Qmd5jHHYrgqraPqF8bjzT4xyjsoPk8K7pkxXLLfz6MRT6d\"]},\"node_modules/@latticexyz/store/src/storeResourceTypes.sol\":{\"keccak256\":\"0xada1867ba72930fc5cf5562dd4e36de849dbac9c833b7969cb1b046a808fabf2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e4b5fdcaa54f567a3f8561c2c3fbc0d68c8dad892a4a8e5418bbce8efc53d84\",\"dweb:/ipfs/QmTWbYJX1yrCqrEwUKB9rGpHdRvLNU8GCkBbxnLjGD4d2t\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.21+commit.d9974bed"
@@ -95,12 +95,12 @@
         "bytecodeHash": "ipfs"
       },
       "compilationTarget": {
-        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol": "IWorldModuleInstallation"
+        "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol": "IWorldModuleInstallation"
       },
       "libraries": {}
     },
     "sources": {
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IERC165.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IERC165.sol": {
         "keccak256": "0x7997ebbdee6a2493f28e7032c7a8b906ade40f807d95734e2653c8f1b023ff47",
         "urls": [
           "bzz-raw://c8ca41bb2619bf27e5bf886d1322f0e2dffd096c49f7ae6e716541dd1e1ddce5",
@@ -108,7 +108,7 @@
         ],
         "license": "MIT"
       },
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol": {
         "keccak256": "0x4535542ceb57e77096f24b943285bc158c48ef5291999f9c1e27f5682f8a9581",
         "urls": [
           "bzz-raw://ec670524d19c50c659e385bc4dcb4757b065e1b5fe14160244537a7cd7a4b883",
@@ -116,7 +116,7 @@
         ],
         "license": "MIT"
       },
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldErrors.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldErrors.sol": {
         "keccak256": "0xc3e7975e5785574543229eac51e3441f4185863d7f5346c0ae08a27b4541f8a7",
         "urls": [
           "bzz-raw://62cc0dc109e6e5475bb07fb95643a31c74337c23521db0557a36dad6117a1e83",
@@ -124,7 +124,7 @@
         ],
         "license": "MIT"
       },
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol": {
         "keccak256": "0x9dc133cb55dc23fd6fcbbef8078bb4ea9bf67d698400cf89fc62b905b60cf5eb",
         "urls": [
           "bzz-raw://7c1a57df7052218483eafe72d873660f39a73e2e06c1b14ad8a579d85b94bc6c",
@@ -132,7 +132,7 @@
         ],
         "license": "MIT"
       },
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol": {
         "keccak256": "0xb7bfae2890004001221b3902d185c14cfea0e606d16914f6b7f81cf112aa9417",
         "urls": [
           "bzz-raw://acfd0d09166fc1bf16a8a5c80fbae1bd42426b2fcbab3c492bc836ea5c0375fb",
@@ -140,7 +140,7 @@
         ],
         "license": "MIT"
       },
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol": {
         "keccak256": "0x07faffa7dc4a2adc4f9bfe93d5a59a7dd89241d360996537608e38f61c2d0588",
         "urls": [
           "bzz-raw://b96d4ce331b257a24de2f18503a11b986ed32d218810db9d5e3e7eddc17c2218",
@@ -148,7 +148,7 @@
         ],
         "license": "MIT"
       },
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol": {
         "keccak256": "0xe31ee781596541f60ed71ef327c9d26ffc899e7fb3f4991c67406518bfc00746",
         "urls": [
           "bzz-raw://f7b864fea8c77833a322b16c4673f110d5065d0cafcedecd07895699cf4258c2",
@@ -184,7 +184,7 @@
     "version": 1
   },
   "ast": {
-    "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol",
+    "absolutePath": "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol",
     "id": 22950,
     "exportedSymbols": {
       "IModule": [
@@ -226,7 +226,7 @@
         "nodeType": "ImportDirective",
         "src": "59:50:41",
         "nodes": [],
-        "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldErrors.sol",
+        "absolutePath": "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldErrors.sol",
         "file": "./IWorldErrors.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 22950,
@@ -252,7 +252,7 @@
         "nodeType": "ImportDirective",
         "src": "110:40:41",
         "nodes": [],
-        "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol",
+        "absolutePath": "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol",
         "file": "./IModule.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 22950,
@@ -278,7 +278,7 @@
         "nodeType": "ImportDirective",
         "src": "151:51:41",
         "nodes": [],
-        "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol",
+        "absolutePath": "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol",
         "file": "./WorldResourceId.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 22950,

@@ -78,7 +78,7 @@ library Soldiers {
    */
   function getKeyNames() internal pure returns (string[] memory keyNames) {
     keyNames = new string[](1);
-    keyNames[0] = "soldierId";
+    keyNames[0] = "id";
   }
 
   /**
@@ -111,9 +111,9 @@ library Soldiers {
   /**
    * @notice Get allegiance.
    */
-  function getAllegiance(uint256 soldierId) internal view returns (address allegiance) {
+  function getAllegiance(uint256 id) internal view returns (address allegiance) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreSwitch.getStaticField(_tableId, _keyTuple, 0, _fieldLayout);
     return (address(bytes20(_blob)));
@@ -122,9 +122,9 @@ library Soldiers {
   /**
    * @notice Get allegiance.
    */
-  function _getAllegiance(uint256 soldierId) internal view returns (address allegiance) {
+  function _getAllegiance(uint256 id) internal view returns (address allegiance) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreCore.getStaticField(_tableId, _keyTuple, 0, _fieldLayout);
     return (address(bytes20(_blob)));
@@ -133,9 +133,9 @@ library Soldiers {
   /**
    * @notice Set allegiance.
    */
-  function setAllegiance(uint256 soldierId, address allegiance) internal {
+  function setAllegiance(uint256 id, address allegiance) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreSwitch.setStaticField(_tableId, _keyTuple, 0, abi.encodePacked((allegiance)), _fieldLayout);
   }
@@ -143,9 +143,9 @@ library Soldiers {
   /**
    * @notice Set allegiance.
    */
-  function _setAllegiance(uint256 soldierId, address allegiance) internal {
+  function _setAllegiance(uint256 id, address allegiance) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreCore.setStaticField(_tableId, _keyTuple, 0, abi.encodePacked((allegiance)), _fieldLayout);
   }
@@ -153,9 +153,9 @@ library Soldiers {
   /**
    * @notice Get tileId.
    */
-  function getTileId(uint256 soldierId) internal view returns (uint256 tileId) {
+  function getTileId(uint256 id) internal view returns (uint256 tileId) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreSwitch.getStaticField(_tableId, _keyTuple, 1, _fieldLayout);
     return (uint256(bytes32(_blob)));
@@ -164,9 +164,9 @@ library Soldiers {
   /**
    * @notice Get tileId.
    */
-  function _getTileId(uint256 soldierId) internal view returns (uint256 tileId) {
+  function _getTileId(uint256 id) internal view returns (uint256 tileId) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreCore.getStaticField(_tableId, _keyTuple, 1, _fieldLayout);
     return (uint256(bytes32(_blob)));
@@ -175,9 +175,9 @@ library Soldiers {
   /**
    * @notice Set tileId.
    */
-  function setTileId(uint256 soldierId, uint256 tileId) internal {
+  function setTileId(uint256 id, uint256 tileId) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreSwitch.setStaticField(_tableId, _keyTuple, 1, abi.encodePacked((tileId)), _fieldLayout);
   }
@@ -185,9 +185,9 @@ library Soldiers {
   /**
    * @notice Set tileId.
    */
-  function _setTileId(uint256 soldierId, uint256 tileId) internal {
+  function _setTileId(uint256 id, uint256 tileId) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreCore.setStaticField(_tableId, _keyTuple, 1, abi.encodePacked((tileId)), _fieldLayout);
   }
@@ -195,9 +195,9 @@ library Soldiers {
   /**
    * @notice Get attack.
    */
-  function getAttack(uint256 soldierId) internal view returns (uint256 attack) {
+  function getAttack(uint256 id) internal view returns (uint256 attack) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreSwitch.getStaticField(_tableId, _keyTuple, 2, _fieldLayout);
     return (uint256(bytes32(_blob)));
@@ -206,9 +206,9 @@ library Soldiers {
   /**
    * @notice Get attack.
    */
-  function _getAttack(uint256 soldierId) internal view returns (uint256 attack) {
+  function _getAttack(uint256 id) internal view returns (uint256 attack) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreCore.getStaticField(_tableId, _keyTuple, 2, _fieldLayout);
     return (uint256(bytes32(_blob)));
@@ -217,9 +217,9 @@ library Soldiers {
   /**
    * @notice Set attack.
    */
-  function setAttack(uint256 soldierId, uint256 attack) internal {
+  function setAttack(uint256 id, uint256 attack) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreSwitch.setStaticField(_tableId, _keyTuple, 2, abi.encodePacked((attack)), _fieldLayout);
   }
@@ -227,9 +227,9 @@ library Soldiers {
   /**
    * @notice Set attack.
    */
-  function _setAttack(uint256 soldierId, uint256 attack) internal {
+  function _setAttack(uint256 id, uint256 attack) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreCore.setStaticField(_tableId, _keyTuple, 2, abi.encodePacked((attack)), _fieldLayout);
   }
@@ -237,9 +237,9 @@ library Soldiers {
   /**
    * @notice Get defense.
    */
-  function getDefense(uint256 soldierId) internal view returns (uint256 defense) {
+  function getDefense(uint256 id) internal view returns (uint256 defense) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreSwitch.getStaticField(_tableId, _keyTuple, 3, _fieldLayout);
     return (uint256(bytes32(_blob)));
@@ -248,9 +248,9 @@ library Soldiers {
   /**
    * @notice Get defense.
    */
-  function _getDefense(uint256 soldierId) internal view returns (uint256 defense) {
+  function _getDefense(uint256 id) internal view returns (uint256 defense) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreCore.getStaticField(_tableId, _keyTuple, 3, _fieldLayout);
     return (uint256(bytes32(_blob)));
@@ -259,9 +259,9 @@ library Soldiers {
   /**
    * @notice Set defense.
    */
-  function setDefense(uint256 soldierId, uint256 defense) internal {
+  function setDefense(uint256 id, uint256 defense) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreSwitch.setStaticField(_tableId, _keyTuple, 3, abi.encodePacked((defense)), _fieldLayout);
   }
@@ -269,9 +269,9 @@ library Soldiers {
   /**
    * @notice Set defense.
    */
-  function _setDefense(uint256 soldierId, uint256 defense) internal {
+  function _setDefense(uint256 id, uint256 defense) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreCore.setStaticField(_tableId, _keyTuple, 3, abi.encodePacked((defense)), _fieldLayout);
   }
@@ -279,9 +279,9 @@ library Soldiers {
   /**
    * @notice Get mobility.
    */
-  function getMobility(uint256 soldierId) internal view returns (uint256 mobility) {
+  function getMobility(uint256 id) internal view returns (uint256 mobility) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreSwitch.getStaticField(_tableId, _keyTuple, 4, _fieldLayout);
     return (uint256(bytes32(_blob)));
@@ -290,9 +290,9 @@ library Soldiers {
   /**
    * @notice Get mobility.
    */
-  function _getMobility(uint256 soldierId) internal view returns (uint256 mobility) {
+  function _getMobility(uint256 id) internal view returns (uint256 mobility) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     bytes32 _blob = StoreCore.getStaticField(_tableId, _keyTuple, 4, _fieldLayout);
     return (uint256(bytes32(_blob)));
@@ -301,9 +301,9 @@ library Soldiers {
   /**
    * @notice Set mobility.
    */
-  function setMobility(uint256 soldierId, uint256 mobility) internal {
+  function setMobility(uint256 id, uint256 mobility) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreSwitch.setStaticField(_tableId, _keyTuple, 4, abi.encodePacked((mobility)), _fieldLayout);
   }
@@ -311,9 +311,9 @@ library Soldiers {
   /**
    * @notice Set mobility.
    */
-  function _setMobility(uint256 soldierId, uint256 mobility) internal {
+  function _setMobility(uint256 id, uint256 mobility) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreCore.setStaticField(_tableId, _keyTuple, 4, abi.encodePacked((mobility)), _fieldLayout);
   }
@@ -321,9 +321,9 @@ library Soldiers {
   /**
    * @notice Get the full data.
    */
-  function get(uint256 soldierId) internal view returns (SoldiersData memory _table) {
+  function get(uint256 id) internal view returns (SoldiersData memory _table) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     (bytes memory _staticData, PackedCounter _encodedLengths, bytes memory _dynamicData) = StoreSwitch.getRecord(
       _tableId,
@@ -336,9 +336,9 @@ library Soldiers {
   /**
    * @notice Get the full data.
    */
-  function _get(uint256 soldierId) internal view returns (SoldiersData memory _table) {
+  function _get(uint256 id) internal view returns (SoldiersData memory _table) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     (bytes memory _staticData, PackedCounter _encodedLengths, bytes memory _dynamicData) = StoreCore.getRecord(
       _tableId,
@@ -352,7 +352,7 @@ library Soldiers {
    * @notice Set the full data using individual values.
    */
   function set(
-    uint256 soldierId,
+    uint256 id,
     address allegiance,
     uint256 tileId,
     uint256 attack,
@@ -365,7 +365,7 @@ library Soldiers {
     bytes memory _dynamicData;
 
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreSwitch.setRecord(_tableId, _keyTuple, _staticData, _encodedLengths, _dynamicData);
   }
@@ -374,7 +374,7 @@ library Soldiers {
    * @notice Set the full data using individual values.
    */
   function _set(
-    uint256 soldierId,
+    uint256 id,
     address allegiance,
     uint256 tileId,
     uint256 attack,
@@ -387,7 +387,7 @@ library Soldiers {
     bytes memory _dynamicData;
 
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreCore.setRecord(_tableId, _keyTuple, _staticData, _encodedLengths, _dynamicData, _fieldLayout);
   }
@@ -395,7 +395,7 @@ library Soldiers {
   /**
    * @notice Set the full data using the data struct.
    */
-  function set(uint256 soldierId, SoldiersData memory _table) internal {
+  function set(uint256 id, SoldiersData memory _table) internal {
     bytes memory _staticData = encodeStatic(
       _table.allegiance,
       _table.tileId,
@@ -408,7 +408,7 @@ library Soldiers {
     bytes memory _dynamicData;
 
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreSwitch.setRecord(_tableId, _keyTuple, _staticData, _encodedLengths, _dynamicData);
   }
@@ -416,7 +416,7 @@ library Soldiers {
   /**
    * @notice Set the full data using the data struct.
    */
-  function _set(uint256 soldierId, SoldiersData memory _table) internal {
+  function _set(uint256 id, SoldiersData memory _table) internal {
     bytes memory _staticData = encodeStatic(
       _table.allegiance,
       _table.tileId,
@@ -429,7 +429,7 @@ library Soldiers {
     bytes memory _dynamicData;
 
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreCore.setRecord(_tableId, _keyTuple, _staticData, _encodedLengths, _dynamicData, _fieldLayout);
   }
@@ -468,9 +468,9 @@ library Soldiers {
   /**
    * @notice Delete all data for given keys.
    */
-  function deleteRecord(uint256 soldierId) internal {
+  function deleteRecord(uint256 id) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreSwitch.deleteRecord(_tableId, _keyTuple);
   }
@@ -478,9 +478,9 @@ library Soldiers {
   /**
    * @notice Delete all data for given keys.
    */
-  function _deleteRecord(uint256 soldierId) internal {
+  function _deleteRecord(uint256 id) internal {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     StoreCore.deleteRecord(_tableId, _keyTuple, _fieldLayout);
   }
@@ -523,9 +523,9 @@ library Soldiers {
   /**
    * @notice Encode keys as a bytes32 array using this table's field layout.
    */
-  function encodeKeyTuple(uint256 soldierId) internal pure returns (bytes32[] memory) {
+  function encodeKeyTuple(uint256 id) internal pure returns (bytes32[] memory) {
     bytes32[] memory _keyTuple = new bytes32[](1);
-    _keyTuple[0] = bytes32(uint256(soldierId));
+    _keyTuple[0] = bytes32(uint256(id));
 
     return _keyTuple;
   }

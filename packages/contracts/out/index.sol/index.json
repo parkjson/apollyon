@@ -10,41 +10,44 @@
   },
   "ast": {
     "absolutePath": "src/codegen/index.sol",
-    "id": 76271,
+    "id": 76272,
     "exportedSymbols": {
       "Cities": [
-        78911
+        79153
       ],
       "CitiesData": [
-        76345
+        76348
       ],
       "CitiesTableId": [
-        76327
+        76328
       ],
       "Counter": [
-        79625
+        79867
       ],
       "CounterTableId": [
-        79082
+        79324
       ],
       "Map": [
-        81483
+        81941
+      ],
+      "MapData": [
+        79940
       ],
       "MapTableId": [
-        79682
+        79924
       ],
       "Soldiers": [
-        83457
+        83915
       ],
       "SoldiersData": [
-        81615
+        82073
       ],
       "SoldiersTableId": [
-        81597
+        82055
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:346:147",
+    "src": "32:355:147",
     "nodes": [
       {
         "id": 76256,
@@ -66,8 +69,8 @@
         "absolutePath": "src/codegen/tables/Counter.sol",
         "file": "./tables/Counter.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 76271,
-        "sourceUnit": 79626,
+        "scope": 76272,
+        "sourceUnit": 79868,
         "symbolAliases": [
           {
             "foreign": {
@@ -75,7 +78,7 @@
               "name": "Counter",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 79625,
+              "referencedDeclaration": 79867,
               "src": "117:7:147",
               "typeDescriptions": {}
             },
@@ -87,7 +90,7 @@
               "name": "CounterTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 79082,
+              "referencedDeclaration": 79324,
               "src": "126:14:147",
               "typeDescriptions": {}
             },
@@ -97,15 +100,15 @@
         "unitAlias": ""
       },
       {
-        "id": 76262,
+        "id": 76263,
         "nodeType": "ImportDirective",
-        "src": "172:51:147",
+        "src": "172:60:147",
         "nodes": [],
         "absolutePath": "src/codegen/tables/Map.sol",
         "file": "./tables/Map.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 76271,
-        "sourceUnit": 81541,
+        "scope": 76272,
+        "sourceUnit": 81999,
         "symbolAliases": [
           {
             "foreign": {
@@ -113,7 +116,7 @@
               "name": "Map",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 81483,
+              "referencedDeclaration": 81941,
               "src": "181:3:147",
               "typeDescriptions": {}
             },
@@ -122,11 +125,23 @@
           {
             "foreign": {
               "id": 76261,
+              "name": "MapData",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 79940,
+              "src": "186:7:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76262,
               "name": "MapTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 79682,
-              "src": "186:10:147",
+              "referencedDeclaration": 79924,
+              "src": "195:10:147",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -135,36 +150,24 @@
         "unitAlias": ""
       },
       {
-        "id": 76266,
+        "id": 76267,
         "nodeType": "ImportDirective",
-        "src": "224:72:147",
+        "src": "233:72:147",
         "nodes": [],
         "absolutePath": "src/codegen/tables/Cities.sol",
         "file": "./tables/Cities.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 76271,
-        "sourceUnit": 79026,
+        "scope": 76272,
+        "sourceUnit": 79268,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 76263,
+              "id": 76264,
               "name": "Cities",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 78911,
-              "src": "233:6:147",
-              "typeDescriptions": {}
-            },
-            "nameLocation": "-1:-1:-1"
-          },
-          {
-            "foreign": {
-              "id": 76264,
-              "name": "CitiesData",
-              "nodeType": "Identifier",
-              "overloadedDeclarations": [],
-              "referencedDeclaration": 76345,
-              "src": "241:10:147",
+              "referencedDeclaration": 79153,
+              "src": "242:6:147",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -172,11 +175,23 @@
           {
             "foreign": {
               "id": 76265,
+              "name": "CitiesData",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 76348,
+              "src": "250:10:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76266,
               "name": "CitiesTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 76327,
-              "src": "253:13:147",
+              "referencedDeclaration": 76328,
+              "src": "262:13:147",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -185,36 +200,24 @@
         "unitAlias": ""
       },
       {
-        "id": 76270,
+        "id": 76271,
         "nodeType": "ImportDirective",
-        "src": "297:80:147",
+        "src": "306:80:147",
         "nodes": [],
         "absolutePath": "src/codegen/tables/Soldiers.sol",
         "file": "./tables/Soldiers.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 76271,
-        "sourceUnit": 83458,
+        "scope": 76272,
+        "sourceUnit": 83916,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 76267,
+              "id": 76268,
               "name": "Soldiers",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 83457,
-              "src": "306:8:147",
-              "typeDescriptions": {}
-            },
-            "nameLocation": "-1:-1:-1"
-          },
-          {
-            "foreign": {
-              "id": 76268,
-              "name": "SoldiersData",
-              "nodeType": "Identifier",
-              "overloadedDeclarations": [],
-              "referencedDeclaration": 81615,
-              "src": "316:12:147",
+              "referencedDeclaration": 83915,
+              "src": "315:8:147",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -222,11 +225,23 @@
           {
             "foreign": {
               "id": 76269,
+              "name": "SoldiersData",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 82073,
+              "src": "325:12:147",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 76270,
               "name": "SoldiersTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 81597,
-              "src": "330:15:147",
+              "referencedDeclaration": 82055,
+              "src": "339:15:147",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"

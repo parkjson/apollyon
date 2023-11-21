@@ -1,17 +1,17 @@
 {
   "abi": [],
   "bytecode": {
-    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212202b2c34df1061177fd2b4bf5ce7e91b3c8e1134bc0af51f4e6978a22dcefb503464736f6c63430008150033",
+    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220e36aa341ed3a8401dc7d8e56a8af72115a2334572ccbddb2edf0238d4ce8639364736f6c63430008150033",
     "sourceMap": "757:1391:43:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;757:1391:43;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212202b2c34df1061177fd2b4bf5ce7e91b3c8e1134bc0af51f4e6978a22dcefb503464736f6c63430008150033",
+    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220e36aa341ed3a8401dc7d8e56a8af72115a2334572ccbddb2edf0238d4ce8639364736f6c63430008150033",
     "sourceMap": "757:1391:43:-:0;;;;;;;;",
     "linkReferences": {}
   },
   "methodIdentifiers": {},
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"WorldResourceIdLib\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"A library for handling World Resource ID encoding and decoding.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol\":\"WorldResourceIdLib\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3000},\"remappings\":[\":@latticexyz/=node_modules/@latticexyz/\",\":ds-test/=node_modules/ds-test/src/\",\":forge-std/=node_modules/forge-std/src/\"]},\"sources\":{\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol\":{\"keccak256\":\"0xb7bfae2890004001221b3902d185c14cfea0e606d16914f6b7f81cf112aa9417\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://acfd0d09166fc1bf16a8a5c80fbae1bd42426b2fcbab3c492bc836ea5c0375fb\",\"dweb:/ipfs/QmTzZWHVBkx8hipFVpgEwAbZpr4c6hfr7yf7R71JojT3NK\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol\":{\"keccak256\":\"0x07faffa7dc4a2adc4f9bfe93d5a59a7dd89241d360996537608e38f61c2d0588\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b96d4ce331b257a24de2f18503a11b986ed32d218810db9d5e3e7eddc17c2218\",\"dweb:/ipfs/Qme7Cw4RN1eaFWt2j3hk6ZMB7GWUfMY5oyZKYfMvAVxdBc\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol\":{\"keccak256\":\"0xe31ee781596541f60ed71ef327c9d26ffc899e7fb3f4991c67406518bfc00746\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f7b864fea8c77833a322b16c4673f110d5065d0cafcedecd07895699cf4258c2\",\"dweb:/ipfs/QmRkzXVjMLwQFWxjEjgfdXVPAp6SU4zfxPo4NJcmz8HwH9\"]},\"node_modules/@latticexyz/store/src/Bytes.sol\":{\"keccak256\":\"0xab31edce915377852bb5f29f7f2ccfc50cac087d64d2a8aae669715ad862d558\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3187e86e43be1fbdd59df45c695294f1114aa1ac48e6445c0cb26089434be5c4\",\"dweb:/ipfs/Qmck7shMVrcKMVkgN2pC1byPY7hb3V9fTxnUcGgxAUeXYk\"]},\"node_modules/@latticexyz/store/src/ResourceId.sol\":{\"keccak256\":\"0x40983c580b8958e55db4520095934a535e98544ffe8228327e598973eb6647ed\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://839d658fa2bb2b1f09a08149d2bf0c26a26c301ad2dda8154fc99458085a695d\",\"dweb:/ipfs/Qmd5jHHYrgqraPqF8bjzT4xyjsoPk8K7pkxXLLfz6MRT6d\"]},\"node_modules/@latticexyz/store/src/storeResourceTypes.sol\":{\"keccak256\":\"0xada1867ba72930fc5cf5562dd4e36de849dbac9c833b7969cb1b046a808fabf2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e4b5fdcaa54f567a3f8561c2c3fbc0d68c8dad892a4a8e5418bbce8efc53d84\",\"dweb:/ipfs/QmTWbYJX1yrCqrEwUKB9rGpHdRvLNU8GCkBbxnLjGD4d2t\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"title\":\"WorldResourceIdLib\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"A library for handling World Resource ID encoding and decoding.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol\":\"WorldResourceIdLib\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3000},\"remappings\":[\":@latticexyz/=node_modules/@latticexyz/\",\":ds-test/=node_modules/ds-test/src/\",\":forge-std/=node_modules/forge-std/src/\"]},\"sources\":{\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol\":{\"keccak256\":\"0xb7bfae2890004001221b3902d185c14cfea0e606d16914f6b7f81cf112aa9417\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://acfd0d09166fc1bf16a8a5c80fbae1bd42426b2fcbab3c492bc836ea5c0375fb\",\"dweb:/ipfs/QmTzZWHVBkx8hipFVpgEwAbZpr4c6hfr7yf7R71JojT3NK\"]},\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol\":{\"keccak256\":\"0x07faffa7dc4a2adc4f9bfe93d5a59a7dd89241d360996537608e38f61c2d0588\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b96d4ce331b257a24de2f18503a11b986ed32d218810db9d5e3e7eddc17c2218\",\"dweb:/ipfs/Qme7Cw4RN1eaFWt2j3hk6ZMB7GWUfMY5oyZKYfMvAVxdBc\"]},\"/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol\":{\"keccak256\":\"0xe31ee781596541f60ed71ef327c9d26ffc899e7fb3f4991c67406518bfc00746\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f7b864fea8c77833a322b16c4673f110d5065d0cafcedecd07895699cf4258c2\",\"dweb:/ipfs/QmRkzXVjMLwQFWxjEjgfdXVPAp6SU4zfxPo4NJcmz8HwH9\"]},\"node_modules/@latticexyz/store/src/Bytes.sol\":{\"keccak256\":\"0xab31edce915377852bb5f29f7f2ccfc50cac087d64d2a8aae669715ad862d558\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3187e86e43be1fbdd59df45c695294f1114aa1ac48e6445c0cb26089434be5c4\",\"dweb:/ipfs/Qmck7shMVrcKMVkgN2pC1byPY7hb3V9fTxnUcGgxAUeXYk\"]},\"node_modules/@latticexyz/store/src/ResourceId.sol\":{\"keccak256\":\"0x40983c580b8958e55db4520095934a535e98544ffe8228327e598973eb6647ed\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://839d658fa2bb2b1f09a08149d2bf0c26a26c301ad2dda8154fc99458085a695d\",\"dweb:/ipfs/Qmd5jHHYrgqraPqF8bjzT4xyjsoPk8K7pkxXLLfz6MRT6d\"]},\"node_modules/@latticexyz/store/src/storeResourceTypes.sol\":{\"keccak256\":\"0xada1867ba72930fc5cf5562dd4e36de849dbac9c833b7969cb1b046a808fabf2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e4b5fdcaa54f567a3f8561c2c3fbc0d68c8dad892a4a8e5418bbce8efc53d84\",\"dweb:/ipfs/QmTWbYJX1yrCqrEwUKB9rGpHdRvLNU8GCkBbxnLjGD4d2t\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.21+commit.d9974bed"
@@ -44,12 +44,12 @@
         "bytecodeHash": "ipfs"
       },
       "compilationTarget": {
-        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol": "WorldResourceIdLib"
+        "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol": "WorldResourceIdLib"
       },
       "libraries": {}
     },
     "sources": {
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol": {
         "keccak256": "0xb7bfae2890004001221b3902d185c14cfea0e606d16914f6b7f81cf112aa9417",
         "urls": [
           "bzz-raw://acfd0d09166fc1bf16a8a5c80fbae1bd42426b2fcbab3c492bc836ea5c0375fb",
@@ -57,7 +57,7 @@
         ],
         "license": "MIT"
       },
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol": {
         "keccak256": "0x07faffa7dc4a2adc4f9bfe93d5a59a7dd89241d360996537608e38f61c2d0588",
         "urls": [
           "bzz-raw://b96d4ce331b257a24de2f18503a11b986ed32d218810db9d5e3e7eddc17c2218",
@@ -65,7 +65,7 @@
         ],
         "license": "MIT"
       },
-      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol": {
+      "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol": {
         "keccak256": "0xe31ee781596541f60ed71ef327c9d26ffc899e7fb3f4991c67406518bfc00746",
         "urls": [
           "bzz-raw://f7b864fea8c77833a322b16c4673f110d5065d0cafcedecd07895699cf4258c2",
@@ -101,7 +101,7 @@
     "version": 1
   },
   "ast": {
-    "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol",
+    "absolutePath": "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol",
     "id": 23498,
     "exportedSymbols": {
       "Bytes": [
@@ -246,7 +246,7 @@
         "nodeType": "ImportDirective",
         "src": "215:60:43",
         "nodes": [],
-        "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol",
+        "absolutePath": "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol",
         "file": "./constants.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 23498,
@@ -284,7 +284,7 @@
         "nodeType": "ImportDirective",
         "src": "276:87:43",
         "nodes": [],
-        "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol",
+        "absolutePath": "/Users/jaesungpark/code/apollyon2/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol",
         "file": "./worldResourceTypes.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 23498,

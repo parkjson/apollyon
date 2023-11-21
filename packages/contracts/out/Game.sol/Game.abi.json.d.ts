@@ -7,17 +7,6 @@ declare const abi: [
   {
     "inputs": [
       {
-        "internalType": "uint256",
-        "name": "length",
-        "type": "uint256"
-      }
-    ],
-    "name": "PackedCounter_InvalidLength",
-    "type": "error"
-  },
-  {
-    "inputs": [
-      {
         "internalType": "bytes",
         "name": "data",
         "type": "bytes"
@@ -34,64 +23,6 @@ declare const abi: [
       }
     ],
     "name": "Slice_OutOfBounds",
-    "type": "error"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "length",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "accessedIndex",
-        "type": "uint256"
-      }
-    ],
-    "name": "Store_IndexOutOfBounds",
-    "type": "error"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "bytes2",
-        "name": "expected",
-        "type": "bytes2"
-      },
-      {
-        "internalType": "ResourceId",
-        "name": "resourceId",
-        "type": "bytes32"
-      },
-      {
-        "internalType": "string",
-        "name": "resourceIdString",
-        "type": "string"
-      }
-    ],
-    "name": "Store_InvalidResourceType",
-    "type": "error"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint40",
-        "name": "startWithinField",
-        "type": "uint40"
-      },
-      {
-        "internalType": "uint40",
-        "name": "deleteCount",
-        "type": "uint40"
-      },
-      {
-        "internalType": "uint40",
-        "name": "fieldLength",
-        "type": "uint40"
-      }
-    ],
-    "name": "Store_InvalidSplice",
     "type": "error"
   },
   {
@@ -154,55 +85,80 @@ declare const abi: [
       },
       {
         "indexed": false,
-        "internalType": "uint40",
-        "name": "deleteCount",
-        "type": "uint40"
-      },
-      {
-        "indexed": false,
-        "internalType": "PackedCounter",
-        "name": "encodedLengths",
-        "type": "bytes32"
-      },
-      {
-        "indexed": false,
-        "internalType": "bytes",
-        "name": "data",
-        "type": "bytes"
-      }
-    ],
-    "name": "Store_SpliceDynamicData",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "ResourceId",
-        "name": "tableId",
-        "type": "bytes32"
-      },
-      {
-        "indexed": false,
-        "internalType": "bytes32[]",
-        "name": "keyTuple",
-        "type": "bytes32[]"
-      },
-      {
-        "indexed": false,
-        "internalType": "uint48",
-        "name": "start",
-        "type": "uint48"
-      },
-      {
-        "indexed": false,
         "internalType": "bytes",
         "name": "data",
         "type": "bytes"
       }
     ],
     "name": "Store_SpliceStaticData",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "cityId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "purchaser",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "cost",
+        "type": "uint256"
+      }
+    ],
+    "name": "cityBought",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "soldierId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "allegiance",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "tileId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "attack",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "defense",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "mobility",
+        "type": "uint256"
+      }
+    ],
+    "name": "soldierCreated",
     "type": "event"
   },
   {
@@ -216,6 +172,30 @@ declare const abi: [
     "name": "buyCity",
     "outputs": [],
     "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int256[3]",
+        "name": "tileA",
+        "type": "int256[3]"
+      },
+      {
+        "internalType": "int256[3]",
+        "name": "tileB",
+        "type": "int256[3]"
+      }
+    ],
+    "name": "checkAdjacent",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "pure",
     "type": "function"
   }
 ]; export default abi;
