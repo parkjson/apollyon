@@ -4092,31 +4092,31 @@
     "id": 73851,
     "exportedSymbols": {
       "IAccessManagementSystem": [
-        94647
+        102858
       ],
       "IBalanceTransferSystem": [
-        94674
+        102885
       ],
       "IBaseWorld": [
         73850
       ],
       "IBatchCallSystem": [
-        94701
+        102912
       ],
       "ICoreSystem": [
-        94705
+        102916
       ],
       "IModuleInstallationSystem": [
-        94719
+        102930
       ],
       "IStore": [
         65844
       ],
       "IWorldKernel": [
-        94617
+        102828
       ],
       "IWorldRegistrationSystem": [
-        94809
+        103020
       ]
     },
     "nodeType": "SourceUnit",
@@ -4169,7 +4169,7 @@
         "file": "../../IWorldKernel.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73851,
-        "sourceUnit": 94618,
+        "sourceUnit": 102829,
         "symbolAliases": [
           {
             "foreign": {
@@ -4177,7 +4177,7 @@
               "name": "IWorldKernel",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94617,
+              "referencedDeclaration": 102828,
               "src": "176:12:119",
               "typeDescriptions": {}
             },
@@ -4195,7 +4195,7 @@
         "file": "./ICoreSystem.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73851,
-        "sourceUnit": 94706,
+        "sourceUnit": 102917,
         "symbolAliases": [
           {
             "foreign": {
@@ -4203,7 +4203,7 @@
               "name": "ICoreSystem",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94705,
+              "referencedDeclaration": 102916,
               "src": "232:11:119",
               "typeDescriptions": {}
             },
@@ -4221,7 +4221,7 @@
         "file": "./IAccessManagementSystem.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73851,
-        "sourceUnit": 94648,
+        "sourceUnit": 102859,
         "symbolAliases": [
           {
             "foreign": {
@@ -4229,7 +4229,7 @@
               "name": "IAccessManagementSystem",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94647,
+              "referencedDeclaration": 102858,
               "src": "281:23:119",
               "typeDescriptions": {}
             },
@@ -4247,7 +4247,7 @@
         "file": "./IBalanceTransferSystem.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73851,
-        "sourceUnit": 94675,
+        "sourceUnit": 102886,
         "symbolAliases": [
           {
             "foreign": {
@@ -4255,7 +4255,7 @@
               "name": "IBalanceTransferSystem",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94674,
+              "referencedDeclaration": 102885,
               "src": "354:22:119",
               "typeDescriptions": {}
             },
@@ -4273,7 +4273,7 @@
         "file": "./IBatchCallSystem.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73851,
-        "sourceUnit": 94702,
+        "sourceUnit": 102913,
         "symbolAliases": [
           {
             "foreign": {
@@ -4281,7 +4281,7 @@
               "name": "IBatchCallSystem",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94701,
+              "referencedDeclaration": 102912,
               "src": "425:16:119",
               "typeDescriptions": {}
             },
@@ -4299,7 +4299,7 @@
         "file": "./IModuleInstallationSystem.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73851,
-        "sourceUnit": 94720,
+        "sourceUnit": 102931,
         "symbolAliases": [
           {
             "foreign": {
@@ -4307,7 +4307,7 @@
               "name": "IModuleInstallationSystem",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94719,
+              "referencedDeclaration": 102930,
               "src": "484:25:119",
               "typeDescriptions": {}
             },
@@ -4325,7 +4325,7 @@
         "file": "./IWorldRegistrationSystem.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73851,
-        "sourceUnit": 94810,
+        "sourceUnit": 103021,
         "symbolAliases": [
           {
             "foreign": {
@@ -4333,7 +4333,7 @@
               "name": "IWorldRegistrationSystem",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94809,
+              "referencedDeclaration": 103020,
               "src": "561:24:119",
               "typeDescriptions": {}
             },
@@ -4372,7 +4372,7 @@
                 "904:12:119"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94617,
+              "referencedDeclaration": 102828,
               "src": "904:12:119"
             },
             "id": 73837,
@@ -4387,7 +4387,7 @@
                 "920:11:119"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94705,
+              "referencedDeclaration": 102916,
               "src": "920:11:119"
             },
             "id": 73839,
@@ -4402,7 +4402,7 @@
                 "935:23:119"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94647,
+              "referencedDeclaration": 102858,
               "src": "935:23:119"
             },
             "id": 73841,
@@ -4417,7 +4417,7 @@
                 "962:22:119"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94674,
+              "referencedDeclaration": 102885,
               "src": "962:22:119"
             },
             "id": 73843,
@@ -4432,7 +4432,7 @@
                 "988:16:119"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94701,
+              "referencedDeclaration": 102912,
               "src": "988:16:119"
             },
             "id": 73845,
@@ -4447,7 +4447,7 @@
                 "1008:25:119"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94719,
+              "referencedDeclaration": 102930,
               "src": "1008:25:119"
             },
             "id": 73847,
@@ -4462,7 +4462,7 @@
                 "1037:24:119"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94809,
+              "referencedDeclaration": 103020,
               "src": "1037:24:119"
             },
             "id": 73849,
@@ -4482,59 +4482,59 @@
         "fullyImplemented": false,
         "linearizedBaseContracts": [
           73850,
-          94809,
-          94719,
-          94701,
-          94674,
-          94647,
-          94705,
-          94617,
-          132023,
-          94585,
-          94559,
+          103020,
+          102930,
+          102912,
+          102885,
+          102858,
+          102916,
+          102828,
+          140234,
+          102796,
+          102770,
           65844,
-          85291,
-          85344,
-          85225,
-          127444,
-          132319,
-          127292
+          93502,
+          93555,
+          93436,
+          135655,
+          140530,
+          135503
         ],
         "name": "IBaseWorld",
         "nameLocation": "878:10:119",
         "scope": 73851,
         "usedErrors": [
-          85236,
-          85243,
-          85252,
-          85258,
-          85264,
-          85270,
-          85276,
-          85282,
-          85290,
-          131937,
-          131945,
-          131953,
-          131960,
-          131968,
-          131973,
-          131978,
-          131983,
-          131990,
-          131993,
-          132000,
-          132007,
-          132017,
-          132022
+          93447,
+          93454,
+          93463,
+          93469,
+          93475,
+          93481,
+          93487,
+          93493,
+          93501,
+          140148,
+          140156,
+          140164,
+          140171,
+          140179,
+          140184,
+          140189,
+          140194,
+          140201,
+          140204,
+          140211,
+          140218,
+          140228,
+          140233
         ],
         "usedEvents": [
-          85218,
-          94597,
-          132278,
-          132291,
-          132309,
-          132318
+          93429,
+          102808,
+          140489,
+          140502,
+          140520,
+          140529
         ]
       }
     ],

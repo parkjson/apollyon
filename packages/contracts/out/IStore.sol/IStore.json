@@ -2379,13 +2379,13 @@
         65844
       ],
       "IStoreData": [
-        85225
+        93436
       ],
       "IStoreErrors": [
-        85291
+        93502
       ],
       "IStoreRegistration": [
-        85344
+        93555
       ]
     },
     "nodeType": "SourceUnit",
@@ -2412,7 +2412,7 @@
         "file": "./IStoreErrors.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 65845,
-        "sourceUnit": 85292,
+        "sourceUnit": 93503,
         "symbolAliases": [
           {
             "foreign": {
@@ -2420,7 +2420,7 @@
               "name": "IStoreErrors",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85291,
+              "referencedDeclaration": 93502,
               "src": "68:12:75",
               "typeDescriptions": {}
             },
@@ -2438,7 +2438,7 @@
         "file": "./IStoreData.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 65845,
-        "sourceUnit": 85226,
+        "sourceUnit": 93437,
         "symbolAliases": [
           {
             "foreign": {
@@ -2446,7 +2446,7 @@
               "name": "IStoreData",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85225,
+              "referencedDeclaration": 93436,
               "src": "119:10:75",
               "typeDescriptions": {}
             },
@@ -2464,7 +2464,7 @@
         "file": "./IStoreRegistration.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 65845,
-        "sourceUnit": 85345,
+        "sourceUnit": 93556,
         "symbolAliases": [
           {
             "foreign": {
@@ -2472,7 +2472,7 @@
               "name": "IStoreRegistration",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85344,
+              "referencedDeclaration": 93555,
               "src": "166:18:75",
               "typeDescriptions": {}
             },
@@ -2496,7 +2496,7 @@
                 "241:10:75"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 85225,
+              "referencedDeclaration": 93436,
               "src": "241:10:75"
             },
             "id": 65839,
@@ -2511,7 +2511,7 @@
                 "253:18:75"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 85344,
+              "referencedDeclaration": 93555,
               "src": "253:18:75"
             },
             "id": 65841,
@@ -2526,7 +2526,7 @@
                 "273:12:75"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 85291,
+              "referencedDeclaration": 93502,
               "src": "273:12:75"
             },
             "id": 65843,
@@ -2540,33 +2540,33 @@
         "fullyImplemented": false,
         "linearizedBaseContracts": [
           65844,
-          85291,
-          85344,
-          85225,
-          127444,
-          132319,
-          127292
+          93502,
+          93555,
+          93436,
+          135655,
+          140530,
+          135503
         ],
         "name": "IStore",
         "nameLocation": "231:6:75",
         "scope": 65845,
         "usedErrors": [
-          85236,
-          85243,
-          85252,
-          85258,
-          85264,
-          85270,
-          85276,
-          85282,
-          85290
+          93447,
+          93454,
+          93463,
+          93469,
+          93475,
+          93481,
+          93487,
+          93493,
+          93501
         ],
         "usedEvents": [
-          85218,
-          132278,
-          132291,
-          132309,
-          132318
+          93429,
+          140489,
+          140502,
+          140520,
+          140529
         ]
       }
     ],

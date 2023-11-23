@@ -16,10 +16,10 @@
         65844
       ],
       "KeysWithValue": [
-        94194
+        102405
       ],
       "MODULE_NAMESPACE": [
-        91635
+        99846
       ],
       "PackedCounter": [
         65906
@@ -32,7 +32,7 @@
         73522
       ],
       "getTargetTableId": [
-        91730
+        99941
       ]
     },
     "nodeType": "SourceUnit",
@@ -137,7 +137,7 @@
         "file": "./constants.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73523,
-        "sourceUnit": 91636,
+        "sourceUnit": 99847,
         "symbolAliases": [
           {
             "foreign": {
@@ -145,7 +145,7 @@
               "name": "MODULE_NAMESPACE",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91635,
+              "referencedDeclaration": 99846,
               "src": "268:16:105",
               "typeDescriptions": {}
             },
@@ -163,7 +163,7 @@
         "file": "./tables/KeysWithValue.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73523,
-        "sourceUnit": 94195,
+        "sourceUnit": 102406,
         "symbolAliases": [
           {
             "foreign": {
@@ -171,7 +171,7 @@
               "name": "KeysWithValue",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94194,
+              "referencedDeclaration": 102405,
               "src": "320:13:105",
               "typeDescriptions": {}
             },
@@ -189,7 +189,7 @@
         "file": "./getTargetTableId.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73523,
-        "sourceUnit": 91731,
+        "sourceUnit": 99942,
         "symbolAliases": [
           {
             "foreign": {
@@ -197,7 +197,7 @@
               "name": "getTargetTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91730,
+              "referencedDeclaration": 99941,
               "src": "380:16:105",
               "typeDescriptions": {}
             },
@@ -268,7 +268,7 @@
                     "name": "MODULE_NAMESPACE",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 91635,
+                    "referencedDeclaration": 99846,
                     "src": "962:16:105",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes7",
@@ -303,7 +303,7 @@
                   "name": "getTargetTableId",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 91730,
+                  "referencedDeclaration": 99941,
                   "src": "945:16:105",
                   "typeDescriptions": {
                     "typeIdentifier": "t_function_internal_pure$_t_bytes7_$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_userDefinedValueType$_ResourceId_$66533_$",
@@ -717,10 +717,10 @@
                       "name": "KeysWithValue",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 94194,
+                      "referencedDeclaration": 102405,
                       "src": "1212:13:105",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_KeysWithValue_$94194_$",
+                        "typeIdentifier": "t_type$_t_contract$_KeysWithValue_$102405_$",
                         "typeString": "type(library KeysWithValue)"
                       }
                     },
@@ -732,7 +732,7 @@
                     "memberLocation": "1226:3:105",
                     "memberName": "get",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 92162,
+                    "referencedDeclaration": 100373,
                     "src": "1212:17:105",
                     "typeDescriptions": {
                       "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_bytes32_$returns$_t_array$_t_bytes32_$dyn_memory_ptr_$",
@@ -1023,7 +1023,7 @@
                     "name": "MODULE_NAMESPACE",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 91635,
+                    "referencedDeclaration": 99846,
                     "src": "1649:16:105",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes7",
@@ -1058,7 +1058,7 @@
                   "name": "getTargetTableId",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 91730,
+                  "referencedDeclaration": 99941,
                   "src": "1632:16:105",
                   "typeDescriptions": {
                     "typeIdentifier": "t_function_internal_pure$_t_bytes7_$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_userDefinedValueType$_ResourceId_$66533_$",
@@ -1488,10 +1488,10 @@
                       "name": "KeysWithValue",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 94194,
+                      "referencedDeclaration": 102405,
                       "src": "1899:13:105",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_KeysWithValue_$94194_$",
+                        "typeIdentifier": "t_type$_t_contract$_KeysWithValue_$102405_$",
                         "typeString": "type(library KeysWithValue)"
                       }
                     },
@@ -1503,7 +1503,7 @@
                     "memberLocation": "1913:3:105",
                     "memberName": "get",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 92265,
+                    "referencedDeclaration": 100476,
                     "src": "1899:17:105",
                     "typeDescriptions": {
                       "typeIdentifier": "t_function_internal_view$_t_contract$_IStore_$65844_$_t_userDefinedValueType$_ResourceId_$66533_$_t_bytes32_$returns$_t_array$_t_bytes32_$dyn_memory_ptr_$",

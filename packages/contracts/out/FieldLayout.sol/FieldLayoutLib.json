@@ -117,7 +117,7 @@
     "id": 65830,
     "exportedSymbols": {
       "BYTE_TO_BITS": [
-        85155
+        93366
       ],
       "FieldLayout": [
         65410
@@ -129,19 +129,19 @@
         65555
       ],
       "LayoutOffsets": [
-        85202
+        93413
       ],
       "MAX_DYNAMIC_FIELDS": [
-        85167
+        93378
       ],
       "MAX_TOTAL_FIELDS": [
-        85159
+        93370
       ],
       "WORD_LAST_INDEX": [
-        85151
+        93362
       ],
       "WORD_SIZE": [
-        85147
+        93358
       ]
     },
     "nodeType": "SourceUnit",
@@ -168,7 +168,7 @@
         "file": "./constants.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 65830,
-        "sourceUnit": 85203,
+        "sourceUnit": 93414,
         "symbolAliases": [
           {
             "foreign": {
@@ -176,7 +176,7 @@
               "name": "WORD_SIZE",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85147,
+              "referencedDeclaration": 93358,
               "src": "68:9:72",
               "typeDescriptions": {}
             },
@@ -188,7 +188,7 @@
               "name": "WORD_LAST_INDEX",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85151,
+              "referencedDeclaration": 93362,
               "src": "79:15:72",
               "typeDescriptions": {}
             },
@@ -200,7 +200,7 @@
               "name": "BYTE_TO_BITS",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85155,
+              "referencedDeclaration": 93366,
               "src": "96:12:72",
               "typeDescriptions": {}
             },
@@ -212,7 +212,7 @@
               "name": "MAX_TOTAL_FIELDS",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85159,
+              "referencedDeclaration": 93370,
               "src": "110:16:72",
               "typeDescriptions": {}
             },
@@ -224,7 +224,7 @@
               "name": "MAX_DYNAMIC_FIELDS",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85167,
+              "referencedDeclaration": 93378,
               "src": "128:18:72",
               "typeDescriptions": {}
             },
@@ -236,7 +236,7 @@
               "name": "LayoutOffsets",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85202,
+              "referencedDeclaration": 93413,
               "src": "148:13:72",
               "typeDescriptions": {}
             },
@@ -588,7 +588,7 @@
                       "name": "MAX_TOTAL_FIELDS",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 85159,
+                      "referencedDeclaration": 93370,
                       "src": "1884:16:72",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -689,7 +689,7 @@
                       "name": "MAX_DYNAMIC_FIELDS",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 85167,
+                      "referencedDeclaration": 93378,
                       "src": "1979:18:72",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -917,7 +917,7 @@
                               "name": "WORD_SIZE",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85147,
+                              "referencedDeclaration": 93358,
                               "src": "2377:9:72",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -1226,7 +1226,7 @@
                                                 "name": "WORD_LAST_INDEX",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 85151,
+                                                "referencedDeclaration": 93362,
                                                 "src": "2850:15:72",
                                                 "typeDescriptions": {
                                                   "typeIdentifier": "t_uint256",
@@ -1298,7 +1298,7 @@
                                         "name": "BYTE_TO_BITS",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 85155,
+                                        "referencedDeclaration": 93366,
                                         "src": "2877:12:72",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_uint256",
@@ -1542,10 +1542,10 @@
                           "name": "LayoutOffsets",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 85202,
+                          "referencedDeclaration": 93413,
                           "src": "3189:13:72",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$85202_$",
+                            "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$93413_$",
                             "typeString": "type(library LayoutOffsets)"
                           }
                         },
@@ -1557,7 +1557,7 @@
                         "memberLocation": "3203:12:72",
                         "memberName": "TOTAL_LENGTH",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 85177,
+                        "referencedDeclaration": 93388,
                         "src": "3189:26:72",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1646,10 +1646,10 @@
                           "name": "LayoutOffsets",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 85202,
+                          "referencedDeclaration": 93413,
                           "src": "3260:13:72",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$85202_$",
+                            "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$93413_$",
                             "typeString": "type(library LayoutOffsets)"
                           }
                         },
@@ -1661,7 +1661,7 @@
                         "memberLocation": "3274:17:72",
                         "memberName": "NUM_STATIC_FIELDS",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 85188,
+                        "referencedDeclaration": 93399,
                         "src": "3260:31:72",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1735,10 +1735,10 @@
                           "name": "LayoutOffsets",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 85202,
+                          "referencedDeclaration": 93413,
                           "src": "3332:13:72",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$85202_$",
+                            "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$93413_$",
                             "typeString": "type(library LayoutOffsets)"
                           }
                         },
@@ -1750,7 +1750,7 @@
                         "memberLocation": "3346:18:72",
                         "memberName": "NUM_DYNAMIC_FIELDS",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 85201,
+                        "referencedDeclaration": 93412,
                         "src": "3332:32:72",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2213,7 +2213,7 @@
                                             "name": "WORD_LAST_INDEX",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 85151,
+                                            "referencedDeclaration": 93362,
                                             "src": "4044:15:72",
                                             "typeDescriptions": {
                                               "typeIdentifier": "t_uint256",
@@ -2285,7 +2285,7 @@
                                     "name": "BYTE_TO_BITS",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 85155,
+                                    "referencedDeclaration": 93366,
                                     "src": "4075:12:72",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
@@ -2630,10 +2630,10 @@
                         "name": "LayoutOffsets",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 85202,
+                        "referencedDeclaration": 93413,
                         "src": "4459:13:72",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$85202_$",
+                          "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$93413_$",
                           "typeString": "type(library LayoutOffsets)"
                         }
                       },
@@ -2645,7 +2645,7 @@
                       "memberLocation": "4473:12:72",
                       "memberName": "TOTAL_LENGTH",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 85177,
+                      "referencedDeclaration": 93388,
                       "src": "4459:26:72",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2883,10 +2883,10 @@
                             "name": "LayoutOffsets",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 85202,
+                            "referencedDeclaration": 93413,
                             "src": "4834:13:72",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$85202_$",
+                              "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$93413_$",
                               "typeString": "type(library LayoutOffsets)"
                             }
                           },
@@ -2898,7 +2898,7 @@
                           "memberLocation": "4848:17:72",
                           "memberName": "NUM_STATIC_FIELDS",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 85188,
+                          "referencedDeclaration": 93399,
                           "src": "4834:31:72",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3179,10 +3179,10 @@
                             "name": "LayoutOffsets",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 85202,
+                            "referencedDeclaration": 93413,
                             "src": "5233:13:72",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$85202_$",
+                              "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$93413_$",
                               "typeString": "type(library LayoutOffsets)"
                             }
                           },
@@ -3194,7 +3194,7 @@
                           "memberLocation": "5247:18:72",
                           "memberName": "NUM_DYNAMIC_FIELDS",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 85201,
+                          "referencedDeclaration": 93412,
                           "src": "5233:32:72",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3490,10 +3490,10 @@
                                   "name": "LayoutOffsets",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 85202,
+                                  "referencedDeclaration": 93413,
                                   "src": "5632:13:72",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$85202_$",
+                                    "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$93413_$",
                                     "typeString": "type(library LayoutOffsets)"
                                   }
                                 },
@@ -3505,7 +3505,7 @@
                                 "memberLocation": "5646:17:72",
                                 "memberName": "NUM_STATIC_FIELDS",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 85188,
+                                "referencedDeclaration": 93399,
                                 "src": "5632:31:72",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -3675,10 +3675,10 @@
                                   "name": "LayoutOffsets",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 85202,
+                                  "referencedDeclaration": 93413,
                                   "src": "5714:13:72",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$85202_$",
+                                    "typeIdentifier": "t_type$_t_contract$_LayoutOffsets_$93413_$",
                                     "typeString": "type(library LayoutOffsets)"
                                   }
                                 },
@@ -3690,7 +3690,7 @@
                                 "memberLocation": "5728:18:72",
                                 "memberName": "NUM_DYNAMIC_FIELDS",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 85201,
+                                "referencedDeclaration": 93412,
                                 "src": "5714:32:72",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -4407,7 +4407,7 @@
                       "name": "MAX_DYNAMIC_FIELDS",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 85167,
+                      "referencedDeclaration": 93378,
                       "src": "6786:18:72",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4687,7 +4687,7 @@
                       "name": "MAX_TOTAL_FIELDS",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 85159,
+                      "referencedDeclaration": 93370,
                       "src": "7103:16:72",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4959,7 +4959,7 @@
                               "name": "WORD_SIZE",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85147,
+                              "referencedDeclaration": 93358,
                               "src": "7468:9:72",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",

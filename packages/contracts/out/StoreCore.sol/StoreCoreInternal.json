@@ -329,28 +329,28 @@
     "id": 69694,
     "exportedSymbols": {
       "AFTER_DELETE_RECORD": [
-        91514
+        99725
       ],
       "AFTER_SET_RECORD": [
-        91478
+        99689
       ],
       "AFTER_SPLICE_DYNAMIC_DATA": [
-        91502
+        99713
       ],
       "AFTER_SPLICE_STATIC_DATA": [
-        91490
+        99701
       ],
       "BEFORE_DELETE_RECORD": [
-        91508
+        99719
       ],
       "BEFORE_SET_RECORD": [
-        91472
+        99683
       ],
       "BEFORE_SPLICE_DYNAMIC_DATA": [
-        91496
+        99707
       ],
       "BEFORE_SPLICE_STATIC_DATA": [
-        91484
+        99695
       ],
       "Bytes": [
         65399
@@ -362,16 +362,16 @@
         65555
       ],
       "Hook": [
-        87737
+        95948
       ],
       "HookLib": [
-        87861
+        96072
       ],
       "IStoreErrors": [
-        85291
+        93502
       ],
       "IStoreHook": [
-        88114
+        96325
       ],
       "Memory": [
         65902
@@ -392,10 +392,10 @@
         66604
       ],
       "ResourceIds": [
-        130040
+        138251
       ],
       "STORE_VERSION": [
-        91558
+        99769
       ],
       "Schema": [
         66616
@@ -410,7 +410,7 @@
         67237
       ],
       "Storage": [
-        88472
+        96683
       ],
       "StoreCore": [
         69158
@@ -419,22 +419,22 @@
         69693
       ],
       "StoreHooks": [
-        131804
+        140015
       ],
       "StoreHooksTableId": [
-        130109
+        138320
       ],
       "StoreSwitch": [
         71018
       ],
       "Tables": [
-        91464
+        99675
       ],
       "TablesTableFieldLayout": [
-        88556
+        96767
       ],
       "TablesTableId": [
-        88549
+        96760
       ]
     },
     "nodeType": "SourceUnit",
@@ -461,7 +461,7 @@
         "file": "./version.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 69694,
-        "sourceUnit": 91559,
+        "sourceUnit": 99770,
         "symbolAliases": [
           {
             "foreign": {
@@ -469,7 +469,7 @@
               "name": "STORE_VERSION",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91558,
+              "referencedDeclaration": 99769,
               "src": "68:13:89",
               "typeDescriptions": {}
             },
@@ -513,7 +513,7 @@
         "file": "./Storage.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 69694,
-        "sourceUnit": 88473,
+        "sourceUnit": 96684,
         "symbolAliases": [
           {
             "foreign": {
@@ -521,7 +521,7 @@
               "name": "Storage",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 88472,
+              "referencedDeclaration": 96683,
               "src": "152:7:89",
               "typeDescriptions": {}
             },
@@ -705,7 +705,7 @@
         "file": "./codegen/index.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 69694,
-        "sourceUnit": 88487,
+        "sourceUnit": 96698,
         "symbolAliases": [
           {
             "foreign": {
@@ -713,7 +713,7 @@
               "name": "StoreHooks",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131804,
+              "referencedDeclaration": 140015,
               "src": "447:10:89",
               "typeDescriptions": {}
             },
@@ -725,7 +725,7 @@
               "name": "Tables",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91464,
+              "referencedDeclaration": 99675,
               "src": "459:6:89",
               "typeDescriptions": {}
             },
@@ -737,7 +737,7 @@
               "name": "TablesTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 88549,
+              "referencedDeclaration": 96760,
               "src": "467:13:89",
               "typeDescriptions": {}
             },
@@ -749,7 +749,7 @@
               "name": "ResourceIds",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 130040,
+              "referencedDeclaration": 138251,
               "src": "482:11:89",
               "typeDescriptions": {}
             },
@@ -761,7 +761,7 @@
               "name": "StoreHooksTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 130109,
+              "referencedDeclaration": 138320,
               "src": "495:17:89",
               "typeDescriptions": {}
             },
@@ -779,7 +779,7 @@
         "file": "./codegen/tables/Tables.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 69694,
-        "sourceUnit": 91465,
+        "sourceUnit": 99676,
         "symbolAliases": [
           {
             "foreign": {
@@ -787,7 +787,7 @@
               "name": "_fieldLayout",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 88556,
+              "referencedDeclaration": 96767,
               "src": "552:12:89",
               "typeDescriptions": {}
             },
@@ -806,7 +806,7 @@
         "file": "./IStoreErrors.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 69694,
-        "sourceUnit": 85292,
+        "sourceUnit": 93503,
         "symbolAliases": [
           {
             "foreign": {
@@ -814,7 +814,7 @@
               "name": "IStoreErrors",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85291,
+              "referencedDeclaration": 93502,
               "src": "638:12:89",
               "typeDescriptions": {}
             },
@@ -832,7 +832,7 @@
         "file": "./IStoreHook.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 69694,
-        "sourceUnit": 88115,
+        "sourceUnit": 96326,
         "symbolAliases": [
           {
             "foreign": {
@@ -840,7 +840,7 @@
               "name": "IStoreHook",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 88114,
+              "referencedDeclaration": 96325,
               "src": "689:10:89",
               "typeDescriptions": {}
             },
@@ -884,7 +884,7 @@
         "file": "./Hook.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 69694,
-        "sourceUnit": 87927,
+        "sourceUnit": 96138,
         "symbolAliases": [
           {
             "foreign": {
@@ -892,7 +892,7 @@
               "name": "Hook",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 87737,
+              "referencedDeclaration": 95948,
               "src": "785:4:89",
               "typeDescriptions": {}
             },
@@ -904,7 +904,7 @@
               "name": "HookLib",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 87861,
+              "referencedDeclaration": 96072,
               "src": "791:7:89",
               "typeDescriptions": {}
             },
@@ -922,7 +922,7 @@
         "file": "./storeHookTypes.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 69694,
-        "sourceUnit": 91553,
+        "sourceUnit": 99764,
         "symbolAliases": [
           {
             "foreign": {
@@ -930,7 +930,7 @@
               "name": "BEFORE_SET_RECORD",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91472,
+              "referencedDeclaration": 99683,
               "src": "829:17:89",
               "typeDescriptions": {}
             },
@@ -942,7 +942,7 @@
               "name": "AFTER_SET_RECORD",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91478,
+              "referencedDeclaration": 99689,
               "src": "848:16:89",
               "typeDescriptions": {}
             },
@@ -954,7 +954,7 @@
               "name": "BEFORE_SPLICE_STATIC_DATA",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91484,
+              "referencedDeclaration": 99695,
               "src": "866:25:89",
               "typeDescriptions": {}
             },
@@ -966,7 +966,7 @@
               "name": "AFTER_SPLICE_STATIC_DATA",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91490,
+              "referencedDeclaration": 99701,
               "src": "893:24:89",
               "typeDescriptions": {}
             },
@@ -978,7 +978,7 @@
               "name": "BEFORE_SPLICE_DYNAMIC_DATA",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91496,
+              "referencedDeclaration": 99707,
               "src": "919:26:89",
               "typeDescriptions": {}
             },
@@ -990,7 +990,7 @@
               "name": "AFTER_SPLICE_DYNAMIC_DATA",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91502,
+              "referencedDeclaration": 99713,
               "src": "947:25:89",
               "typeDescriptions": {}
             },
@@ -1002,7 +1002,7 @@
               "name": "BEFORE_DELETE_RECORD",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91508,
+              "referencedDeclaration": 99719,
               "src": "974:20:89",
               "typeDescriptions": {}
             },
@@ -1014,7 +1014,7 @@
               "name": "AFTER_DELETE_RECORD",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 91514,
+              "referencedDeclaration": 99725,
               "src": "996:19:89",
               "typeDescriptions": {}
             },
@@ -1982,10 +1982,10 @@
                         "name": "Tables",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 91464,
+                        "referencedDeclaration": 99675,
                         "src": "4399:6:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Tables_$91464_$",
+                          "typeIdentifier": "t_type$_t_contract$_Tables_$99675_$",
                           "typeString": "type(library Tables)"
                         }
                       },
@@ -1997,7 +1997,7 @@
                       "memberLocation": "4406:8:89",
                       "memberName": "register",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88760,
+                      "referencedDeclaration": 96971,
                       "src": "4399:15:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -2034,10 +2034,10 @@
                         "name": "StoreHooks",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131804,
+                        "referencedDeclaration": 140015,
                         "src": "4422:10:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$131804_$",
+                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$140015_$",
                           "typeString": "type(library StoreHooks)"
                         }
                       },
@@ -2049,7 +2049,7 @@
                       "memberLocation": "4433:8:89",
                       "memberName": "register",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 130254,
+                      "referencedDeclaration": 138465,
                       "src": "4422:19:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -2086,10 +2086,10 @@
                         "name": "ResourceIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 130040,
+                        "referencedDeclaration": 138251,
                         "src": "4449:11:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_ResourceIds_$130040_$",
+                          "typeIdentifier": "t_type$_t_contract$_ResourceIds_$138251_$",
                           "typeString": "type(library ResourceIds)"
                         }
                       },
@@ -2101,7 +2101,7 @@
                       "memberLocation": "4461:8:89",
                       "memberName": "register",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 129489,
+                      "referencedDeclaration": 137700,
                       "src": "4449:20:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -2253,7 +2253,7 @@
                           "name": "TablesTableId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 88549,
+                          "referencedDeclaration": 96760,
                           "src": "5209:13:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_userDefinedValueType$_ResourceId_$66533",
@@ -2330,7 +2330,7 @@
                           "name": "TablesTableFieldLayout",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 88556,
+                          "referencedDeclaration": 96767,
                           "src": "5240:22:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_userDefinedValueType$_FieldLayout_$65410",
@@ -2357,7 +2357,7 @@
                                 "name": "TablesTableId",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 88549,
+                                "referencedDeclaration": 96760,
                                 "src": "5400:13:89",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_userDefinedValueType$_ResourceId_$66533",
@@ -2536,10 +2536,10 @@
                             "name": "Storage",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 88472,
+                            "referencedDeclaration": 96683,
                             "src": "5313:7:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                              "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                               "typeString": "type(library Storage)"
                             }
                           },
@@ -2551,7 +2551,7 @@
                           "memberLocation": "5321:9:89",
                           "memberName": "loadField",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 88471,
+                          "referencedDeclaration": 96682,
                           "src": "5313:17:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_bytes32_$",
@@ -2802,10 +2802,10 @@
                           "name": "Tables",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 91464,
+                          "referencedDeclaration": 99675,
                           "src": "5870:6:89",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_Tables_$91464_$",
+                            "typeIdentifier": "t_type$_t_contract$_Tables_$99675_$",
                             "typeString": "type(library Tables)"
                           }
                         },
@@ -2817,7 +2817,7 @@
                         "memberLocation": "5877:13:89",
                         "memberName": "_getKeySchema",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 89070,
+                        "referencedDeclaration": 97281,
                         "src": "5870:20:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_userDefinedValueType$_Schema_$66616_$",
@@ -2888,10 +2888,10 @@
                           "name": "ResourceIds",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 130040,
+                          "referencedDeclaration": 138251,
                           "src": "6013:11:89",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_ResourceIds_$130040_$",
+                            "typeIdentifier": "t_type$_t_contract$_ResourceIds_$138251_$",
                             "typeString": "type(library ResourceIds)"
                           }
                         },
@@ -2903,7 +2903,7 @@
                         "memberLocation": "6025:10:89",
                         "memberName": "_getExists",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 129611,
+                        "referencedDeclaration": 137822,
                         "src": "6013:22:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_bool_$",
@@ -3080,10 +3080,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "6061:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -3095,7 +3095,7 @@
                             "memberLocation": "6074:19:89",
                             "memberName": "Store_TableNotFound",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85243,
+                            "referencedDeclaration": 93454,
                             "src": "6061:32:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_userDefinedValueType$_ResourceId_$66533_$_t_string_memory_ptr_$returns$__$",
@@ -3290,10 +3290,10 @@
                           "name": "Tables",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 91464,
+                          "referencedDeclaration": 99675,
                           "src": "6523:6:89",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_Tables_$91464_$",
+                            "typeIdentifier": "t_type$_t_contract$_Tables_$99675_$",
                             "typeString": "type(library Tables)"
                           }
                         },
@@ -3305,7 +3305,7 @@
                         "memberLocation": "6530:15:89",
                         "memberName": "_getValueSchema",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 89262,
+                        "referencedDeclaration": 97473,
                         "src": "6523:22:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_userDefinedValueType$_Schema_$66616_$",
@@ -3535,10 +3535,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "6602:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -3550,7 +3550,7 @@
                             "memberLocation": "6615:19:89",
                             "memberName": "Store_TableNotFound",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85243,
+                            "referencedDeclaration": 93454,
                             "src": "6602:32:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_userDefinedValueType$_ResourceId_$66533_$_t_string_memory_ptr_$returns$__$",
@@ -4035,10 +4035,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "7839:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -4050,7 +4050,7 @@
                             "memberLocation": "7852:25:89",
                             "memberName": "Store_InvalidResourceType",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85252,
+                            "referencedDeclaration": 93463,
                             "src": "7839:38:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_bytes2_$_t_userDefinedValueType$_ResourceId_$66533_$_t_string_memory_ptr_$returns$__$",
@@ -4509,10 +4509,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "8308:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -4524,7 +4524,7 @@
                             "memberLocation": "8321:27:89",
                             "memberName": "Store_InvalidKeyNamesLength",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85270,
+                            "referencedDeclaration": 93481,
                             "src": "8308:40:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_uint256_$_t_uint256_$returns$__$",
@@ -4749,10 +4749,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "8506:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -4764,7 +4764,7 @@
                             "memberLocation": "8519:29:89",
                             "memberName": "Store_InvalidFieldNamesLength",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85276,
+                            "referencedDeclaration": 93487,
                             "src": "8506:42:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_uint256_$_t_uint256_$returns$__$",
@@ -5029,10 +5029,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "8723:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -5044,7 +5044,7 @@
                             "memberLocation": "8736:30:89",
                             "memberName": "Store_InvalidValueSchemaLength",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85282,
+                            "referencedDeclaration": 93493,
                             "src": "8723:43:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_uint256_$_t_uint256_$returns$__$",
@@ -5102,10 +5102,10 @@
                         "name": "ResourceIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 130040,
+                        "referencedDeclaration": 138251,
                         "src": "8885:11:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_ResourceIds_$130040_$",
+                          "typeIdentifier": "t_type$_t_contract$_ResourceIds_$138251_$",
                           "typeString": "type(library ResourceIds)"
                         }
                       },
@@ -5117,7 +5117,7 @@
                       "memberLocation": "8897:10:89",
                       "memberName": "_getExists",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 129611,
+                      "referencedDeclaration": 137822,
                       "src": "8885:22:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_bool_$",
@@ -5289,10 +5289,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "8933:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -5304,7 +5304,7 @@
                             "memberLocation": "8946:24:89",
                             "memberName": "Store_TableAlreadyExists",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85236,
+                            "referencedDeclaration": 93447,
                             "src": "8933:37:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_userDefinedValueType$_ResourceId_$66533_$_t_string_memory_ptr_$returns$__$",
@@ -5546,10 +5546,10 @@
                         "name": "Tables",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 91464,
+                        "referencedDeclaration": 99675,
                         "src": "9062:6:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Tables_$91464_$",
+                          "typeIdentifier": "t_type$_t_contract$_Tables_$99675_$",
                           "typeString": "type(library Tables)"
                         }
                       },
@@ -5561,7 +5561,7 @@
                       "memberLocation": "9069:4:89",
                       "memberName": "_set",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 90927,
+                      "referencedDeclaration": 99138,
                       "src": "9062:11:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_userDefinedValueType$_FieldLayout_$65410_$_t_userDefinedValueType$_Schema_$66616_$_t_userDefinedValueType$_Schema_$66616_$_t_bytes_memory_ptr_$_t_bytes_memory_ptr_$returns$__$",
@@ -5636,10 +5636,10 @@
                         "name": "ResourceIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 130040,
+                        "referencedDeclaration": 138251,
                         "src": "9201:11:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_ResourceIds_$130040_$",
+                          "typeIdentifier": "t_type$_t_contract$_ResourceIds_$138251_$",
                           "typeString": "type(library ResourceIds)"
                         }
                       },
@@ -5651,7 +5651,7 @@
                       "memberLocation": "9213:10:89",
                       "memberName": "_setExists",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 129801,
+                      "referencedDeclaration": 138012,
                       "src": "9201:22:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_bool_$returns$__$",
@@ -6183,10 +6183,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "10081:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -6198,7 +6198,7 @@
                             "memberLocation": "10094:25:89",
                             "memberName": "Store_InvalidResourceType",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85252,
+                            "referencedDeclaration": 93463,
                             "src": "10081:38:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_bytes2_$_t_userDefinedValueType$_ResourceId_$66533_$_t_string_memory_ptr_$returns$__$",
@@ -6257,7 +6257,7 @@
                                     "referencedDeclaration": 67771,
                                     "src": "10252:11:89",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   }
@@ -6265,7 +6265,7 @@
                                 "expression": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   ],
@@ -6333,10 +6333,10 @@
                                 "name": "HookLib",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 87861,
+                                "referencedDeclaration": 96072,
                                 "src": "10229:7:89",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_contract$_HookLib_$87861_$",
+                                  "typeIdentifier": "t_type$_t_contract$_HookLib_$96072_$",
                                   "typeString": "type(library HookLib)"
                                 }
                               },
@@ -6348,10 +6348,10 @@
                               "memberLocation": "10237:6:89",
                               "memberName": "encode",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 87773,
+                              "referencedDeclaration": 95984,
                               "src": "10229:14:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_internal_pure$_t_address_$_t_uint8_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_function_internal_pure$_t_address_$_t_uint8_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "function (address,uint8) pure returns (Hook)"
                               }
                             },
@@ -6367,7 +6367,7 @@
                             "src": "10229:56:89",
                             "tryCall": false,
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             }
                           }
@@ -6375,7 +6375,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             }
                           ],
@@ -6384,10 +6384,10 @@
                             "name": "Hook",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 87737,
+                            "referencedDeclaration": 95948,
                             "src": "10217:4:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "type(Hook)"
                             }
                           },
@@ -6401,7 +6401,7 @@
                           "nodeType": "MemberAccess",
                           "src": "10217:11:89",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_unwrap_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_bytes21_$",
+                            "typeIdentifier": "t_function_unwrap_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_bytes21_$",
                             "typeString": "function (Hook) pure returns (bytes21)"
                           }
                         },
@@ -6438,10 +6438,10 @@
                         "name": "StoreHooks",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131804,
+                        "referencedDeclaration": 140015,
                         "src": "10192:10:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$131804_$",
+                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$140015_$",
                           "typeString": "type(library StoreHooks)"
                         }
                       },
@@ -6453,7 +6453,7 @@
                       "memberLocation": "10203:4:89",
                       "memberName": "push",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 131187,
+                      "referencedDeclaration": 139398,
                       "src": "10192:15:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_bytes21_$returns$__$",
@@ -6546,7 +6546,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                    "typeIdentifier": "t_contract$_IStoreHook_$96325",
                     "typeString": "contract IStoreHook"
                   },
                   "typeName": {
@@ -6559,13 +6559,13 @@
                         "9892:10:89"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 88114,
+                      "referencedDeclaration": 96325,
                       "src": "9892:10:89"
                     },
-                    "referencedDeclaration": 88114,
+                    "referencedDeclaration": 96325,
                     "src": "9892:10:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                       "typeString": "contract IStoreHook"
                     }
                   },
@@ -6631,7 +6631,7 @@
                         "name": "StoreHooksTableId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 130109,
+                        "referencedDeclaration": 138320,
                         "src": "10612:17:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_userDefinedValueType$_ResourceId_$66533",
@@ -6660,7 +6660,7 @@
                             "referencedDeclaration": 67822,
                             "src": "10648:11:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                              "typeIdentifier": "t_contract$_IStoreHook_$96325",
                               "typeString": "contract IStoreHook"
                             }
                           }
@@ -6668,7 +6668,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                              "typeIdentifier": "t_contract$_IStoreHook_$96325",
                               "typeString": "contract IStoreHook"
                             }
                           ],
@@ -6728,10 +6728,10 @@
                         "name": "HookLib",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 87861,
+                        "referencedDeclaration": 96072,
                         "src": "10584:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_HookLib_$87861_$",
+                          "typeIdentifier": "t_type$_t_contract$_HookLib_$96072_$",
                           "typeString": "type(library HookLib)"
                         }
                       },
@@ -6743,7 +6743,7 @@
                       "memberLocation": "10592:19:89",
                       "memberName": "filterListByAddress",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 87860,
+                      "referencedDeclaration": 96071,
                       "src": "10584:27:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_userDefinedValueType$_ResourceId_$66533_$_t_address_$returns$__$",
@@ -6836,7 +6836,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                    "typeIdentifier": "t_contract$_IStoreHook_$96325",
                     "typeString": "contract IStoreHook"
                   },
                   "typeName": {
@@ -6849,13 +6849,13 @@
                         "10545:10:89"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 88114,
+                      "referencedDeclaration": 96325,
                       "src": "10545:10:89"
                     },
-                    "referencedDeclaration": 88114,
+                    "referencedDeclaration": 96325,
                     "src": "10545:10:89",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                       "typeString": "contract IStoreHook"
                     }
                   },
@@ -7549,10 +7549,10 @@
                         "name": "StoreHooks",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131804,
+                        "referencedDeclaration": 140015,
                         "src": "13339:10:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$131804_$",
+                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$140015_$",
                           "typeString": "type(library StoreHooks)"
                         }
                       },
@@ -7564,7 +7564,7 @@
                       "memberLocation": "13350:4:89",
                       "memberName": "_get",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 130478,
+                      "referencedDeclaration": 138689,
                       "src": "13339:15:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_array$_t_bytes21_$dyn_memory_ptr_$",
@@ -7613,7 +7613,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             },
                             "typeName": {
@@ -7626,13 +7626,13 @@
                                   "13416:4:89"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 87737,
+                                "referencedDeclaration": 95948,
                                 "src": "13416:4:89"
                               },
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "13416:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -7692,10 +7692,10 @@
                               "name": "Hook",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "13428:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "type(Hook)"
                               }
                             },
@@ -7709,7 +7709,7 @@
                             "nodeType": "MemberAccess",
                             "src": "13428:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (bytes21) pure returns (Hook)"
                             }
                           },
@@ -7725,7 +7725,7 @@
                           "src": "13428:19:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                            "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                             "typeString": "Hook"
                           }
                         },
@@ -7740,7 +7740,7 @@
                               "name": "BEFORE_SET_RECORD",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 91472,
+                              "referencedDeclaration": 99683,
                               "src": "13474:17:89",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint8",
@@ -7763,7 +7763,7 @@
                               "referencedDeclaration": 67924,
                               "src": "13459:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -7775,10 +7775,10 @@
                             "memberLocation": "13464:9:89",
                             "memberName": "isEnabled",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 87883,
+                            "referencedDeclaration": 96094,
                             "src": "13459:14:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (Hook,uint8) pure returns (bool)"
                             }
                           },
@@ -7923,7 +7923,7 @@
                                             "referencedDeclaration": 67924,
                                             "src": "13515:4:89",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                               "typeString": "Hook"
                                             }
                                           },
@@ -7935,10 +7935,10 @@
                                           "memberLocation": "13520:10:89",
                                           "memberName": "getAddress",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 87904,
+                                          "referencedDeclaration": 96115,
                                           "src": "13515:15:89",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                                             "typeString": "function (Hook) pure returns (address)"
                                           }
                                         },
@@ -7970,10 +7970,10 @@
                                       "name": "IStoreHook",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 88114,
+                                      "referencedDeclaration": 96325,
                                       "src": "13504:10:89",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$88114_$",
+                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$96325_$",
                                         "typeString": "type(contract IStoreHook)"
                                       }
                                     },
@@ -7989,7 +7989,7 @@
                                     "src": "13504:29:89",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   },
@@ -8001,7 +8001,7 @@
                                   "memberLocation": "13534:17:89",
                                   "memberName": "onBeforeSetRecord",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 87997,
+                                  "referencedDeclaration": 96208,
                                   "src": "13504:47:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_bytes_memory_ptr_$_t_userDefinedValueType$_PackedCounter_$65906_$_t_bytes_memory_ptr_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$__$",
@@ -8478,10 +8478,10 @@
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 88472,
+                        "referencedDeclaration": 96683,
                         "src": "13926:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                          "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                           "typeString": "type(library Storage)"
                         }
                       },
@@ -8493,7 +8493,7 @@
                       "memberLocation": "13934:5:89",
                       "memberName": "store",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88258,
+                      "referencedDeclaration": 96469,
                       "src": "13926:13:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$returns$__$",
@@ -8817,10 +8817,10 @@
                               "name": "Storage",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 88472,
+                              "referencedDeclaration": 96683,
                               "src": "14371:7:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                                "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                                 "typeString": "type(library Storage)"
                               }
                             },
@@ -8832,7 +8832,7 @@
                             "memberLocation": "14379:5:89",
                             "memberName": "store",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 88131,
+                            "referencedDeclaration": 96342,
                             "src": "14371:13:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_bytes32_$returns$__$",
@@ -9345,10 +9345,10 @@
                                     "name": "Storage",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 88472,
+                                    "referencedDeclaration": 96683,
                                     "src": "14973:7:89",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                                      "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                                       "typeString": "type(library Storage)"
                                     }
                                   },
@@ -9360,7 +9360,7 @@
                                   "memberLocation": "14981:5:89",
                                   "memberName": "store",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88258,
+                                  "referencedDeclaration": 96469,
                                   "src": "14973:13:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$returns$__$",
@@ -9625,7 +9625,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             },
                             "typeName": {
@@ -9638,13 +9638,13 @@
                                   "15428:4:89"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 87737,
+                                "referencedDeclaration": 95948,
                                 "src": "15428:4:89"
                               },
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "15428:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -9704,10 +9704,10 @@
                               "name": "Hook",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "15440:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "type(Hook)"
                               }
                             },
@@ -9721,7 +9721,7 @@
                             "nodeType": "MemberAccess",
                             "src": "15440:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (bytes21) pure returns (Hook)"
                             }
                           },
@@ -9737,7 +9737,7 @@
                           "src": "15440:19:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                            "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                             "typeString": "Hook"
                           }
                         },
@@ -9752,7 +9752,7 @@
                               "name": "AFTER_SET_RECORD",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 91478,
+                              "referencedDeclaration": 99689,
                               "src": "15486:16:89",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint8",
@@ -9775,7 +9775,7 @@
                               "referencedDeclaration": 68071,
                               "src": "15471:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -9787,10 +9787,10 @@
                             "memberLocation": "15476:9:89",
                             "memberName": "isEnabled",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 87883,
+                            "referencedDeclaration": 96094,
                             "src": "15471:14:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (Hook,uint8) pure returns (bool)"
                             }
                           },
@@ -9935,7 +9935,7 @@
                                             "referencedDeclaration": 68071,
                                             "src": "15526:4:89",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                               "typeString": "Hook"
                                             }
                                           },
@@ -9947,10 +9947,10 @@
                                           "memberLocation": "15531:10:89",
                                           "memberName": "getAddress",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 87904,
+                                          "referencedDeclaration": 96115,
                                           "src": "15526:15:89",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                                             "typeString": "function (Hook) pure returns (address)"
                                           }
                                         },
@@ -9982,10 +9982,10 @@
                                       "name": "IStoreHook",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 88114,
+                                      "referencedDeclaration": 96325,
                                       "src": "15515:10:89",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$88114_$",
+                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$96325_$",
                                         "typeString": "type(contract IStoreHook)"
                                       }
                                     },
@@ -10001,7 +10001,7 @@
                                     "src": "15515:29:89",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   },
@@ -10013,7 +10013,7 @@
                                   "memberLocation": "15545:16:89",
                                   "memberName": "onAfterSetRecord",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88017,
+                                  "referencedDeclaration": 96228,
                                   "src": "15515:46:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_bytes_memory_ptr_$_t_userDefinedValueType$_PackedCounter_$65906_$_t_bytes_memory_ptr_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$__$",
@@ -10829,10 +10829,10 @@
                         "name": "StoreHooks",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131804,
+                        "referencedDeclaration": 140015,
                         "src": "17009:10:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$131804_$",
+                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$140015_$",
                           "typeString": "type(library StoreHooks)"
                         }
                       },
@@ -10844,7 +10844,7 @@
                       "memberLocation": "17020:4:89",
                       "memberName": "_get",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 130478,
+                      "referencedDeclaration": 138689,
                       "src": "17009:15:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_array$_t_bytes21_$dyn_memory_ptr_$",
@@ -10893,7 +10893,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             },
                             "typeName": {
@@ -10906,13 +10906,13 @@
                                   "17086:4:89"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 87737,
+                                "referencedDeclaration": 95948,
                                 "src": "17086:4:89"
                               },
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "17086:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -10972,10 +10972,10 @@
                               "name": "Hook",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "17098:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "type(Hook)"
                               }
                             },
@@ -10989,7 +10989,7 @@
                             "nodeType": "MemberAccess",
                             "src": "17098:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (bytes21) pure returns (Hook)"
                             }
                           },
@@ -11005,7 +11005,7 @@
                           "src": "17098:19:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                            "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                             "typeString": "Hook"
                           }
                         },
@@ -11020,7 +11020,7 @@
                               "name": "BEFORE_SPLICE_STATIC_DATA",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 91484,
+                              "referencedDeclaration": 99695,
                               "src": "17144:25:89",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint8",
@@ -11043,7 +11043,7 @@
                               "referencedDeclaration": 68163,
                               "src": "17129:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -11055,10 +11055,10 @@
                             "memberLocation": "17134:9:89",
                             "memberName": "isEnabled",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 87883,
+                            "referencedDeclaration": 96094,
                             "src": "17129:14:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (Hook,uint8) pure returns (bool)"
                             }
                           },
@@ -11171,7 +11171,7 @@
                                             "referencedDeclaration": 68163,
                                             "src": "17193:4:89",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                               "typeString": "Hook"
                                             }
                                           },
@@ -11183,10 +11183,10 @@
                                           "memberLocation": "17198:10:89",
                                           "memberName": "getAddress",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 87904,
+                                          "referencedDeclaration": 96115,
                                           "src": "17193:15:89",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                                             "typeString": "function (Hook) pure returns (address)"
                                           }
                                         },
@@ -11218,10 +11218,10 @@
                                       "name": "IStoreHook",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 88114,
+                                      "referencedDeclaration": 96325,
                                       "src": "17182:10:89",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$88114_$",
+                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$96325_$",
                                         "typeString": "type(contract IStoreHook)"
                                       }
                                     },
@@ -11237,7 +11237,7 @@
                                     "src": "17182:29:89",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   },
@@ -11249,7 +11249,7 @@
                                   "memberLocation": "17212:24:89",
                                   "memberName": "onBeforeSpliceStaticData",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88031,
+                                  "referencedDeclaration": 96242,
                                   "src": "17182:54:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint48_$_t_bytes_memory_ptr_$returns$__$",
@@ -11481,10 +11481,10 @@
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 88472,
+                        "referencedDeclaration": 96683,
                         "src": "17416:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                          "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                           "typeString": "type(library Storage)"
                         }
                       },
@@ -11496,7 +11496,7 @@
                       "memberLocation": "17424:5:89",
                       "memberName": "store",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88153,
+                      "referencedDeclaration": 96364,
                       "src": "17416:13:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_bytes_memory_ptr_$returns$__$",
@@ -11554,7 +11554,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             },
                             "typeName": {
@@ -11567,13 +11567,13 @@
                                   "17582:4:89"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 87737,
+                                "referencedDeclaration": 95948,
                                 "src": "17582:4:89"
                               },
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "17582:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -11633,10 +11633,10 @@
                               "name": "Hook",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "17594:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "type(Hook)"
                               }
                             },
@@ -11650,7 +11650,7 @@
                             "nodeType": "MemberAccess",
                             "src": "17594:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (bytes21) pure returns (Hook)"
                             }
                           },
@@ -11666,7 +11666,7 @@
                           "src": "17594:19:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                            "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                             "typeString": "Hook"
                           }
                         },
@@ -11681,7 +11681,7 @@
                               "name": "AFTER_SPLICE_STATIC_DATA",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 91490,
+                              "referencedDeclaration": 99701,
                               "src": "17640:24:89",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint8",
@@ -11704,7 +11704,7 @@
                               "referencedDeclaration": 68211,
                               "src": "17625:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -11716,10 +11716,10 @@
                             "memberLocation": "17630:9:89",
                             "memberName": "isEnabled",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 87883,
+                            "referencedDeclaration": 96094,
                             "src": "17625:14:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (Hook,uint8) pure returns (bool)"
                             }
                           },
@@ -11832,7 +11832,7 @@
                                             "referencedDeclaration": 68211,
                                             "src": "17688:4:89",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                               "typeString": "Hook"
                                             }
                                           },
@@ -11844,10 +11844,10 @@
                                           "memberLocation": "17693:10:89",
                                           "memberName": "getAddress",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 87904,
+                                          "referencedDeclaration": 96115,
                                           "src": "17688:15:89",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                                             "typeString": "function (Hook) pure returns (address)"
                                           }
                                         },
@@ -11879,10 +11879,10 @@
                                       "name": "IStoreHook",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 88114,
+                                      "referencedDeclaration": 96325,
                                       "src": "17677:10:89",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$88114_$",
+                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$96325_$",
                                         "typeString": "type(contract IStoreHook)"
                                       }
                                     },
@@ -11898,7 +11898,7 @@
                                     "src": "17677:29:89",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   },
@@ -11910,7 +11910,7 @@
                                   "memberLocation": "17707:23:89",
                                   "memberName": "onAfterSpliceStaticData",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88045,
+                                  "referencedDeclaration": 96256,
                                   "src": "17677:53:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint48_$_t_bytes_memory_ptr_$returns$__$",
@@ -15222,10 +15222,10 @@
                         "name": "StoreHooks",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131804,
+                        "referencedDeclaration": 140015,
                         "src": "25942:10:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$131804_$",
+                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$140015_$",
                           "typeString": "type(library StoreHooks)"
                         }
                       },
@@ -15237,7 +15237,7 @@
                       "memberLocation": "25953:4:89",
                       "memberName": "_get",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 130478,
+                      "referencedDeclaration": 138689,
                       "src": "25942:15:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_array$_t_bytes21_$dyn_memory_ptr_$",
@@ -15286,7 +15286,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             },
                             "typeName": {
@@ -15299,13 +15299,13 @@
                                   "26019:4:89"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 87737,
+                                "referencedDeclaration": 95948,
                                 "src": "26019:4:89"
                               },
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "26019:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -15365,10 +15365,10 @@
                               "name": "Hook",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "26031:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "type(Hook)"
                               }
                             },
@@ -15382,7 +15382,7 @@
                             "nodeType": "MemberAccess",
                             "src": "26031:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (bytes21) pure returns (Hook)"
                             }
                           },
@@ -15398,7 +15398,7 @@
                           "src": "26031:19:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                            "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                             "typeString": "Hook"
                           }
                         },
@@ -15413,7 +15413,7 @@
                               "name": "BEFORE_DELETE_RECORD",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 91508,
+                              "referencedDeclaration": 99719,
                               "src": "26077:20:89",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint8",
@@ -15436,7 +15436,7 @@
                               "referencedDeclaration": 68493,
                               "src": "26062:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -15448,10 +15448,10 @@
                             "memberLocation": "26067:9:89",
                             "memberName": "isEnabled",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 87883,
+                            "referencedDeclaration": 96094,
                             "src": "26062:14:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (Hook,uint8) pure returns (bool)"
                             }
                           },
@@ -15548,7 +15548,7 @@
                                             "referencedDeclaration": 68493,
                                             "src": "26121:4:89",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                               "typeString": "Hook"
                                             }
                                           },
@@ -15560,10 +15560,10 @@
                                           "memberLocation": "26126:10:89",
                                           "memberName": "getAddress",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 87904,
+                                          "referencedDeclaration": 96115,
                                           "src": "26121:15:89",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                                             "typeString": "function (Hook) pure returns (address)"
                                           }
                                         },
@@ -15595,10 +15595,10 @@
                                       "name": "IStoreHook",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 88114,
+                                      "referencedDeclaration": 96325,
                                       "src": "26110:10:89",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$88114_$",
+                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$96325_$",
                                         "typeString": "type(contract IStoreHook)"
                                       }
                                     },
@@ -15614,7 +15614,7 @@
                                     "src": "26110:29:89",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   },
@@ -15626,7 +15626,7 @@
                                   "memberLocation": "26140:20:89",
                                   "memberName": "onBeforeDeleteRecord",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88100,
+                                  "referencedDeclaration": 96311,
                                   "src": "26110:50:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$__$",
@@ -16053,10 +16053,10 @@
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 88472,
+                        "referencedDeclaration": 96683,
                         "src": "26333:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                          "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                           "typeString": "type(library Storage)"
                         }
                       },
@@ -16068,7 +16068,7 @@
                       "memberLocation": "26341:5:89",
                       "memberName": "store",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88153,
+                      "referencedDeclaration": 96364,
                       "src": "26333:13:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_bytes_memory_ptr_$returns$__$",
@@ -16359,10 +16359,10 @@
                               "name": "Storage",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 88472,
+                              "referencedDeclaration": 96683,
                               "src": "26786:7:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                                "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                                 "typeString": "type(library Storage)"
                               }
                             },
@@ -16374,7 +16374,7 @@
                             "memberLocation": "26794:4:89",
                             "memberName": "zero",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 88284,
+                            "referencedDeclaration": 96495,
                             "src": "26786:12:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$returns$__$",
@@ -16433,7 +16433,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             },
                             "typeName": {
@@ -16446,13 +16446,13 @@
                                   "26955:4:89"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 87737,
+                                "referencedDeclaration": 95948,
                                 "src": "26955:4:89"
                               },
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "26955:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -16512,10 +16512,10 @@
                               "name": "Hook",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "26967:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "type(Hook)"
                               }
                             },
@@ -16529,7 +16529,7 @@
                             "nodeType": "MemberAccess",
                             "src": "26967:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (bytes21) pure returns (Hook)"
                             }
                           },
@@ -16545,7 +16545,7 @@
                           "src": "26967:19:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                            "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                             "typeString": "Hook"
                           }
                         },
@@ -16560,7 +16560,7 @@
                               "name": "AFTER_DELETE_RECORD",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 91514,
+                              "referencedDeclaration": 99725,
                               "src": "27013:19:89",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint8",
@@ -16583,7 +16583,7 @@
                               "referencedDeclaration": 68575,
                               "src": "26998:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -16595,10 +16595,10 @@
                             "memberLocation": "27003:9:89",
                             "memberName": "isEnabled",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 87883,
+                            "referencedDeclaration": 96094,
                             "src": "26998:14:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (Hook,uint8) pure returns (bool)"
                             }
                           },
@@ -16695,7 +16695,7 @@
                                             "referencedDeclaration": 68575,
                                             "src": "27056:4:89",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                               "typeString": "Hook"
                                             }
                                           },
@@ -16707,10 +16707,10 @@
                                           "memberLocation": "27061:10:89",
                                           "memberName": "getAddress",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 87904,
+                                          "referencedDeclaration": 96115,
                                           "src": "27056:15:89",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                                             "typeString": "function (Hook) pure returns (address)"
                                           }
                                         },
@@ -16742,10 +16742,10 @@
                                       "name": "IStoreHook",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 88114,
+                                      "referencedDeclaration": 96325,
                                       "src": "27045:10:89",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$88114_$",
+                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$96325_$",
                                         "typeString": "type(contract IStoreHook)"
                                       }
                                     },
@@ -16761,7 +16761,7 @@
                                     "src": "27045:29:89",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   },
@@ -16773,7 +16773,7 @@
                                   "memberLocation": "27075:19:89",
                                   "memberName": "onAfterDeleteRecord",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88113,
+                                  "referencedDeclaration": 96324,
                                   "src": "27045:49:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$__$",
@@ -19907,10 +19907,10 @@
                                     "name": "Storage",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 88472,
+                                    "referencedDeclaration": 96683,
                                     "src": "32884:7:89",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                                      "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                                       "typeString": "type(library Storage)"
                                     }
                                   },
@@ -19922,7 +19922,7 @@
                                   "memberLocation": "32892:4:89",
                                   "memberName": "load",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88425,
+                                  "referencedDeclaration": 96636,
                                   "src": "32884:12:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_view$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$returns$__$",
@@ -21549,10 +21549,10 @@
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 88472,
+                        "referencedDeclaration": 96683,
                         "src": "35506:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                          "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                           "typeString": "type(library Storage)"
                         }
                       },
@@ -21564,7 +21564,7 @@
                       "memberLocation": "35514:9:89",
                       "memberName": "loadField",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88471,
+                      "referencedDeclaration": 96682,
                       "src": "35506:17:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_bytes32_$",
@@ -22078,10 +22078,10 @@
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 88472,
+                        "referencedDeclaration": 96683,
                         "src": "36481:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                          "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                           "typeString": "type(library Storage)"
                         }
                       },
@@ -22093,7 +22093,7 @@
                       "memberLocation": "36489:4:89",
                       "memberName": "load",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88320,
+                      "referencedDeclaration": 96531,
                       "src": "36481:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_bytes_memory_ptr_$",
@@ -23993,10 +23993,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "40579:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -24008,7 +24008,7 @@
                             "memberLocation": "40592:22:89",
                             "memberName": "Store_IndexOutOfBounds",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85264,
+                            "referencedDeclaration": 93475,
                             "src": "40579:35:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_uint256_$_t_uint256_$returns$__$",
@@ -24262,10 +24262,10 @@
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 88472,
+                        "referencedDeclaration": 96683,
                         "src": "40856:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                          "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                           "typeString": "type(library Storage)"
                         }
                       },
@@ -24277,7 +24277,7 @@
                       "memberLocation": "40864:4:89",
                       "memberName": "load",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88320,
+                      "referencedDeclaration": 96531,
                       "src": "40856:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_bytes_memory_ptr_$",
@@ -25092,10 +25092,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "43568:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -25107,7 +25107,7 @@
                             "memberLocation": "43581:25:89",
                             "memberName": "Store_InvalidResourceType",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85252,
+                            "referencedDeclaration": 93463,
                             "src": "43568:38:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_bytes2_$_t_userDefinedValueType$_ResourceId_$66533_$_t_string_memory_ptr_$returns$__$",
@@ -25609,10 +25609,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "44204:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -25624,7 +25624,7 @@
                             "memberLocation": "44217:19:89",
                             "memberName": "Store_InvalidSplice",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85290,
+                            "referencedDeclaration": 93501,
                             "src": "44204:32:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_uint40_$_t_uint40_$_t_uint40_$returns$__$",
@@ -25749,10 +25749,10 @@
                               "name": "IStoreErrors",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 85291,
+                              "referencedDeclaration": 93502,
                               "src": "44445:12:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$85291_$",
+                                "typeIdentifier": "t_type$_t_contract$_IStoreErrors_$93502_$",
                                 "typeString": "type(contract IStoreErrors)"
                               }
                             },
@@ -25764,7 +25764,7 @@
                             "memberLocation": "44458:22:89",
                             "memberName": "Store_IndexOutOfBounds",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85264,
+                            "referencedDeclaration": 93475,
                             "src": "44445:35:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_error_pure$_t_uint256_$_t_uint256_$returns$__$",
@@ -26483,10 +26483,10 @@
                         "name": "StoreHooks",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 131804,
+                        "referencedDeclaration": 140015,
                         "src": "45456:10:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$131804_$",
+                          "typeIdentifier": "t_type$_t_contract$_StoreHooks_$140015_$",
                           "typeString": "type(library StoreHooks)"
                         }
                       },
@@ -26498,7 +26498,7 @@
                       "memberLocation": "45467:4:89",
                       "memberName": "_get",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 130478,
+                      "referencedDeclaration": 138689,
                       "src": "45456:15:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_array$_t_bytes21_$dyn_memory_ptr_$",
@@ -26547,7 +26547,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             },
                             "typeName": {
@@ -26560,13 +26560,13 @@
                                   "45533:4:89"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 87737,
+                                "referencedDeclaration": 95948,
                                 "src": "45533:4:89"
                               },
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "45533:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -26626,10 +26626,10 @@
                               "name": "Hook",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "45545:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "type(Hook)"
                               }
                             },
@@ -26643,7 +26643,7 @@
                             "nodeType": "MemberAccess",
                             "src": "45545:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (bytes21) pure returns (Hook)"
                             }
                           },
@@ -26659,7 +26659,7 @@
                           "src": "45545:19:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                            "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                             "typeString": "Hook"
                           }
                         },
@@ -26674,7 +26674,7 @@
                               "name": "BEFORE_SPLICE_DYNAMIC_DATA",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 91496,
+                              "referencedDeclaration": 99707,
                               "src": "45591:26:89",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint8",
@@ -26697,7 +26697,7 @@
                               "referencedDeclaration": 69339,
                               "src": "45576:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -26709,10 +26709,10 @@
                             "memberLocation": "45581:9:89",
                             "memberName": "isEnabled",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 87883,
+                            "referencedDeclaration": 96094,
                             "src": "45576:14:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (Hook,uint8) pure returns (bool)"
                             }
                           },
@@ -26873,7 +26873,7 @@
                                             "referencedDeclaration": 69339,
                                             "src": "45641:4:89",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                               "typeString": "Hook"
                                             }
                                           },
@@ -26885,10 +26885,10 @@
                                           "memberLocation": "45646:10:89",
                                           "memberName": "getAddress",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 87904,
+                                          "referencedDeclaration": 96115,
                                           "src": "45641:15:89",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                                             "typeString": "function (Hook) pure returns (address)"
                                           }
                                         },
@@ -26920,10 +26920,10 @@
                                       "name": "IStoreHook",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 88114,
+                                      "referencedDeclaration": 96325,
                                       "src": "45630:10:89",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$88114_$",
+                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$96325_$",
                                         "typeString": "type(contract IStoreHook)"
                                       }
                                     },
@@ -26939,7 +26939,7 @@
                                     "src": "45630:29:89",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   },
@@ -26951,7 +26951,7 @@
                                   "memberLocation": "45660:25:89",
                                   "memberName": "onBeforeSpliceDynamicData",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88066,
+                                  "referencedDeclaration": 96277,
                                   "src": "45630:55:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_uint40_$_t_uint40_$_t_userDefinedValueType$_PackedCounter_$65906_$_t_bytes_memory_ptr_$returns$__$",
@@ -27361,10 +27361,10 @@
                               "name": "Storage",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 88472,
+                              "referencedDeclaration": 96683,
                               "src": "46174:7:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                                "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                                 "typeString": "type(library Storage)"
                               }
                             },
@@ -27376,7 +27376,7 @@
                             "memberLocation": "46182:5:89",
                             "memberName": "store",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 88131,
+                            "referencedDeclaration": 96342,
                             "src": "46174:13:89",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_bytes32_$returns$__$",
@@ -27595,10 +27595,10 @@
                             "name": "Storage",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 88472,
+                            "referencedDeclaration": 96683,
                             "src": "46433:7:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                              "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                               "typeString": "type(library Storage)"
                             }
                           },
@@ -27610,7 +27610,7 @@
                           "memberLocation": "46441:5:89",
                           "memberName": "store",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 88153,
+                          "referencedDeclaration": 96364,
                           "src": "46433:13:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_bytes_memory_ptr_$returns$__$",
@@ -27670,7 +27670,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                               "typeString": "Hook"
                             },
                             "typeName": {
@@ -27683,13 +27683,13 @@
                                   "46628:4:89"
                                 ],
                                 "nodeType": "IdentifierPath",
-                                "referencedDeclaration": 87737,
+                                "referencedDeclaration": 95948,
                                 "src": "46628:4:89"
                               },
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "46628:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -27749,10 +27749,10 @@
                               "name": "Hook",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 87737,
+                              "referencedDeclaration": 95948,
                               "src": "46640:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$87737_$",
+                                "typeIdentifier": "t_type$_t_userDefinedValueType$_Hook_$95948_$",
                                 "typeString": "type(Hook)"
                               }
                             },
@@ -27766,7 +27766,7 @@
                             "nodeType": "MemberAccess",
                             "src": "46640:9:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_wrap_pure$_t_bytes21_$returns$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (bytes21) pure returns (Hook)"
                             }
                           },
@@ -27782,7 +27782,7 @@
                           "src": "46640:19:89",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                            "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                             "typeString": "Hook"
                           }
                         },
@@ -27797,7 +27797,7 @@
                               "name": "AFTER_SPLICE_DYNAMIC_DATA",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 91502,
+                              "referencedDeclaration": 99713,
                               "src": "46686:25:89",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint8",
@@ -27820,7 +27820,7 @@
                               "referencedDeclaration": 69420,
                               "src": "46671:4:89",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                 "typeString": "Hook"
                               }
                             },
@@ -27832,10 +27832,10 @@
                             "memberLocation": "46676:9:89",
                             "memberName": "isEnabled",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 87883,
+                            "referencedDeclaration": 96094,
                             "src": "46671:14:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                              "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$_t_uint8_$returns$_t_bool_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                               "typeString": "function (Hook,uint8) pure returns (bool)"
                             }
                           },
@@ -27996,7 +27996,7 @@
                                             "referencedDeclaration": 69420,
                                             "src": "46735:4:89",
                                             "typeDescriptions": {
-                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$87737",
+                                              "typeIdentifier": "t_userDefinedValueType$_Hook_$95948",
                                               "typeString": "Hook"
                                             }
                                           },
@@ -28008,10 +28008,10 @@
                                           "memberLocation": "46740:10:89",
                                           "memberName": "getAddress",
                                           "nodeType": "MemberAccess",
-                                          "referencedDeclaration": 87904,
+                                          "referencedDeclaration": 96115,
                                           "src": "46735:15:89",
                                           "typeDescriptions": {
-                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$87737_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$87737_$",
+                                            "typeIdentifier": "t_function_internal_pure$_t_userDefinedValueType$_Hook_$95948_$returns$_t_address_$attached_to$_t_userDefinedValueType$_Hook_$95948_$",
                                             "typeString": "function (Hook) pure returns (address)"
                                           }
                                         },
@@ -28043,10 +28043,10 @@
                                       "name": "IStoreHook",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 88114,
+                                      "referencedDeclaration": 96325,
                                       "src": "46724:10:89",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$88114_$",
+                                        "typeIdentifier": "t_type$_t_contract$_IStoreHook_$96325_$",
                                         "typeString": "type(contract IStoreHook)"
                                       }
                                     },
@@ -28062,7 +28062,7 @@
                                     "src": "46724:29:89",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                       "typeString": "contract IStoreHook"
                                     }
                                   },
@@ -28074,7 +28074,7 @@
                                   "memberLocation": "46754:24:89",
                                   "memberName": "onAfterSpliceDynamicData",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 88087,
+                                  "referencedDeclaration": 96298,
                                   "src": "46724:54:89",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_uint40_$_t_uint40_$_t_userDefinedValueType$_PackedCounter_$65906_$_t_bytes_memory_ptr_$returns$__$",
@@ -28754,10 +28754,10 @@
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 88472,
+                        "referencedDeclaration": 96683,
                         "src": "47922:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                          "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                           "typeString": "type(library Storage)"
                         }
                       },
@@ -28769,7 +28769,7 @@
                       "memberLocation": "47930:4:89",
                       "memberName": "load",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88320,
+                      "referencedDeclaration": 96531,
                       "src": "47922:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_bytes_memory_ptr_$",
@@ -29197,10 +29197,10 @@
                         "name": "Storage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 88472,
+                        "referencedDeclaration": 96683,
                         "src": "48766:7:89",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                          "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                           "typeString": "type(library Storage)"
                         }
                       },
@@ -29212,7 +29212,7 @@
                       "memberLocation": "48774:4:89",
                       "memberName": "load",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 88320,
+                      "referencedDeclaration": 96531,
                       "src": "48766:12:89",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_uint256_$_t_uint256_$_t_uint256_$returns$_t_bytes_memory_ptr_$",
@@ -31419,10 +31419,10 @@
                             "name": "Storage",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 88472,
+                            "referencedDeclaration": 96683,
                             "src": "52965:7:89",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Storage_$88472_$",
+                              "typeIdentifier": "t_type$_t_contract$_Storage_$96683_$",
                               "typeString": "type(library Storage)"
                             }
                           },
@@ -31434,7 +31434,7 @@
                           "memberLocation": "52973:4:89",
                           "memberName": "load",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 88294,
+                          "referencedDeclaration": 96505,
                           "src": "52965:12:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_uint256_$returns$_t_bytes32_$",

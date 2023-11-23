@@ -335,7 +335,7 @@
         65844
       ],
       "IStoreHook": [
-        88114
+        96325
       ],
       "PackedCounter": [
         65906
@@ -429,7 +429,7 @@
         "file": "./IStoreHook.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 71019,
-        "sourceUnit": 88115,
+        "sourceUnit": 96326,
         "symbolAliases": [
           {
             "foreign": {
@@ -437,7 +437,7 @@
               "name": "IStoreHook",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 88114,
+              "referencedDeclaration": 96325,
               "src": "165:10:90",
               "typeDescriptions": {}
             },
@@ -1552,7 +1552,7 @@
                               "referencedDeclaration": 69782,
                               "src": "2962:11:90",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                 "typeString": "contract IStoreHook"
                               }
                             },
@@ -1576,7 +1576,7 @@
                                 "typeString": "ResourceId"
                               },
                               {
-                                "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                 "typeString": "contract IStoreHook"
                               },
                               {
@@ -1641,10 +1641,10 @@
                             "memberLocation": "2935:17:90",
                             "memberName": "registerStoreHook",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85334,
+                            "referencedDeclaration": 93545,
                             "src": "2913:39:90",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_contract$_IStoreHook_$88114_$_t_uint8_$returns$__$",
+                              "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_contract$_IStoreHook_$96325_$_t_uint8_$returns$__$",
                               "typeString": "function (ResourceId,contract IStoreHook,uint8) external"
                             }
                           },
@@ -1701,7 +1701,7 @@
                               "referencedDeclaration": 69782,
                               "src": "2860:11:90",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                 "typeString": "contract IStoreHook"
                               }
                             },
@@ -1725,7 +1725,7 @@
                                 "typeString": "ResourceId"
                               },
                               {
-                                "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                 "typeString": "contract IStoreHook"
                               },
                               {
@@ -1756,7 +1756,7 @@
                             "referencedDeclaration": 67815,
                             "src": "2823:27:90",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_contract$_IStoreHook_$88114_$_t_uint8_$returns$__$",
+                              "typeIdentifier": "t_function_internal_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_contract$_IStoreHook_$96325_$_t_uint8_$returns$__$",
                               "typeString": "function (ResourceId,contract IStoreHook,uint8)"
                             }
                           },
@@ -1849,7 +1849,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                    "typeIdentifier": "t_contract$_IStoreHook_$96325",
                     "typeString": "contract IStoreHook"
                   },
                   "typeName": {
@@ -1862,13 +1862,13 @@
                         "2667:10:90"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 88114,
+                      "referencedDeclaration": 96325,
                       "src": "2667:10:90"
                     },
-                    "referencedDeclaration": 88114,
+                    "referencedDeclaration": 96325,
                     "src": "2667:10:90",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                       "typeString": "contract IStoreHook"
                     }
                   },
@@ -2111,7 +2111,7 @@
                               "referencedDeclaration": 69826,
                               "src": "3508:11:90",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                 "typeString": "contract IStoreHook"
                               }
                             }
@@ -2123,7 +2123,7 @@
                                 "typeString": "ResourceId"
                               },
                               {
-                                "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                 "typeString": "contract IStoreHook"
                               }
                             ],
@@ -2184,10 +2184,10 @@
                             "memberLocation": "3479:19:90",
                             "memberName": "unregisterStoreHook",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85343,
+                            "referencedDeclaration": 93554,
                             "src": "3457:41:90",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_contract$_IStoreHook_$88114_$returns$__$",
+                              "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_contract$_IStoreHook_$96325_$returns$__$",
                               "typeString": "function (ResourceId,contract IStoreHook) external"
                             }
                           },
@@ -2244,7 +2244,7 @@
                               "referencedDeclaration": 69826,
                               "src": "3424:11:90",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                 "typeString": "contract IStoreHook"
                               }
                             }
@@ -2256,7 +2256,7 @@
                                 "typeString": "ResourceId"
                               },
                               {
-                                "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                                "typeIdentifier": "t_contract$_IStoreHook_$96325",
                                 "typeString": "contract IStoreHook"
                               }
                             ],
@@ -2283,7 +2283,7 @@
                             "referencedDeclaration": 67837,
                             "src": "3385:29:90",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_contract$_IStoreHook_$88114_$returns$__$",
+                              "typeIdentifier": "t_function_internal_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_contract$_IStoreHook_$96325_$returns$__$",
                               "typeString": "function (ResourceId,contract IStoreHook)"
                             }
                           },
@@ -2376,7 +2376,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                    "typeIdentifier": "t_contract$_IStoreHook_$96325",
                     "typeString": "contract IStoreHook"
                   },
                   "typeName": {
@@ -2389,13 +2389,13 @@
                         "3255:10:90"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 88114,
+                      "referencedDeclaration": 96325,
                       "src": "3255:10:90"
                     },
-                    "referencedDeclaration": 88114,
+                    "referencedDeclaration": 96325,
                     "src": "3255:10:90",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IStoreHook_$88114",
+                      "typeIdentifier": "t_contract$_IStoreHook_$96325",
                       "typeString": "contract IStoreHook"
                     }
                   },
@@ -2688,7 +2688,7 @@
                               "memberLocation": "4052:14:90",
                               "memberName": "getFieldLayout",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 127111,
+                              "referencedDeclaration": 135322,
                               "src": "4030:36:90",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_userDefinedValueType$_FieldLayout_$65410_$",
@@ -3209,7 +3209,7 @@
                               "memberLocation": "4601:14:90",
                               "memberName": "getValueSchema",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 127120,
+                              "referencedDeclaration": 135331,
                               "src": "4579:36:90",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_userDefinedValueType$_Schema_$66616_$",
@@ -3730,7 +3730,7 @@
                               "memberLocation": "5132:12:90",
                               "memberName": "getKeySchema",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 127129,
+                              "referencedDeclaration": 135340,
                               "src": "5110:34:90",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$returns$_t_userDefinedValueType$_Schema_$66616_$",
@@ -4311,7 +4311,7 @@
                             "memberLocation": "6002:13:90",
                             "memberName": "registerTable",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 85323,
+                            "referencedDeclaration": 93534,
                             "src": "5980:35:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_userDefinedValueType$_FieldLayout_$65410_$_t_userDefinedValueType$_Schema_$66616_$_t_userDefinedValueType$_Schema_$66616_$_t_array$_t_string_memory_ptr_$dyn_memory_ptr_$_t_array$_t_string_memory_ptr_$dyn_memory_ptr_$returns$__$",
@@ -5069,7 +5069,7 @@
                             "memberLocation": "6787:9:90",
                             "memberName": "setRecord",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127320,
+                            "referencedDeclaration": 135531,
                             "src": "6765:31:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_bytes_memory_ptr_$_t_userDefinedValueType$_PackedCounter_$65906_$_t_bytes_memory_ptr_$returns$__$",
@@ -5739,7 +5739,7 @@
                             "memberLocation": "7539:16:90",
                             "memberName": "spliceStaticData",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127333,
+                            "referencedDeclaration": 135544,
                             "src": "7517:38:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint48_$_t_bytes_memory_ptr_$returns$__$",
@@ -6388,7 +6388,7 @@
                             "memberLocation": "8578:17:90",
                             "memberName": "spliceDynamicData",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127350,
+                            "referencedDeclaration": 135561,
                             "src": "8556:39:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_uint40_$_t_uint40_$_t_bytes_memory_ptr_$returns$__$",
@@ -7091,7 +7091,7 @@
                             "memberLocation": "9381:8:90",
                             "memberName": "setField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127363,
+                            "referencedDeclaration": 135574,
                             "src": "9359:30:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_bytes_memory_ptr_$returns$__$",
@@ -7724,7 +7724,7 @@
                             "memberLocation": "10202:8:90",
                             "memberName": "setField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127379,
+                            "referencedDeclaration": 135590,
                             "src": "10180:30:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_bytes_memory_ptr_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$__$",
@@ -8410,7 +8410,7 @@
                             "memberLocation": "11070:14:90",
                             "memberName": "setStaticField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127395,
+                            "referencedDeclaration": 135606,
                             "src": "11048:36:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_bytes_memory_ptr_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$__$",
@@ -9080,7 +9080,7 @@
                             "memberLocation": "11852:15:90",
                             "memberName": "setDynamicField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127408,
+                            "referencedDeclaration": 135619,
                             "src": "11830:37:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_bytes_memory_ptr_$returns$__$",
@@ -9697,7 +9697,7 @@
                             "memberLocation": "12646:18:90",
                             "memberName": "pushToDynamicField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127421,
+                            "referencedDeclaration": 135632,
                             "src": "12624:40:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_bytes_memory_ptr_$returns$__$",
@@ -10314,7 +10314,7 @@
                             "memberLocation": "13498:19:90",
                             "memberName": "popFromDynamicField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127434,
+                            "referencedDeclaration": 135645,
                             "src": "13476:41:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_uint256_$returns$__$",
@@ -10899,7 +10899,7 @@
                             "memberLocation": "14035:12:90",
                             "memberName": "deleteRecord",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127443,
+                            "referencedDeclaration": 135654,
                             "src": "14013:34:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$returns$__$",
@@ -11398,7 +11398,7 @@
                             "memberLocation": "14781:9:90",
                             "memberName": "getRecord",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127146,
+                            "referencedDeclaration": 135357,
                             "src": "14759:31:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$returns$_t_bytes_memory_ptr_$_t_userDefinedValueType$_PackedCounter_$65906_$_t_bytes_memory_ptr_$",
@@ -12007,7 +12007,7 @@
                             "memberLocation": "15653:9:90",
                             "memberName": "getRecord",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127166,
+                            "referencedDeclaration": 135377,
                             "src": "15631:31:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$_t_bytes_memory_ptr_$_t_userDefinedValueType$_PackedCounter_$65906_$_t_bytes_memory_ptr_$",
@@ -12669,7 +12669,7 @@
                             "memberLocation": "16361:8:90",
                             "memberName": "getField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127180,
+                            "referencedDeclaration": 135391,
                             "src": "16339:30:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$returns$_t_bytes_memory_ptr_$",
@@ -13273,7 +13273,7 @@
                             "memberLocation": "17194:8:90",
                             "memberName": "getField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127197,
+                            "referencedDeclaration": 135408,
                             "src": "17172:30:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$_t_bytes_memory_ptr_$",
@@ -13930,7 +13930,7 @@
                             "memberLocation": "18090:14:90",
                             "memberName": "getStaticField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127214,
+                            "referencedDeclaration": 135425,
                             "src": "18068:36:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$_t_bytes32_$",
@@ -14571,7 +14571,7 @@
                             "memberLocation": "18892:15:90",
                             "memberName": "getDynamicField",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127228,
+                            "referencedDeclaration": 135439,
                             "src": "18870:37:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$returns$_t_bytes_memory_ptr_$",
@@ -15159,7 +15159,7 @@
                             "memberLocation": "19653:14:90",
                             "memberName": "getFieldLength",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127242,
+                            "referencedDeclaration": 135453,
                             "src": "19631:36:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$returns$_t_uint256_$",
@@ -15763,7 +15763,7 @@
                             "memberLocation": "20549:14:90",
                             "memberName": "getFieldLength",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127259,
+                            "referencedDeclaration": 135470,
                             "src": "20527:36:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_userDefinedValueType$_FieldLayout_$65410_$returns$_t_uint256_$",
@@ -16404,7 +16404,7 @@
                             "memberLocation": "21392:21:90",
                             "memberName": "getDynamicFieldLength",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127273,
+                            "referencedDeclaration": 135484,
                             "src": "21370:43:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$returns$_t_uint256_$",
@@ -17024,7 +17024,7 @@
                             "memberLocation": "22378:20:90",
                             "memberName": "getDynamicFieldSlice",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 127291,
+                            "referencedDeclaration": 135502,
                             "src": "22356:42:90",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_userDefinedValueType$_ResourceId_$66533_$_t_array$_t_bytes32_$dyn_memory_ptr_$_t_uint8_$_t_uint256_$_t_uint256_$returns$_t_bytes_memory_ptr_$",

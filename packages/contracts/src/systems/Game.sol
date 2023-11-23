@@ -6,7 +6,6 @@ import { Map, Cities, Soldiers } from "../codegen/index.sol";
 
 
 contract Game {
-
   
   constructor() {
     Cities.set(0,address(0),0,[int256(0),int256(0),int256(0)],[uint256(0),uint256(0),uint256(0),uint256(1),uint256(1),uint256(1)]);
@@ -26,7 +25,6 @@ contract Game {
   event cityBought(uint256 cityId, address purchaser, uint256 cost);
   //fraction pays to owner, fraction paid to contract to hold onto?
   function buyCity(uint256 cityId) public payable { //variable prices and where to store?
-    //revert functionality
     require(msg.value>=1e13,"Not 0.00001 eth or greater"); //could backfire if it is sent and gas costs exceed
     require(Cities.getWarlord(cityId)==address(0),"City is already claimed");
     Cities.setWarlord(cityId, msg.sender);
@@ -43,8 +41,10 @@ contract Game {
   
   event soldierCreated(uint256 soldierId, address allegiance, uint256 tileId, uint256 attack, uint256 defense, uint256 mobility);
   function createSoldier(uint256 soldierId, address allegiance, uint256 tileId, uint256 attack, uint256 defense, uint256 mobility) private { //city specific soldier interaction?
-    
-    //!!check if soldier is on the tile of allegiance,not capitalCoord, if cities population is capped, etc.
+    address tileAllegiance = Map.getAllegiance(tileId);
+    require(tileAllegiance == allegiance && tileId%7 != 0);
+    uint256 tilePopulation = Map.getPopulation(tileId);
+    require(tilePopulation < 6);
     Soldiers.set(soldierId, allegiance, tileId, attack, defense, mobility);
     emit soldierCreated(soldierId, allegiance, tileId, attack, defense, mobility);
   }
@@ -68,6 +68,7 @@ contract Game {
   }
 
   function moveSoldier(uint256 soldierId, uint256 destinationTileId) private returns (bool) {
+    //!! change return false conditions to require?
     uint256 currTileId = Soldiers.getTileId(soldierId);
     address allegiance = Soldiers.getAllegiance(soldierId);
     int256[3] memory currCoordinate = Map.getCoordinate(currTileId);
@@ -185,13 +186,12 @@ contract Game {
   //what do i want to get done? test out my model on a test chain
   //how do I do that? simple button press front end for 2 cities
   
-  //Dsoldier attack
-  //Dterritory claim
-  //Dfigured out how front end works, checked out skystrife and trying to differentiate
-  //Dput on github
-  //Dupdate map
-  //EVENT EMITS ON CHAIN
-  //get it to compile and interact with it
+
+  //EVENT EMITS ON CHAIN 
+  //interact with it
+  //-update game.sol w comments+address payable
+  //-interact w scripts.sol
+  //-interact w index.ts
   //createSoldier needs to check conditions for soldier creation 
   //(n/6, barrack for speed)
   //use sectors wisely, how to produce troops now?

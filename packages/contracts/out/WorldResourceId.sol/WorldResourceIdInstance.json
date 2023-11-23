@@ -123,10 +123,10 @@
         73859
       ],
       "ROOT_NAME": [
-        94471
+        102682
       ],
       "ROOT_NAMESPACE": [
-        94468
+        102679
       ],
       "ROOT_NAMESPACE_STRING": [
         73560
@@ -250,7 +250,7 @@
         "file": "./constants.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 73815,
-        "sourceUnit": 94541,
+        "sourceUnit": 102752,
         "symbolAliases": [
           {
             "foreign": {
@@ -258,7 +258,7 @@
               "name": "ROOT_NAMESPACE",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94468,
+              "referencedDeclaration": 102679,
               "src": "224:14:116",
               "typeDescriptions": {}
             },
@@ -270,7 +270,7 @@
               "name": "ROOT_NAME",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94471,
+              "referencedDeclaration": 102682,
               "src": "240:9:116",
               "typeDescriptions": {}
             },
@@ -3605,7 +3605,7 @@
                                 "name": "ROOT_NAMESPACE",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 94468,
+                                "referencedDeclaration": 102679,
                                 "src": "3753:14:116",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_bytes14",
@@ -3700,7 +3700,7 @@
                                 "name": "ROOT_NAME",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 94471,
+                                "referencedDeclaration": 102682,
                                 "src": "3854:9:116",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_bytes16",

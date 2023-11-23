@@ -1745,10 +1745,10 @@
                           "name": "vm",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 94868,
+                          "referencedDeclaration": 103079,
                           "src": "295:2:128",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Vm_$104184",
+                            "typeIdentifier": "t_contract$_Vm_$112395",
                             "typeString": "contract Vm"
                           }
                         },
@@ -1760,7 +1760,7 @@
                         "memberLocation": "298:10:128",
                         "memberName": "envAddress",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 102784,
+                        "referencedDeclaration": 110995,
                         "src": "295:13:128",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_string_memory_ptr_$returns$_t_address_$",
@@ -1914,14 +1914,14 @@
         "linearizedBaseContracts": [
           73911,
           76293,
-          94875,
-          94872,
-          102657,
-          127092,
-          98395,
-          97631,
-          95577,
-          126802,
+          103086,
+          103083,
+          110868,
+          135303,
+          106606,
+          105842,
+          103788,
+          135013,
           76203
         ],
         "name": "MudTest",
@@ -1945,12 +1945,12 @@
           73985,
           73991,
           73997,
-          125397,
-          125402,
-          125407,
-          125414,
-          125421,
-          125428
+          133608,
+          133613,
+          133618,
+          133625,
+          133632,
+          133639
         ]
       }
     ],

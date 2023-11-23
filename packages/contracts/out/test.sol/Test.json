@@ -1253,55 +1253,55 @@
         76203
       ],
       "StdAssertions": [
-        126802
+        135013
       ],
       "StdChains": [
-        95577
+        103788
       ],
       "StdCheats": [
-        98395
+        106606
       ],
       "StdInvariant": [
-        127092
+        135303
       ],
       "StdStorage": [
-        99145
+        107356
       ],
       "StdStyle": [
-        101809
+        110020
       ],
       "StdUtils": [
-        102657
+        110868
       ],
       "Test": [
         76293
       ],
       "TestBase": [
-        94875
+        103086
       ],
       "Vm": [
-        104184
+        112395
       ],
       "console": [
         84357
       ],
       "console2": [
-        112309
+        120520
       ],
       "safeconsole": [
-        125384
+        133595
       ],
       "stdError": [
-        126868
+        135079
       ],
       "stdJson": [
-        98971
+        107182
       ],
       "stdMath": [
-        99113
+        107324
       ],
       "stdStorage": [
-        100598
+        108809
       ]
     },
     "nodeType": "SourceUnit",
@@ -1367,7 +1367,7 @@
         "file": "./console2.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 112310,
+        "sourceUnit": 120521,
         "symbolAliases": [
           {
             "foreign": {
@@ -1375,7 +1375,7 @@
               "name": "console2",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 112309,
+              "referencedDeclaration": 120520,
               "src": "207:8:142",
               "typeDescriptions": {}
             },
@@ -1393,7 +1393,7 @@
         "file": "./safeconsole.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 125385,
+        "sourceUnit": 133596,
         "symbolAliases": [
           {
             "foreign": {
@@ -1401,7 +1401,7 @@
               "name": "safeconsole",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 125384,
+              "referencedDeclaration": 133595,
               "src": "248:11:142",
               "typeDescriptions": {}
             },
@@ -1419,7 +1419,7 @@
         "file": "./StdAssertions.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 126803,
+        "sourceUnit": 135014,
         "symbolAliases": [
           {
             "foreign": {
@@ -1427,7 +1427,7 @@
               "name": "StdAssertions",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 126802,
+              "referencedDeclaration": 135013,
               "src": "295:13:142",
               "typeDescriptions": {}
             },
@@ -1445,7 +1445,7 @@
         "file": "./StdChains.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 95578,
+        "sourceUnit": 103789,
         "symbolAliases": [
           {
             "foreign": {
@@ -1453,7 +1453,7 @@
               "name": "StdChains",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 95577,
+              "referencedDeclaration": 103788,
               "src": "346:9:142",
               "typeDescriptions": {}
             },
@@ -1471,7 +1471,7 @@
         "file": "./StdCheats.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 98396,
+        "sourceUnit": 106607,
         "symbolAliases": [
           {
             "foreign": {
@@ -1479,7 +1479,7 @@
               "name": "StdCheats",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 98395,
+              "referencedDeclaration": 106606,
               "src": "389:9:142",
               "typeDescriptions": {}
             },
@@ -1497,7 +1497,7 @@
         "file": "./StdError.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 126869,
+        "sourceUnit": 135080,
         "symbolAliases": [
           {
             "foreign": {
@@ -1505,7 +1505,7 @@
               "name": "stdError",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 126868,
+              "referencedDeclaration": 135079,
               "src": "432:8:142",
               "typeDescriptions": {}
             },
@@ -1523,7 +1523,7 @@
         "file": "./StdInvariant.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 127093,
+        "sourceUnit": 135304,
         "symbolAliases": [
           {
             "foreign": {
@@ -1531,7 +1531,7 @@
               "name": "StdInvariant",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 127092,
+              "referencedDeclaration": 135303,
               "src": "473:12:142",
               "typeDescriptions": {}
             },
@@ -1549,7 +1549,7 @@
         "file": "./StdJson.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 98972,
+        "sourceUnit": 107183,
         "symbolAliases": [
           {
             "foreign": {
@@ -1557,7 +1557,7 @@
               "name": "stdJson",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 98971,
+              "referencedDeclaration": 107182,
               "src": "522:7:142",
               "typeDescriptions": {}
             },
@@ -1575,7 +1575,7 @@
         "file": "./StdMath.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 99114,
+        "sourceUnit": 107325,
         "symbolAliases": [
           {
             "foreign": {
@@ -1583,7 +1583,7 @@
               "name": "stdMath",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 99113,
+              "referencedDeclaration": 107324,
               "src": "561:7:142",
               "typeDescriptions": {}
             },
@@ -1601,7 +1601,7 @@
         "file": "./StdStorage.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 100599,
+        "sourceUnit": 108810,
         "symbolAliases": [
           {
             "foreign": {
@@ -1609,7 +1609,7 @@
               "name": "StdStorage",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 99145,
+              "referencedDeclaration": 107356,
               "src": "600:10:142",
               "typeDescriptions": {}
             },
@@ -1621,7 +1621,7 @@
               "name": "stdStorage",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 100598,
+              "referencedDeclaration": 108809,
               "src": "612:10:142",
               "typeDescriptions": {}
             },
@@ -1639,7 +1639,7 @@
         "file": "./StdStyle.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 101810,
+        "sourceUnit": 110021,
         "symbolAliases": [
           {
             "foreign": {
@@ -1647,7 +1647,7 @@
               "name": "StdStyle",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 101809,
+              "referencedDeclaration": 110020,
               "src": "657:8:142",
               "typeDescriptions": {}
             },
@@ -1665,7 +1665,7 @@
         "file": "./StdUtils.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 102658,
+        "sourceUnit": 110869,
         "symbolAliases": [
           {
             "foreign": {
@@ -1673,7 +1673,7 @@
               "name": "StdUtils",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 102657,
+              "referencedDeclaration": 110868,
               "src": "698:8:142",
               "typeDescriptions": {}
             },
@@ -1691,7 +1691,7 @@
         "file": "./Vm.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 104185,
+        "sourceUnit": 112396,
         "symbolAliases": [
           {
             "foreign": {
@@ -1699,7 +1699,7 @@
               "name": "Vm",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 104184,
+              "referencedDeclaration": 112395,
               "src": "739:2:142",
               "typeDescriptions": {}
             },
@@ -1717,7 +1717,7 @@
         "file": "./Base.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76294,
-        "sourceUnit": 94885,
+        "sourceUnit": 103096,
         "symbolAliases": [
           {
             "foreign": {
@@ -1725,7 +1725,7 @@
               "name": "TestBase",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94875,
+              "referencedDeclaration": 103086,
               "src": "789:8:142",
               "typeDescriptions": {}
             },
@@ -1790,7 +1790,7 @@
                 "1033:13:142"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 126802,
+              "referencedDeclaration": 135013,
               "src": "1033:13:142"
             },
             "id": 76282,
@@ -1805,7 +1805,7 @@
                 "1048:9:142"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 95577,
+              "referencedDeclaration": 103788,
               "src": "1048:9:142"
             },
             "id": 76284,
@@ -1820,7 +1820,7 @@
                 "1059:9:142"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 98395,
+              "referencedDeclaration": 106606,
               "src": "1059:9:142"
             },
             "id": 76286,
@@ -1835,7 +1835,7 @@
                 "1070:12:142"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 127092,
+              "referencedDeclaration": 135303,
               "src": "1070:12:142"
             },
             "id": 76288,
@@ -1850,7 +1850,7 @@
                 "1084:8:142"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 102657,
+              "referencedDeclaration": 110868,
               "src": "1084:8:142"
             },
             "id": 76290,
@@ -1865,7 +1865,7 @@
                 "1094:8:142"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94875,
+              "referencedDeclaration": 103086,
               "src": "1094:8:142"
             },
             "id": 76292,
@@ -1879,14 +1879,14 @@
         "fullyImplemented": true,
         "linearizedBaseContracts": [
           76293,
-          94875,
-          94872,
-          102657,
-          127092,
-          98395,
-          97631,
-          95577,
-          126802,
+          103086,
+          103083,
+          110868,
+          135303,
+          106606,
+          105842,
+          103788,
+          135013,
           76203
         ],
         "name": "Test",
@@ -1910,12 +1910,12 @@
           73985,
           73991,
           73997,
-          125397,
-          125402,
-          125407,
-          125414,
-          125421,
-          125428
+          133608,
+          133613,
+          133618,
+          133625,
+          133632,
+          133639
         ]
       }
     ],

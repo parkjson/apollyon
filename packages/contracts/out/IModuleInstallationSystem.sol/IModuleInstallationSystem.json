@@ -32,7 +32,7 @@
   "methodIdentifiers": {
     "installModule(address,bytes)": "8da798da"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract IModule\",\"name\":\"module\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"args\",\"type\":\"bytes\"}],\"name\":\"installModule\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"This interface is automatically generated from the corresponding system contract. Do not edit manually.\",\"kind\":\"dev\",\"methods\":{},\"title\":\"IModuleInstallationSystem\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol\":\"IModuleInstallationSystem\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3000},\"remappings\":[\":@latticexyz/=node_modules/@latticexyz/\",\":ds-test/=node_modules/ds-test/src/\",\":forge-std/=node_modules/forge-std/src/\"]},\"sources\":{\"node_modules/@latticexyz/world/src/IERC165.sol\":{\"keccak256\":\"0x7997ebbdee6a2493f28e7032c7a8b906ade40f807d95734e2653c8f1b023ff47\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c8ca41bb2619bf27e5bf886d1322f0e2dffd096c49f7ae6e716541dd1e1ddce5\",\"dweb:/ipfs/Qmb8zATUWWTtiWaSLjbAe6PGnJPes9ANvEyk7pYoWR3P3Y\"]},\"node_modules/@latticexyz/world/src/IModule.sol\":{\"keccak256\":\"0x4535542ceb57e77096f24b943285bc158c48ef5291999f9c1e27f5682f8a9581\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec670524d19c50c659e385bc4dcb4757b065e1b5fe14160244537a7cd7a4b883\",\"dweb:/ipfs/QmT7NSWFSQ6MxYefe665srKMT2GTWomrPRZAHLjrFhQzV6\"]},\"node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol\":{\"keccak256\":\"0x5be1d1ee90a7a03258e8c4fce7542453332c637a51b015e0cc29151ef2792263\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://df6d97356b2ca9d97b7593f4c0772742529fea73f1665e55a879a368b399cae0\",\"dweb:/ipfs/QmXCs5X4Z95isKRzjP4TQjQxwiB7773tHiJWLWkjLv3SLj\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract IModule\",\"name\":\"module\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"args\",\"type\":\"bytes\"}],\"name\":\"installModule\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"This interface is automatically generated from the corresponding system contract. Do not edit manually.\",\"kind\":\"dev\",\"methods\":{},\"title\":\"IModuleInstallationSystem\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol\":\"IModuleInstallationSystem\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3000},\"remappings\":[\":@latticexyz/=node_modules/@latticexyz/\",\":ds-test/=node_modules/ds-test/src/\",\":forge-std/=node_modules/forge-std/src/\"]},\"sources\":{\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IERC165.sol\":{\"keccak256\":\"0x7997ebbdee6a2493f28e7032c7a8b906ade40f807d95734e2653c8f1b023ff47\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c8ca41bb2619bf27e5bf886d1322f0e2dffd096c49f7ae6e716541dd1e1ddce5\",\"dweb:/ipfs/Qmb8zATUWWTtiWaSLjbAe6PGnJPes9ANvEyk7pYoWR3P3Y\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol\":{\"keccak256\":\"0x4535542ceb57e77096f24b943285bc158c48ef5291999f9c1e27f5682f8a9581\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec670524d19c50c659e385bc4dcb4757b065e1b5fe14160244537a7cd7a4b883\",\"dweb:/ipfs/QmT7NSWFSQ6MxYefe665srKMT2GTWomrPRZAHLjrFhQzV6\"]},\"/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol\":{\"keccak256\":\"0x5be1d1ee90a7a03258e8c4fce7542453332c637a51b015e0cc29151ef2792263\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://df6d97356b2ca9d97b7593f4c0772742529fea73f1665e55a879a368b399cae0\",\"dweb:/ipfs/QmXCs5X4Z95isKRzjP4TQjQxwiB7773tHiJWLWkjLv3SLj\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.21+commit.d9974bed"
@@ -83,12 +83,12 @@
         "bytecodeHash": "ipfs"
       },
       "compilationTarget": {
-        "node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol": "IModuleInstallationSystem"
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol": "IModuleInstallationSystem"
       },
       "libraries": {}
     },
     "sources": {
-      "node_modules/@latticexyz/world/src/IERC165.sol": {
+      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IERC165.sol": {
         "keccak256": "0x7997ebbdee6a2493f28e7032c7a8b906ade40f807d95734e2653c8f1b023ff47",
         "urls": [
           "bzz-raw://c8ca41bb2619bf27e5bf886d1322f0e2dffd096c49f7ae6e716541dd1e1ddce5",
@@ -96,7 +96,7 @@
         ],
         "license": "MIT"
       },
-      "node_modules/@latticexyz/world/src/IModule.sol": {
+      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol": {
         "keccak256": "0x4535542ceb57e77096f24b943285bc158c48ef5291999f9c1e27f5682f8a9581",
         "urls": [
           "bzz-raw://ec670524d19c50c659e385bc4dcb4757b065e1b5fe14160244537a7cd7a4b883",
@@ -104,7 +104,7 @@
         ],
         "license": "MIT"
       },
-      "node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol": {
+      "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol": {
         "keccak256": "0x5be1d1ee90a7a03258e8c4fce7542453332c637a51b015e0cc29151ef2792263",
         "urls": [
           "bzz-raw://df6d97356b2ca9d97b7593f4c0772742529fea73f1665e55a879a368b399cae0",
@@ -116,23 +116,23 @@
     "version": 1
   },
   "ast": {
-    "absolutePath": "node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol",
-    "id": 94720,
+    "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol",
+    "id": 23600,
     "exportedSymbols": {
       "IModule": [
-        131929
+        22690
       ],
       "IModuleInstallationSystem": [
-        94719
+        23599
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:390:122",
+    "src": "32:390:48",
     "nodes": [
       {
-        "id": 94707,
+        "id": 23587,
         "nodeType": "PragmaDirective",
-        "src": "32:25:122",
+        "src": "32:25:48",
         "nodes": [],
         "literals": [
           "solidity",
@@ -142,24 +142,24 @@
         ]
       },
       {
-        "id": 94709,
+        "id": 23589,
         "nodeType": "ImportDirective",
-        "src": "108:46:122",
+        "src": "108:46:48",
         "nodes": [],
-        "absolutePath": "node_modules/@latticexyz/world/src/IModule.sol",
+        "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol",
         "file": "./../../IModule.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 94720,
-        "sourceUnit": 131930,
+        "scope": 23600,
+        "sourceUnit": 22691,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 94708,
+              "id": 23588,
               "name": "IModule",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 131929,
-              "src": "117:7:122",
+              "referencedDeclaration": 22690,
+              "src": "117:7:48",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -168,57 +168,57 @@
         "unitAlias": ""
       },
       {
-        "id": 94719,
+        "id": 23599,
         "nodeType": "ContractDefinition",
-        "src": "312:109:122",
+        "src": "312:109:48",
         "nodes": [
           {
-            "id": 94718,
+            "id": 23598,
             "nodeType": "FunctionDefinition",
-            "src": "352:67:122",
+            "src": "352:67:48",
             "nodes": [],
             "functionSelector": "8da798da",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "installModule",
-            "nameLocation": "361:13:122",
+            "nameLocation": "361:13:48",
             "parameters": {
-              "id": 94716,
+              "id": 23596,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 94713,
+                  "id": 23593,
                   "mutability": "mutable",
                   "name": "module",
-                  "nameLocation": "383:6:122",
+                  "nameLocation": "383:6:48",
                   "nodeType": "VariableDeclaration",
-                  "scope": 94718,
-                  "src": "375:14:122",
+                  "scope": 23598,
+                  "src": "375:14:48",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IModule_$131929",
+                    "typeIdentifier": "t_contract$_IModule_$22690",
                     "typeString": "contract IModule"
                   },
                   "typeName": {
-                    "id": 94712,
+                    "id": 23592,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 94711,
+                      "id": 23591,
                       "name": "IModule",
                       "nameLocations": [
-                        "375:7:122"
+                        "375:7:48"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 131929,
-                      "src": "375:7:122"
+                      "referencedDeclaration": 22690,
+                      "src": "375:7:48"
                     },
-                    "referencedDeclaration": 131929,
-                    "src": "375:7:122",
+                    "referencedDeclaration": 22690,
+                    "src": "375:7:48",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IModule_$131929",
+                      "typeIdentifier": "t_contract$_IModule_$22690",
                       "typeString": "contract IModule"
                     }
                   },
@@ -226,13 +226,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 94715,
+                  "id": 23595,
                   "mutability": "mutable",
                   "name": "args",
-                  "nameLocation": "404:4:122",
+                  "nameLocation": "404:4:48",
                   "nodeType": "VariableDeclaration",
-                  "scope": 94718,
-                  "src": "391:17:122",
+                  "scope": 23598,
+                  "src": "391:17:48",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -240,10 +240,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 94714,
+                    "id": 23594,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "391:5:122",
+                    "src": "391:5:48",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -252,15 +252,15 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "374:35:122"
+              "src": "374:35:48"
             },
             "returnParameters": {
-              "id": 94717,
+              "id": 23597,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "418:0:122"
+              "src": "418:0:48"
             },
-            "scope": 94719,
+            "scope": 23599,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -272,23 +272,23 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 94710,
+          "id": 23590,
           "nodeType": "StructuredDocumentation",
-          "src": "156:155:122",
+          "src": "156:155:48",
           "text": " @title IModuleInstallationSystem\n @dev This interface is automatically generated from the corresponding system contract. Do not edit manually."
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          94719
+          23599
         ],
         "name": "IModuleInstallationSystem",
-        "nameLocation": "322:25:122",
-        "scope": 94720,
+        "nameLocation": "322:25:48",
+        "scope": 23600,
         "usedErrors": [],
         "usedEvents": []
       }
     ],
     "license": "MIT"
   },
-  "id": 122
+  "id": 48
 }

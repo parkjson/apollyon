@@ -202,43 +202,43 @@
         76242
       ],
       "ScriptBase": [
-        94884
+        103095
       ],
       "StdChains": [
-        95577
+        103788
       ],
       "StdCheatsSafe": [
-        97631
+        105842
       ],
       "StdStorage": [
-        99145
+        107356
       ],
       "StdStyle": [
-        101809
+        110020
       ],
       "StdUtils": [
-        102657
+        110868
       ],
       "VmSafe": [
-        103712
+        111923
       ],
       "console": [
         84357
       ],
       "console2": [
-        112309
+        120520
       ],
       "safeconsole": [
-        125384
+        133595
       ],
       "stdJson": [
-        98971
+        107182
       ],
       "stdMath": [
-        99113
+        107324
       ],
       "stdStorageSafe": [
-        100037
+        108248
       ]
     },
     "nodeType": "SourceUnit",
@@ -294,7 +294,7 @@
         "file": "./console2.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 112310,
+        "sourceUnit": 120521,
         "symbolAliases": [
           {
             "foreign": {
@@ -302,7 +302,7 @@
               "name": "console2",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 112309,
+              "referencedDeclaration": 120520,
               "src": "174:8:131",
               "typeDescriptions": {}
             },
@@ -320,7 +320,7 @@
         "file": "./safeconsole.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 125385,
+        "sourceUnit": 133596,
         "symbolAliases": [
           {
             "foreign": {
@@ -328,7 +328,7 @@
               "name": "safeconsole",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 125384,
+              "referencedDeclaration": 133595,
               "src": "215:11:131",
               "typeDescriptions": {}
             },
@@ -346,7 +346,7 @@
         "file": "./StdChains.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 95578,
+        "sourceUnit": 103789,
         "symbolAliases": [
           {
             "foreign": {
@@ -354,7 +354,7 @@
               "name": "StdChains",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 95577,
+              "referencedDeclaration": 103788,
               "src": "262:9:131",
               "typeDescriptions": {}
             },
@@ -372,7 +372,7 @@
         "file": "./StdCheats.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 98396,
+        "sourceUnit": 106607,
         "symbolAliases": [
           {
             "foreign": {
@@ -380,7 +380,7 @@
               "name": "StdCheatsSafe",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 97631,
+              "referencedDeclaration": 105842,
               "src": "305:13:131",
               "typeDescriptions": {}
             },
@@ -398,7 +398,7 @@
         "file": "./StdJson.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 98972,
+        "sourceUnit": 107183,
         "symbolAliases": [
           {
             "foreign": {
@@ -406,7 +406,7 @@
               "name": "stdJson",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 98971,
+              "referencedDeclaration": 107182,
               "src": "352:7:131",
               "typeDescriptions": {}
             },
@@ -424,7 +424,7 @@
         "file": "./StdMath.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 99114,
+        "sourceUnit": 107325,
         "symbolAliases": [
           {
             "foreign": {
@@ -432,7 +432,7 @@
               "name": "stdMath",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 99113,
+              "referencedDeclaration": 107324,
               "src": "391:7:131",
               "typeDescriptions": {}
             },
@@ -450,7 +450,7 @@
         "file": "./StdStorage.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 100599,
+        "sourceUnit": 108810,
         "symbolAliases": [
           {
             "foreign": {
@@ -458,7 +458,7 @@
               "name": "StdStorage",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 99145,
+              "referencedDeclaration": 107356,
               "src": "430:10:131",
               "typeDescriptions": {}
             },
@@ -470,7 +470,7 @@
               "name": "stdStorageSafe",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 100037,
+              "referencedDeclaration": 108248,
               "src": "442:14:131",
               "typeDescriptions": {}
             },
@@ -488,7 +488,7 @@
         "file": "./StdStyle.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 101810,
+        "sourceUnit": 110021,
         "symbolAliases": [
           {
             "foreign": {
@@ -496,7 +496,7 @@
               "name": "StdStyle",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 101809,
+              "referencedDeclaration": 110020,
               "src": "491:8:131",
               "typeDescriptions": {}
             },
@@ -514,7 +514,7 @@
         "file": "./StdUtils.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 102658,
+        "sourceUnit": 110869,
         "symbolAliases": [
           {
             "foreign": {
@@ -522,7 +522,7 @@
               "name": "StdUtils",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 102657,
+              "referencedDeclaration": 110868,
               "src": "532:8:131",
               "typeDescriptions": {}
             },
@@ -540,7 +540,7 @@
         "file": "./Vm.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 104185,
+        "sourceUnit": 112396,
         "symbolAliases": [
           {
             "foreign": {
@@ -548,7 +548,7 @@
               "name": "VmSafe",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 103712,
+              "referencedDeclaration": 111923,
               "src": "573:6:131",
               "typeDescriptions": {}
             },
@@ -566,7 +566,7 @@
         "file": "./Base.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 76243,
-        "sourceUnit": 94885,
+        "sourceUnit": 103096,
         "symbolAliases": [
           {
             "foreign": {
@@ -574,7 +574,7 @@
               "name": "ScriptBase",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 94884,
+              "referencedDeclaration": 103095,
               "src": "627:10:131",
               "typeDescriptions": {}
             },
@@ -644,7 +644,7 @@
                 "704:9:131"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 95577,
+              "referencedDeclaration": 103788,
               "src": "704:9:131"
             },
             "id": 76232,
@@ -659,7 +659,7 @@
                 "715:13:131"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 97631,
+              "referencedDeclaration": 105842,
               "src": "715:13:131"
             },
             "id": 76234,
@@ -674,7 +674,7 @@
                 "730:8:131"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 102657,
+              "referencedDeclaration": 110868,
               "src": "730:8:131"
             },
             "id": 76236,
@@ -689,7 +689,7 @@
                 "740:10:131"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 94884,
+              "referencedDeclaration": 103095,
               "src": "740:10:131"
             },
             "id": 76238,
@@ -703,11 +703,11 @@
         "fullyImplemented": true,
         "linearizedBaseContracts": [
           76242,
-          94884,
-          94872,
-          102657,
-          97631,
-          95577
+          103095,
+          103083,
+          110868,
+          105842,
+          103788
         ],
         "name": "Script",
         "nameLocation": "694:6:131",

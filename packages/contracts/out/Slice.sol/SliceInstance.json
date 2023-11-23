@@ -97,7 +97,7 @@
     "id": 67335,
     "exportedSymbols": {
       "DecodeSlice": [
-        87729
+        95940
       ],
       "Memory": [
         65902
@@ -162,7 +162,7 @@
         "file": "./tightcoder/DecodeSlice.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 67335,
-        "sourceUnit": 87730,
+        "sourceUnit": 95941,
         "symbolAliases": [
           {
             "foreign": {
@@ -170,7 +170,7 @@
               "name": "DecodeSlice",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 87729,
+              "referencedDeclaration": 95940,
               "src": "107:11:87",
               "typeDescriptions": {}
             },
@@ -248,7 +248,7 @@
             "442:11:87"
           ],
           "nodeType": "IdentifierPath",
-          "referencedDeclaration": 87729,
+          "referencedDeclaration": 95940,
           "src": "442:11:87"
         },
         "typeName": {

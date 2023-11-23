@@ -10,49 +10,49 @@
   },
   "ast": {
     "absolutePath": "src/codegen/index.sol",
-    "id": 76272,
+    "id": 84433,
     "exportedSymbols": {
       "Cities": [
-        79153
+        87314
       ],
       "CitiesData": [
-        76348
+        84509
       ],
       "CitiesTableId": [
-        76328
+        84489
       ],
       "Counter": [
-        79867
+        88028
       ],
       "CounterTableId": [
-        79324
+        87485
       ],
       "Map": [
-        81941
+        90102
       ],
       "MapData": [
-        79940
+        88101
       ],
       "MapTableId": [
-        79924
+        88085
       ],
       "Soldiers": [
-        83915
+        92076
       ],
       "SoldiersData": [
-        82073
+        90234
       ],
       "SoldiersTableId": [
-        82055
+        90216
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:355:147",
+    "src": "32:355:149",
     "nodes": [
       {
-        "id": 76256,
+        "id": 84417,
         "nodeType": "PragmaDirective",
-        "src": "32:25:147",
+        "src": "32:25:149",
         "nodes": [],
         "literals": [
           "solidity",
@@ -62,36 +62,36 @@
         ]
       },
       {
-        "id": 76259,
+        "id": 84420,
         "nodeType": "ImportDirective",
-        "src": "108:63:147",
+        "src": "108:63:149",
         "nodes": [],
         "absolutePath": "src/codegen/tables/Counter.sol",
         "file": "./tables/Counter.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 76272,
-        "sourceUnit": 79868,
+        "scope": 84433,
+        "sourceUnit": 88029,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 76257,
+              "id": 84418,
               "name": "Counter",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 79867,
-              "src": "117:7:147",
+              "referencedDeclaration": 88028,
+              "src": "117:7:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
           },
           {
             "foreign": {
-              "id": 76258,
+              "id": 84419,
               "name": "CounterTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 79324,
-              "src": "126:14:147",
+              "referencedDeclaration": 87485,
+              "src": "126:14:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -100,48 +100,48 @@
         "unitAlias": ""
       },
       {
-        "id": 76263,
+        "id": 84424,
         "nodeType": "ImportDirective",
-        "src": "172:60:147",
+        "src": "172:60:149",
         "nodes": [],
         "absolutePath": "src/codegen/tables/Map.sol",
         "file": "./tables/Map.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 76272,
-        "sourceUnit": 81999,
+        "scope": 84433,
+        "sourceUnit": 90160,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 76260,
+              "id": 84421,
               "name": "Map",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 81941,
-              "src": "181:3:147",
+              "referencedDeclaration": 90102,
+              "src": "181:3:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
           },
           {
             "foreign": {
-              "id": 76261,
+              "id": 84422,
               "name": "MapData",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 79940,
-              "src": "186:7:147",
+              "referencedDeclaration": 88101,
+              "src": "186:7:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
           },
           {
             "foreign": {
-              "id": 76262,
+              "id": 84423,
               "name": "MapTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 79924,
-              "src": "195:10:147",
+              "referencedDeclaration": 88085,
+              "src": "195:10:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -150,48 +150,48 @@
         "unitAlias": ""
       },
       {
-        "id": 76267,
+        "id": 84428,
         "nodeType": "ImportDirective",
-        "src": "233:72:147",
+        "src": "233:72:149",
         "nodes": [],
         "absolutePath": "src/codegen/tables/Cities.sol",
         "file": "./tables/Cities.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 76272,
-        "sourceUnit": 79268,
+        "scope": 84433,
+        "sourceUnit": 87429,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 76264,
+              "id": 84425,
               "name": "Cities",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 79153,
-              "src": "242:6:147",
+              "referencedDeclaration": 87314,
+              "src": "242:6:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
           },
           {
             "foreign": {
-              "id": 76265,
+              "id": 84426,
               "name": "CitiesData",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 76348,
-              "src": "250:10:147",
+              "referencedDeclaration": 84509,
+              "src": "250:10:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
           },
           {
             "foreign": {
-              "id": 76266,
+              "id": 84427,
               "name": "CitiesTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 76328,
-              "src": "262:13:147",
+              "referencedDeclaration": 84489,
+              "src": "262:13:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -200,48 +200,48 @@
         "unitAlias": ""
       },
       {
-        "id": 76271,
+        "id": 84432,
         "nodeType": "ImportDirective",
-        "src": "306:80:147",
+        "src": "306:80:149",
         "nodes": [],
         "absolutePath": "src/codegen/tables/Soldiers.sol",
         "file": "./tables/Soldiers.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 76272,
-        "sourceUnit": 83916,
+        "scope": 84433,
+        "sourceUnit": 92077,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 76268,
+              "id": 84429,
               "name": "Soldiers",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 83915,
-              "src": "315:8:147",
+              "referencedDeclaration": 92076,
+              "src": "315:8:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
           },
           {
             "foreign": {
-              "id": 76269,
+              "id": 84430,
               "name": "SoldiersData",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 82073,
-              "src": "325:12:147",
+              "referencedDeclaration": 90234,
+              "src": "325:12:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
           },
           {
             "foreign": {
-              "id": 76270,
+              "id": 84431,
               "name": "SoldiersTableId",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 82055,
-              "src": "339:15:147",
+              "referencedDeclaration": 90216,
+              "src": "339:15:149",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -252,5 +252,5 @@
     ],
     "license": "MIT"
   },
-  "id": 147
+  "id": 149
 }

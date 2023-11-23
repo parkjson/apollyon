@@ -9,20 +9,20 @@
     "linkReferences": {}
   },
   "ast": {
-    "absolutePath": "node_modules/@latticexyz/store/src/version.sol",
-    "id": 91559,
+    "absolutePath": "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/version.sol",
+    "id": 20055,
     "exportedSymbols": {
       "STORE_VERSION": [
-        91558
+        20054
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:236:103",
+    "src": "32:236:32",
     "nodes": [
       {
-        "id": 91554,
+        "id": 20050,
         "nodeType": "PragmaDirective",
-        "src": "32:25:103",
+        "src": "32:25:32",
         "nodes": [],
         "literals": [
           "solidity",
@@ -32,15 +32,15 @@
         ]
       },
       {
-        "id": 91558,
+        "id": 20054,
         "nodeType": "VariableDeclaration",
-        "src": "216:50:103",
+        "src": "216:50:32",
         "nodes": [],
         "constant": true,
         "mutability": "constant",
         "name": "STORE_VERSION",
-        "nameLocation": "233:13:103",
-        "scope": 91559,
+        "nameLocation": "233:13:32",
+        "scope": 20055,
         "stateVariable": false,
         "storageLocation": "default",
         "typeDescriptions": {
@@ -48,10 +48,10 @@
           "typeString": "bytes32"
         },
         "typeName": {
-          "id": 91556,
+          "id": 20052,
           "name": "bytes32",
           "nodeType": "ElementaryTypeName",
-          "src": "216:7:103",
+          "src": "216:7:32",
           "typeDescriptions": {
             "typeIdentifier": "t_bytes32",
             "typeString": "bytes32"
@@ -59,14 +59,14 @@
         },
         "value": {
           "hexValue": "312e302e302d756e61756469746564",
-          "id": 91557,
+          "id": 20053,
           "isConstant": false,
           "isLValue": false,
           "isPure": true,
           "kind": "string",
           "lValueRequested": false,
           "nodeType": "Literal",
-          "src": "249:17:103",
+          "src": "249:17:32",
           "typeDescriptions": {
             "typeIdentifier": "t_stringliteral_b50c667dffae364f541802db30f2fd378df53c30d38e7fd752c2d158635d2943",
             "typeString": "literal_string \"1.0.0-unaudited\""
@@ -78,5 +78,5 @@
     ],
     "license": "MIT"
   },
-  "id": 103
+  "id": 32
 }

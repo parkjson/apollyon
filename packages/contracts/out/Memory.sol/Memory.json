@@ -76,7 +76,7 @@
         65902
       ],
       "leftMask": [
-        85369
+        93580
       ]
     },
     "nodeType": "SourceUnit",
@@ -103,7 +103,7 @@
         "file": "./leftMask.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 65903,
-        "sourceUnit": 85370,
+        "sourceUnit": 93581,
         "symbolAliases": [
           {
             "foreign": {
@@ -111,7 +111,7 @@
               "name": "leftMask",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 85369,
+              "referencedDeclaration": 93580,
               "src": "68:8:83",
               "typeDescriptions": {}
             },
@@ -698,7 +698,7 @@
                       "name": "leftMask",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 85369,
+                      "referencedDeclaration": 93580,
                       "src": "1685:8:83",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$returns$_t_uint256_$",
