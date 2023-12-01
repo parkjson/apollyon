@@ -1,0 +1,1441 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "cityId",
+          "type": "uint256"
+        }
+      ],
+      "name": "buyCity",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256[3]",
+          "name": "tileA",
+          "type": "int256[3]"
+        },
+        {
+          "internalType": "int256[3]",
+          "name": "tileB",
+          "type": "int256[3]"
+        }
+      ],
+      "name": "checkAdjacent",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "soldierId",
+          "type": "uint256"
+        }
+      ],
+      "name": "checkTerritoryClaim",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "soldierId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "allegiance",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tileId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "attack",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "defense",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "mobility",
+          "type": "uint256"
+        }
+      ],
+      "name": "createSoldier",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "soldierId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "destinationTileId",
+          "type": "uint256"
+        }
+      ],
+      "name": "moveSoldier",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pseudoConstructor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "cityId",
+          "type": "uint256"
+        }
+      ],
+      "name": "setCityOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "cityId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "sectorNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "buildingType",
+          "type": "uint256"
+        }
+      ],
+      "name": "setSector",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "attackingSoldierId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "defendingSoldierId",
+          "type": "uint256"
+        }
+      ],
+      "name": "soldierAttack",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "buyCity(uint256)": "6bec454a",
+    "checkAdjacent(int256[3],int256[3])": "bee30025",
+    "checkTerritoryClaim(uint256)": "c56f2e70",
+    "createSoldier(uint256,address,uint256,uint256,uint256,uint256)": "13b4d654",
+    "moveSoldier(uint256,uint256)": "6b6dee37",
+    "pseudoConstructor()": "2d97d037",
+    "setCityOwner(address,uint256)": "9d7efbea",
+    "setSector(uint256,uint256,uint256)": "1b043da1",
+    "soldierAttack(uint256,uint256)": "f1fa0b31"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"cityId\",\"type\":\"uint256\"}],\"name\":\"buyCity\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256[3]\",\"name\":\"tileA\",\"type\":\"int256[3]\"},{\"internalType\":\"int256[3]\",\"name\":\"tileB\",\"type\":\"int256[3]\"}],\"name\":\"checkAdjacent\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"soldierId\",\"type\":\"uint256\"}],\"name\":\"checkTerritoryClaim\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"soldierId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"allegiance\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tileId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"attack\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"defense\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"mobility\",\"type\":\"uint256\"}],\"name\":\"createSoldier\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"soldierId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"destinationTileId\",\"type\":\"uint256\"}],\"name\":\"moveSoldier\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pseudoConstructor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"cityId\",\"type\":\"uint256\"}],\"name\":\"setCityOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"cityId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"sectorNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"buildingType\",\"type\":\"uint256\"}],\"name\":\"setSector\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"attackingSoldierId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"defendingSoldierId\",\"type\":\"uint256\"}],\"name\":\"soldierAttack\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"This interface is automatically generated from the corresponding system contract. Do not edit manually.\",\"kind\":\"dev\",\"methods\":{},\"title\":\"IGameSystem\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/codegen/world/IGameSystem.sol\":\"IGameSystem\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3000},\"remappings\":[\":@latticexyz/=node_modules/@latticexyz/\",\":ds-test/=node_modules/ds-test/src/\",\":forge-std/=node_modules/forge-std/src/\"]},\"sources\":{\"src/codegen/world/IGameSystem.sol\":{\"keccak256\":\"0xe9f10232db46ae6ae2f5e4435ec7c65c0c9424403ff22a6f2e6ffd32850d012a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://681dac7e4808e9293d4680aae803add8763244082ed838ba7c1e7639502a2c94\",\"dweb:/ipfs/QmNys6Bf1nEkKEfV9b3CaytddsUK8feRs646haMET7syBr\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "cityId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "buyCity"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "int256[3]",
+              "name": "tileA",
+              "type": "int256[3]"
+            },
+            {
+              "internalType": "int256[3]",
+              "name": "tileB",
+              "type": "int256[3]"
+            }
+          ],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "checkAdjacent",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "soldierId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "checkTerritoryClaim",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "soldierId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "allegiance",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tileId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "attack",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "defense",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "mobility",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "createSoldier"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "soldierId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "destinationTileId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "moveSoldier",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "pseudoConstructor"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "newOwner",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "cityId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setCityOwner"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "cityId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "sectorNumber",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "buildingType",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setSector"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "attackingSoldierId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "defendingSoldierId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "soldierAttack",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@latticexyz/=node_modules/@latticexyz/",
+        "ds-test/=node_modules/ds-test/src/",
+        "forge-std/=node_modules/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 3000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/codegen/world/IGameSystem.sol": "IGameSystem"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/codegen/world/IGameSystem.sol": {
+        "keccak256": "0xe9f10232db46ae6ae2f5e4435ec7c65c0c9424403ff22a6f2e6ffd32850d012a",
+        "urls": [
+          "bzz-raw://681dac7e4808e9293d4680aae803add8763244082ed838ba7c1e7639502a2c94",
+          "dweb:/ipfs/QmNys6Bf1nEkKEfV9b3CaytddsUK8feRs646haMET7syBr"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/codegen/world/IGameSystem.sol",
+    "id": 92164,
+    "exportedSymbols": {
+      "IGameSystem": [
+        92163
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:1052:154",
+    "nodes": [
+      {
+        "id": 92084,
+        "nodeType": "PragmaDirective",
+        "src": "32:25:154",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".21"
+        ]
+      },
+      {
+        "id": 92163,
+        "nodeType": "ContractDefinition",
+        "src": "250:833:154",
+        "nodes": [
+          {
+            "id": 92088,
+            "nodeType": "FunctionDefinition",
+            "src": "276:38:154",
+            "nodes": [],
+            "functionSelector": "2d97d037",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "pseudoConstructor",
+            "nameLocation": "285:17:154",
+            "parameters": {
+              "id": 92086,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "302:2:154"
+            },
+            "returnParameters": {
+              "id": 92087,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "313:0:154"
+            },
+            "scope": 92163,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 92093,
+            "nodeType": "FunctionDefinition",
+            "src": "318:50:154",
+            "nodes": [],
+            "functionSelector": "6bec454a",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "buyCity",
+            "nameLocation": "327:7:154",
+            "parameters": {
+              "id": 92091,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92090,
+                  "mutability": "mutable",
+                  "name": "cityId",
+                  "nameLocation": "343:6:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92093,
+                  "src": "335:14:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92089,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "335:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "334:16:154"
+            },
+            "returnParameters": {
+              "id": 92092,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "367:0:154"
+            },
+            "scope": 92163,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 92100,
+            "nodeType": "FunctionDefinition",
+            "src": "372:65:154",
+            "nodes": [],
+            "functionSelector": "9d7efbea",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setCityOwner",
+            "nameLocation": "381:12:154",
+            "parameters": {
+              "id": 92098,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92095,
+                  "mutability": "mutable",
+                  "name": "newOwner",
+                  "nameLocation": "402:8:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92100,
+                  "src": "394:16:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 92094,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "394:7:154",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92097,
+                  "mutability": "mutable",
+                  "name": "cityId",
+                  "nameLocation": "420:6:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92100,
+                  "src": "412:14:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92096,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "412:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "393:34:154"
+            },
+            "returnParameters": {
+              "id": 92099,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "436:0:154"
+            },
+            "scope": 92163,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 92109,
+            "nodeType": "FunctionDefinition",
+            "src": "441:88:154",
+            "nodes": [],
+            "functionSelector": "1b043da1",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setSector",
+            "nameLocation": "450:9:154",
+            "parameters": {
+              "id": 92107,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92102,
+                  "mutability": "mutable",
+                  "name": "cityId",
+                  "nameLocation": "468:6:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92109,
+                  "src": "460:14:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92101,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "460:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92104,
+                  "mutability": "mutable",
+                  "name": "sectorNumber",
+                  "nameLocation": "484:12:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92109,
+                  "src": "476:20:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92103,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "476:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92106,
+                  "mutability": "mutable",
+                  "name": "buildingType",
+                  "nameLocation": "506:12:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92109,
+                  "src": "498:20:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92105,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "498:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "459:60:154"
+            },
+            "returnParameters": {
+              "id": 92108,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "528:0:154"
+            },
+            "scope": 92163,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 92124,
+            "nodeType": "FunctionDefinition",
+            "src": "533:166:154",
+            "nodes": [],
+            "functionSelector": "13b4d654",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "createSoldier",
+            "nameLocation": "542:13:154",
+            "parameters": {
+              "id": 92122,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92111,
+                  "mutability": "mutable",
+                  "name": "soldierId",
+                  "nameLocation": "569:9:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92124,
+                  "src": "561:17:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92110,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "561:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92113,
+                  "mutability": "mutable",
+                  "name": "allegiance",
+                  "nameLocation": "592:10:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92124,
+                  "src": "584:18:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 92112,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "584:7:154",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92115,
+                  "mutability": "mutable",
+                  "name": "tileId",
+                  "nameLocation": "616:6:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92124,
+                  "src": "608:14:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92114,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "608:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92117,
+                  "mutability": "mutable",
+                  "name": "attack",
+                  "nameLocation": "636:6:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92124,
+                  "src": "628:14:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92116,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "628:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92119,
+                  "mutability": "mutable",
+                  "name": "defense",
+                  "nameLocation": "656:7:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92124,
+                  "src": "648:15:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92118,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "648:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92121,
+                  "mutability": "mutable",
+                  "name": "mobility",
+                  "nameLocation": "677:8:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92124,
+                  "src": "669:16:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92120,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "669:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "555:134:154"
+            },
+            "returnParameters": {
+              "id": 92123,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "698:0:154"
+            },
+            "scope": 92163,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 92137,
+            "nodeType": "FunctionDefinition",
+            "src": "703:100:154",
+            "nodes": [],
+            "functionSelector": "bee30025",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkAdjacent",
+            "nameLocation": "712:13:154",
+            "parameters": {
+              "id": 92133,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92128,
+                  "mutability": "mutable",
+                  "name": "tileA",
+                  "nameLocation": "743:5:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92137,
+                  "src": "726:22:154",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_int256_$3_memory_ptr",
+                    "typeString": "int256[3]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 92125,
+                      "name": "int256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "726:6:154",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_int256",
+                        "typeString": "int256"
+                      }
+                    },
+                    "id": 92127,
+                    "length": {
+                      "hexValue": "33",
+                      "id": 92126,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "733:1:154",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_3_by_1",
+                        "typeString": "int_const 3"
+                      },
+                      "value": "3"
+                    },
+                    "nodeType": "ArrayTypeName",
+                    "src": "726:9:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_int256_$3_storage_ptr",
+                      "typeString": "int256[3]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92132,
+                  "mutability": "mutable",
+                  "name": "tileB",
+                  "nameLocation": "767:5:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92137,
+                  "src": "750:22:154",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_int256_$3_memory_ptr",
+                    "typeString": "int256[3]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 92129,
+                      "name": "int256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "750:6:154",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_int256",
+                        "typeString": "int256"
+                      }
+                    },
+                    "id": 92131,
+                    "length": {
+                      "hexValue": "33",
+                      "id": 92130,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "757:1:154",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_3_by_1",
+                        "typeString": "int_const 3"
+                      },
+                      "value": "3"
+                    },
+                    "nodeType": "ArrayTypeName",
+                    "src": "750:9:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_int256_$3_storage_ptr",
+                      "typeString": "int256[3]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "725:48:154"
+            },
+            "returnParameters": {
+              "id": 92136,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92135,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92137,
+                  "src": "797:4:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 92134,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "797:4:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "796:6:154"
+            },
+            "scope": 92163,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 92146,
+            "nodeType": "FunctionDefinition",
+            "src": "807:91:154",
+            "nodes": [],
+            "functionSelector": "6b6dee37",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "moveSoldier",
+            "nameLocation": "816:11:154",
+            "parameters": {
+              "id": 92142,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92139,
+                  "mutability": "mutable",
+                  "name": "soldierId",
+                  "nameLocation": "836:9:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92146,
+                  "src": "828:17:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92138,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "828:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92141,
+                  "mutability": "mutable",
+                  "name": "destinationTileId",
+                  "nameLocation": "855:17:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92146,
+                  "src": "847:25:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92140,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "847:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "827:46:154"
+            },
+            "returnParameters": {
+              "id": 92145,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92144,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92146,
+                  "src": "892:4:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 92143,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "892:4:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "891:6:154"
+            },
+            "scope": 92163,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 92155,
+            "nodeType": "FunctionDefinition",
+            "src": "902:103:154",
+            "nodes": [],
+            "functionSelector": "f1fa0b31",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "soldierAttack",
+            "nameLocation": "911:13:154",
+            "parameters": {
+              "id": 92151,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92148,
+                  "mutability": "mutable",
+                  "name": "attackingSoldierId",
+                  "nameLocation": "933:18:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92155,
+                  "src": "925:26:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92147,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "925:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 92150,
+                  "mutability": "mutable",
+                  "name": "defendingSoldierId",
+                  "nameLocation": "961:18:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92155,
+                  "src": "953:26:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92149,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "953:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "924:56:154"
+            },
+            "returnParameters": {
+              "id": 92154,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92153,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92155,
+                  "src": "999:4:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 92152,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "999:4:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "998:6:154"
+            },
+            "scope": 92163,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 92162,
+            "nodeType": "FunctionDefinition",
+            "src": "1009:72:154",
+            "nodes": [],
+            "functionSelector": "c56f2e70",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkTerritoryClaim",
+            "nameLocation": "1018:19:154",
+            "parameters": {
+              "id": 92158,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92157,
+                  "mutability": "mutable",
+                  "name": "soldierId",
+                  "nameLocation": "1046:9:154",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92162,
+                  "src": "1038:17:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 92156,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1038:7:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1037:19:154"
+            },
+            "returnParameters": {
+              "id": 92161,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 92160,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 92162,
+                  "src": "1075:4:154",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 92159,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1075:4:154",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1074:6:154"
+            },
+            "scope": 92163,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IGameSystem",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 92085,
+          "nodeType": "StructuredDocumentation",
+          "src": "108:141:154",
+          "text": " @title IGameSystem\n @dev This interface is automatically generated from the corresponding system contract. Do not edit manually."
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          92163
+        ],
+        "name": "IGameSystem",
+        "nameLocation": "260:11:154",
+        "scope": 92164,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 154
+}

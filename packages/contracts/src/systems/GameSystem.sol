@@ -5,14 +5,15 @@ import { System } from "@latticexyz/world/src/System.sol";
 import { Map, Cities, Soldiers } from "../codegen/index.sol";
 
 
-contract Game {
-  
-  constructor() {
+contract GameSystem is System {
+
+  function pseudoConstructor() public {
     Cities.set(0,address(0),0,[int256(0),int256(0),int256(0)],[uint256(0),uint256(0),uint256(0),uint256(1),uint256(1),uint256(1)]);
     Cities.set(7,address(0),0,[int256(2),int256(1),int256(-3)],[uint256(0),uint256(0),uint256(0),uint256(1),uint256(1),uint256(1)]);
-
+    
     for (uint256 i=0;i<2;i++){ //for number of cities
-      int256[3] memory cityCoordinate = Cities.getCoordinate(i*7);
+      int256[3] memory cityCoordinate = Cities.getCoordinate(i*7);  
+      Map.set(i*7,address(0),0,[cityCoordinate[0],cityCoordinate[1],cityCoordinate[2]]);
       Map.set(i*7+1,address(0),0,[cityCoordinate[0]+1,cityCoordinate[1]-1,cityCoordinate[2]]);
       Map.set(i*7+2,address(0),0,[cityCoordinate[0]+1,cityCoordinate[1],cityCoordinate[2]-1]);
       Map.set(i*7+3,address(0),0,[cityCoordinate[0],cityCoordinate[1]+1,cityCoordinate[2]-1]);
@@ -21,6 +22,14 @@ contract Game {
       Map.set(i*7+6,address(0),0,[cityCoordinate[0],cityCoordinate[1]-1,cityCoordinate[2]+1]);
     }
   }
+
+  /*
+  function setCityAllegiance(uint256 cityId,address allegiance) public {
+    for (uint256 i=1;i<7;i++){
+      Map.setAllegiance(cityId+i,allegiance);
+    }
+  }
+  */
   
   event cityBought(uint256 cityId, address purchaser, uint256 cost);
   //fraction pays to owner, fraction paid to contract to hold onto?
@@ -28,24 +37,36 @@ contract Game {
     require(msg.value>=1e13,"Not 0.00001 eth or greater"); //could backfire if it is sent and gas costs exceed
     require(Cities.getWarlord(cityId)==address(0),"City is already claimed");
     Cities.setWarlord(cityId, msg.sender);
+    //setCityAllegiance(cityId, msg.sender);
     emit cityBought(cityId, msg.sender, msg.value);
   }
 
-  function setCityOwner(address newOwner, uint256 cityId) private {
+  function setCityOwner(address newOwner, uint256 cityId) public {
     Cities.setWarlord(cityId, newOwner);
+    //setCityAllegiance(cityId, newOwner);
   }
 
-  function setSector(uint256 cityId, uint256 sectorNumber, uint256 buildingType) private { //private or public?
+  function setSector(uint256 cityId, uint256 sectorNumber, uint256 buildingType) public { //private or public?
+    //confirm it is city owner that is running setSector
     Cities.updateSectors(cityId, sectorNumber, buildingType);
   }
   
   event soldierCreated(uint256 soldierId, address allegiance, uint256 tileId, uint256 attack, uint256 defense, uint256 mobility);
-  function createSoldier(uint256 soldierId, address allegiance, uint256 tileId, uint256 attack, uint256 defense, uint256 mobility) private { //city specific soldier interaction?
+  function createSoldier(uint256 soldierId, address allegiance, uint256 tileId, uint256 attack, uint256 defense, uint256 mobility) public { //city specific soldier interaction?
     address tileAllegiance = Map.getAllegiance(tileId);
-    require(tileAllegiance == allegiance && tileId%7 != 0);
+    require(tileAllegiance==address(0) || tileAllegiance == allegiance);
+    uint256 cityId = tileId-tileId%7;
+    //also check if barracks tile
+    //check if soldierId exists
+    //require(tileAllegiance == allegiance && tileId%7 != 0);
+    require(allegiance==Cities.getWarlord(cityId) && tileId%7 != 0);
     uint256 tilePopulation = Map.getPopulation(tileId);
     require(tilePopulation < 6);
+    if (tileAllegiance == address(0)) {
+      Map.setAllegiance(tileId, allegiance);
+    }
     Soldiers.set(soldierId, allegiance, tileId, attack, defense, mobility);
+    Map.setPopulation(tileId,tilePopulation+1);
     emit soldierCreated(soldierId, allegiance, tileId, attack, defense, mobility);
   }
   
@@ -67,8 +88,8 @@ contract Game {
     return false;
   }
 
-  function moveSoldier(uint256 soldierId, uint256 destinationTileId) private returns (bool) {
-    //!! change return false conditions to require?
+  function moveSoldier(uint256 soldierId, uint256 destinationTileId) public returns (bool) {
+    //? change return false conditions to require?
     uint256 currTileId = Soldiers.getTileId(soldierId);
     address allegiance = Soldiers.getAllegiance(soldierId);
     int256[3] memory currCoordinate = Map.getCoordinate(currTileId);
@@ -107,11 +128,22 @@ contract Game {
       }
       checkTerritoryClaim(soldierId);
       return true;
+    } else if (destinationPopulation == 0) { //implied destinationAllegiance cannot be enemy
+      Soldiers.setTileId(soldierId,destinationTileId);
+      Map.setAllegiance(destinationTileId, allegiance);
+      Map.setPopulation(destinationTileId, 1);
+      uint256 population = Map.getPopulation(currTileId)-1;
+      Map.setPopulation(currTileId,population);
+      if (population == 0) {
+        Map.setAllegiance(currTileId,address(0));
+      }
+      checkTerritoryClaim(soldierId);
+      return true;
     } else { //movement failed
       return false;
     }
   }
-  function soldierAttack(uint256 attackingSoldierId, uint256 defendingSoldierId) private returns (bool) { //move into tile when kill? or stand there
+  function soldierAttack(uint256 attackingSoldierId, uint256 defendingSoldierId) public returns (bool) { //move into tile when kill? or stand there
     //if both choose to attack each other at the same time, if both choose to move into the same hexagon at the same time
     uint256 attackerTileId = Soldiers.getTileId(attackingSoldierId);
     uint256 defenderTileId = Soldiers.getTileId(defendingSoldierId);
@@ -120,8 +152,8 @@ contract Game {
     if (!checkAdjacent(attackerCoordinate,defenderCoordinate)) {
       return false;
     }
-    address defenderAllegiance = Map.getAllegiance(defendingSoldierId);
-    address attackerAllegiance = Map.getAllegiance(attackingSoldierId);
+    address defenderAllegiance = Map.getAllegiance(defenderTileId);
+    address attackerAllegiance = Map.getAllegiance(attackerTileId);
     if (defenderAllegiance == attackerAllegiance) {
       return false;
     }
@@ -133,6 +165,7 @@ contract Game {
     uint256 attackerDefense = Soldiers.getDefense(attackingSoldierId);
 
     bool defenderAliveFlag = true;
+    
     if (attackerAttack>=defenderDefense) {
       uint256 defenderTilePopulation = Map.getPopulation(defenderTileId);
       if (defenderTilePopulation == 1) {
@@ -144,6 +177,7 @@ contract Game {
     } else {
       Soldiers.setDefense(defendingSoldierId, defenderDefense-attackerAttack);
     }
+
     if (defenderAttack>=attackerDefense) {
       uint256 attackerTilePopulation = Map.getPopulation(attackerTileId);
       if (attackerTilePopulation == 1) {
@@ -163,7 +197,7 @@ contract Game {
     return true; //successful attack
   }
   
-  function checkTerritoryClaim(uint256 soldierId) private returns (bool) {
+  function checkTerritoryClaim(uint256 soldierId) public returns (bool) {
     uint256 tileId = Soldiers.getTileId(soldierId);
     address allegiance = Soldiers.getAllegiance(soldierId);
     uint256 cityId = tileId-tileId%7;

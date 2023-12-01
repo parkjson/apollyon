@@ -566,6 +566,19 @@ declare const abi: [
   {
     "inputs": [
       {
+        "internalType": "uint256",
+        "name": "cityId",
+        "type": "uint256"
+      }
+    ],
+    "name": "buyCity",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
         "internalType": "ResourceId",
         "name": "systemId",
         "type": "bytes32"
@@ -614,6 +627,30 @@ declare const abi: [
       }
     ],
     "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int256[3]",
+        "name": "tileA",
+        "type": "int256[3]"
+      },
+      {
+        "internalType": "int256[3]",
+        "name": "tileB",
+        "type": "int256[3]"
+      }
+    ],
+    "name": "checkAdjacent",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "pure",
     "type": "function"
   },
   {

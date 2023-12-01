@@ -1,0 +1,192 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "cityId",
+        "type": "uint256"
+      }
+    ],
+    "name": "buyCity",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int256[3]",
+        "name": "tileA",
+        "type": "int256[3]"
+      },
+      {
+        "internalType": "int256[3]",
+        "name": "tileB",
+        "type": "int256[3]"
+      }
+    ],
+    "name": "checkAdjacent",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "soldierId",
+        "type": "uint256"
+      }
+    ],
+    "name": "checkTerritoryClaim",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "soldierId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "allegiance",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "tileId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "attack",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "defense",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "mobility",
+        "type": "uint256"
+      }
+    ],
+    "name": "createSoldier",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "soldierId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "destinationTileId",
+        "type": "uint256"
+      }
+    ],
+    "name": "moveSoldier",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "pseudoConstructor",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "cityId",
+        "type": "uint256"
+      }
+    ],
+    "name": "setCityOwner",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "cityId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "sectorNumber",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "buildingType",
+        "type": "uint256"
+      }
+    ],
+    "name": "setSector",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "attackingSoldierId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "defendingSoldierId",
+        "type": "uint256"
+      }
+    ],
+    "name": "soldierAttack",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -4939,6 +4939,7 @@
         "node_modules/@latticexyz/world/src/codegen/interfaces/IBaseWorld.sol",
         "node_modules/forge-std/src/Script.sol",
         "node_modules/forge-std/src/console.sol",
+        "src/codegen/world/IGameSystem.sol",
         "src/codegen/world/IIncrementSystem.sol",
         "src/codegen/world/IWorld.sol"
       ],
@@ -5393,6 +5394,47 @@
         }
       }
     },
+    "src/codegen/world/IGameSystem.sol": {
+      "lastModificationDate": 1701126491832,
+      "contentHash": "41800a0a83353902163a480bf2311354",
+      "sourceName": "src/codegen/world/IGameSystem.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 3000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.21",
+      "artifacts": {
+        "IGameSystem": {
+          "0.8.21+commit.d9974bed.Darwin.appleclang": "IGameSystem.sol/IGameSystem.json"
+        }
+      }
+    },
     "src/codegen/world/IIncrementSystem.sol": {
       "lastModificationDate": 1700517411533,
       "contentHash": "c2b0e89be97c3b1919293ca2bfdf239b",
@@ -5435,8 +5477,8 @@
       }
     },
     "src/codegen/world/IWorld.sol": {
-      "lastModificationDate": 1700605696975,
-      "contentHash": "9b0779a2a25769436eb0154c967bca7d",
+      "lastModificationDate": 1701033306747,
+      "contentHash": "0ba1f167af2a6ff12b9151d9bc108c9e",
       "sourceName": "src/codegen/world/IWorld.sol",
       "solcConfig": {
         "settings": {
@@ -5526,6 +5568,7 @@
         "node_modules/@latticexyz/store/src/StoreSwitch.sol",
         "node_modules/@latticexyz/store/src/storeResourceTypes.sol",
         "node_modules/@latticexyz/world/src/codegen/interfaces/IBaseWorld.sol",
+        "src/codegen/world/IGameSystem.sol",
         "src/codegen/world/IIncrementSystem.sol"
       ],
       "versionRequirement": ">=0.8.21",
@@ -5535,10 +5578,10 @@
         }
       }
     },
-    "src/systems/Game.sol": {
-      "lastModificationDate": 1700678365453,
-      "contentHash": "928c8e2f3e464ecf66066cddc9b828e7",
-      "sourceName": "src/systems/Game.sol",
+    "src/systems/GameSystem.sol": {
+      "lastModificationDate": 1701233398177,
+      "contentHash": "d5f667f491f0ecb6abd86e504072aa0b",
+      "sourceName": "src/systems/GameSystem.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -5628,8 +5671,8 @@
       ],
       "versionRequirement": ">=0.8.21",
       "artifacts": {
-        "Game": {
-          "0.8.21+commit.d9974bed.Darwin.appleclang": "Game.sol/Game.json"
+        "GameSystem": {
+          "0.8.21+commit.d9974bed.Darwin.appleclang": "GameSystem.sol/GameSystem.json"
         }
       }
     },
@@ -5732,8 +5775,8 @@
       }
     },
     "test/CounterTest.t.sol": {
-      "lastModificationDate": 1700517392523,
-      "contentHash": "ecfb1ce8f54112f2a2818b30d551f278",
+      "lastModificationDate": 1701032707199,
+      "contentHash": "2f000dd940f876549697cd07db0ac5bc",
       "sourceName": "test/CounterTest.t.sol",
       "solcConfig": {
         "settings": {
@@ -5860,6 +5903,7 @@
         "src/codegen/tables/Counter.sol",
         "src/codegen/tables/Map.sol",
         "src/codegen/tables/Soldiers.sol",
+        "src/codegen/world/IGameSystem.sol",
         "src/codegen/world/IIncrementSystem.sol",
         "src/codegen/world/IWorld.sol"
       ],
@@ -5867,6 +5911,146 @@
       "artifacts": {
         "CounterTest": {
           "0.8.21+commit.d9974bed.Darwin.appleclang": "CounterTest.t.sol/CounterTest.json"
+        }
+      }
+    },
+    "test/GameTest.t.sol": {
+      "lastModificationDate": 1701233583545,
+      "contentHash": "8ab130bc4f160b46e8c8c6fc11246788",
+      "sourceName": "test/GameTest.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 3000
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/Bytes.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/FieldLayout.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/Hook.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IERC165.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IStore.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IStoreData.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IStoreErrors.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IStoreEvents.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IStoreHook.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IStoreRead.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IStoreRegistration.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/IStoreWrite.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/Memory.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/PackedCounter.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/ResourceId.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/Schema.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/Slice.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/Storage.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/StoreCore.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/StoreSwitch.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/codegen/index.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/codegen/tables/Hooks.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/codegen/tables/ResourceIds.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/codegen/tables/StoreHooks.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/codegen/tables/Tables.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/constants.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/leftMask.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/storeHookTypes.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/storeResourceTypes.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/tightcoder/DecodeSlice.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/tightcoder/EncodeArray.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/tightcoder/TightCoder.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+store@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/store/src/version.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world-modules@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world-modules/src/modules/keyswithvalue/constants.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world-modules@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world-modules/src/modules/keyswithvalue/getTargetTableId.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world-modules@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world-modules/src/modules/keyswithvalue/tables/KeysWithValue.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IERC165.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IModule.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/ISystemHook.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldContextConsumer.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldErrors.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/IWorldKernel.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldContext.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/WorldResourceId.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IAccessManagementSystem.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IBalanceTransferSystem.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IBatchCallSystem.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/ICoreSystem.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IModuleInstallationSystem.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/codegen/interfaces/IWorldRegistrationSystem.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/modules/core/types.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/revertWithBytes.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/@latticexyz+world@2.0.0-next.14_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/Base.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdAssertions.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdChains.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdCheats.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdError.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdInvariant.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdJson.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdMath.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdStorage.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdStyle.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/StdUtils.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/Vm.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/console.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/console2.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/interfaces/IMulticall3.sol",
+        "/Users/jaesungpark/code/apollyon/node_modules/.pnpm/github.com+foundry-rs+forge-std@74cfb77e308dd188d2f58864aaf44963ae6b88b1/node_modules/forge-std/src/safeconsole.sol",
+        "node_modules/@latticexyz/schema-type/src/solidity/SchemaType.sol",
+        "node_modules/@latticexyz/store/src/Bytes.sol",
+        "node_modules/@latticexyz/store/src/FieldLayout.sol",
+        "node_modules/@latticexyz/store/src/IStore.sol",
+        "node_modules/@latticexyz/store/src/Memory.sol",
+        "node_modules/@latticexyz/store/src/PackedCounter.sol",
+        "node_modules/@latticexyz/store/src/ResourceId.sol",
+        "node_modules/@latticexyz/store/src/Schema.sol",
+        "node_modules/@latticexyz/store/src/Slice.sol",
+        "node_modules/@latticexyz/store/src/StoreCore.sol",
+        "node_modules/@latticexyz/store/src/StoreSwitch.sol",
+        "node_modules/@latticexyz/store/src/storeResourceTypes.sol",
+        "node_modules/@latticexyz/store/src/tightcoder/EncodeArray.sol",
+        "node_modules/@latticexyz/world/src/WorldResourceId.sol",
+        "node_modules/@latticexyz/world/src/codegen/interfaces/IBaseWorld.sol",
+        "node_modules/@latticexyz/world/src/worldResourceTypes.sol",
+        "node_modules/@latticexyz/world/test/MudTest.t.sol",
+        "node_modules/@latticexyz/world-modules/src/modules/keyswithvalue/getKeysWithValue.sol",
+        "node_modules/ds-test/src/test.sol",
+        "node_modules/forge-std/src/Test.sol",
+        "src/codegen/index.sol",
+        "src/codegen/tables/Cities.sol",
+        "src/codegen/tables/Counter.sol",
+        "src/codegen/tables/Map.sol",
+        "src/codegen/tables/Soldiers.sol",
+        "src/codegen/world/IGameSystem.sol",
+        "src/codegen/world/IIncrementSystem.sol",
+        "src/codegen/world/IWorld.sol"
+      ],
+      "versionRequirement": ">=0.8.21",
+      "artifacts": {
+        "GameTest": {
+          "0.8.21+commit.d9974bed.Darwin.appleclang": "GameTest.t.sol/GameTest.json"
         }
       }
     }
