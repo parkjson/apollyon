@@ -34,6 +34,7 @@ contract GameSystem is System {
   event cityBought(uint256 cityId, address purchaser, uint256 cost);
   //fraction pays to owner, fraction paid to contract to hold onto?
   function buyCity(uint256 cityId) public payable { //variable prices and where to store?
+    //!! city needs to exist in the first place
     require(msg.value>=1e13,"Not 0.00001 eth or greater"); //could backfire if it is sent and gas costs exceed
     require(Cities.getWarlord(cityId)==address(0),"City is already claimed");
     Cities.setWarlord(cityId, msg.sender);

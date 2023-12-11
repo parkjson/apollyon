@@ -7,6 +7,41 @@ import { getComponentValue } from "@latticexyz/recs";
 import { ClientComponents } from "./createClientComponents";
 import { SetupNetworkResult } from "./setupNetwork";
 import { singletonEntity } from "@latticexyz/store-sync/recs";
+import { parseEther } from 'viem'
+
+import {createConfig,configureChains,mainnet,connect,fetchBalance} from '@wagmi/core'
+import { publicProvider } from '@wagmi/core/providers/public'
+import { MetaMaskConnector } from '@wagmi/core/connectors/metaMask'
+const { chains, publicClient, webSocketPublicClient } = configureChains(
+  [mainnet],
+  [publicProvider()],
+)
+const config = createConfig({
+  autoConnect: true,
+  publicClient,
+  webSocketPublicClient,
+})
+declare global {
+  interface Window {
+    ethereum: any;
+  }
+}
+
+
+/*
+import { createWalletClient, custom } from 'viem'
+//import { mainnet } from 'viem/chains'
+import { walletClient } from './client'
+export const walletClient = createWalletClient({
+  chain: mainnet,
+  transport: custom(window.ethereum)
+})*/
+
+
+
+
+
+
 
 export type SystemCalls = ReturnType<typeof createSystemCalls>;
 
@@ -31,7 +66,7 @@ export function createSystemCalls(
    *   (https://github.com/latticexyz/mud/blob/main/templates/vanilla/packages/client/src/mud/setupNetwork.ts#L77-L83).
    */
   { worldContract, waitForTransaction }: SetupNetworkResult,
-  { Counter }: ClientComponents
+  { Counter, Cities }: ClientComponents
 ) {
   const increment = async () => {
     /*
@@ -45,7 +80,38 @@ export function createSystemCalls(
     return getComponentValue(Counter, singletonEntity);
   };
 
+  const buyCity = async (cityId: number) => {
+    //2nd param to contract call {value: parseEther('0.005')}
+    //wagmi connect to metamask, get viem client from that wallet (rather than burner wallet)
+    
+    
+    if (window.ethereum) {
+      const connection = await connect({
+        connector: new MetaMaskConnector(),
+      })
+      console.log("Address",connection.account)
+      /*const balance = await fetchBalance({
+        address: connection.account,
+      })
+      console.log("bal",balance)*/
+      
+      const options = {value: parseEther('0.00001'),account: connection.account}
+      const tx = await worldContract.write.buyCity([BigInt(cityId)],options); //may need to bring in viem, read viem
+      await waitForTransaction(tx);
+      return getComponentValue(Cities, singletonEntity); //REC, also declare in ClientComponents?
+  
+
+
+
+    } else {
+      console.log("Please install MetaMask");
+    }
+  };
+
+  
+
   return {
-    increment,
+    increment, buyCity,
   };
 }
+
